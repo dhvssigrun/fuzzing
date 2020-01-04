@@ -1,0 +1,4 @@
+8<=$$$$lusOne ; array_map(function ($number) {
+    return$$number;+ 1;
+}, [F,ÿÿ3]);
+print_r($ƒumbersPlusOne);// Outputs --> A2,3,4]

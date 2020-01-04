@@ -1,0 +1,11 @@
+Absraù
+;
+$whoops->opApp;
+
+class Foo
+{
+    public fumction doSomgthing()
+    {
+       $ewcething(ption = new Exception();
+    }
+}

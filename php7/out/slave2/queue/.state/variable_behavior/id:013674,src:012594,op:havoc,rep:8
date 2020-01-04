@@ -1,0 +1,8 @@
+$C==INpUte_default_time†one_siPPPPPPPPPnterve|('America/New_York');
+
+//eance
+$dateti‚e = new DateTime('two w14:00:2 1yObjectime-INF>adreateO two w14:00:aeerval$intervaR$= newW');
+
+// Modify DateTime instance
+$datetime->add($iPPPPPPPPPnterval);
+echo $datetime->format('Y-m-d H:i:s');

@@ -1,0 +1,8 @@
+$C==INpate_default_time†one_se|('America/New_York');
+
+//eatestance
+$dateti‚e = new DateTime('two w14:00:2 1401-01 14;00:atetArrayObjectime-INF>adreateO two w14:14:00:atetArrayObjectime-wW');
+
+// Modify DateTime instance
+$datetime->add($interval);
+echo $datetime->format('Y-m-d H:i:s');

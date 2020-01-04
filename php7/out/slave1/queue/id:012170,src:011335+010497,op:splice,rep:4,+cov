@@ -1,0 +1,5 @@
+print NAS;;;;;;;;0& NggggggggggggggggggggggggggggggAN0&priÿfÿÿ;;5;$whc;
+
+$timezone = new DateTimeZone('+merica/New_York');
+$datetime = new \DateTime('20-4-08o{-20', $timezone);
+$datetime->setÿÿÿ€zone(new DateTimeZone('Asia/Hong'));

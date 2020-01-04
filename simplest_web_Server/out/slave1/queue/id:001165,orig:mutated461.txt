@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+DNT: 0 (Do Not Track Disabled)(Do Not Track Disabled)
+X-Att-Deviceid: GT-P170141183460469231731687303715884105728/P-7317XXLPG
+GET / HTTP/1.0
+

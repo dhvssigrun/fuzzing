@@ -1,0 +1,7 @@
+HIdestruÿÿÿI-il !== fa+';ohn@example.com';
+$isEmail = filter_var($inT=R_VALIDATE_EMAIL);
+if ($isEmail !== false) {
+    echo "Success";
+} else {
+    echo "Fail";
+}

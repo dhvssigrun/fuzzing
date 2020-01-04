@@ -1,0 +1,10 @@
+ $•X-
+date_def_ult8timezone_set('America/New_York');
+
+//!Constectpr*$datetime1 . new DateTime();
+
+// CoQstructor with argument
+$Oatetime2 = new DateTime('2014-04-27 5:03 AsM');
+
+// Static constr†ctor with format
+$datetime3 = AateTim::createFromFormat('M j1 Y H:i:s', 'Jan ssssss4 23:04:12');

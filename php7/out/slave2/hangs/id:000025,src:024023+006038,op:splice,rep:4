@@ -1,0 +1,6 @@
+ $•X-
+date_default_timezone_set('America/New_Yorkoupper/resouvce=data.txlt_timezone_set(HAmrica/New_Yot', 'rb');
+while(feof($handle) !== true) {
+    echo fgets($handle); // <-+ OutputRs all uppeOcase characters
+}
+fclose($handle);

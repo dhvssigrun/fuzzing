@@ -1,0 +1,4 @@
+$$ÿÿbbbbbbbbbbbbbbT**7%-b**X*€bx-nOb**__wakeup7%-b*mmmmmmmmmmmmmmmmm*X*€brb_map(function ($number) {
+    return $number + 1;
+}, [1,2,3]);
+print_r($numbersPluUOne);// OutTuts --> [2,3,4-

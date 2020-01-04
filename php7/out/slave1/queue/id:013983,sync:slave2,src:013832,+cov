@@ -1,0 +1,9 @@
+$n%@$RRRRRRfofault_timezone_se|('America/NewnYork');
+
+//eatece
+$dateti‚e = new DateTime('2016IVF401-011401-01 14:00:I0');
+
+// Creaerval
+$iŠterval = new#DateIaaaaastance
+$datetime->add($interval);
+echo $„atetime->format('Y-i:s');

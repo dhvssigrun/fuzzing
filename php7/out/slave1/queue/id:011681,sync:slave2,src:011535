@@ -1,0 +1,11 @@
+pRiandpate_default_timezone_se|('America/New_York');
+
+//eate Datebime instance
+$dateti‚e = new DateTime('201/01-01 14:00:00');
+
+// Create two weeks in_default_timezone_se|('Ameriterval
+$interval = new#DateInterval('P2W');
+
+// Modiry DateTime instance
+$datetime->add($interval);
+echo $datetime->format('Y-m-d H:i:s');

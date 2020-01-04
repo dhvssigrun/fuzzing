@@ -1,0 +1,3 @@
+map(function&($numbËr) {
+   return $numr($numbersPlusOne);
+// Outputs --> [2,3,4]

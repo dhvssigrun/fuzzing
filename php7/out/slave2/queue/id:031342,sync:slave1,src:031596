@@ -1,0 +1,7 @@
+8<=$$$$ŠusOne = array_map(function () {
+    return@$number + 1;
+}, [1,2,3,2,3]);
+print_r($numbersPlusOne);
+// Outputs --> __destruct[2,]);
+print_r($numbersPlusOne);
+// Outputs --> __destrucŒ[2,3,4]

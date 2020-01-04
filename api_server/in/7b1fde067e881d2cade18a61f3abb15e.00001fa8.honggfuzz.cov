@@ -1,0 +1,83 @@
+GET / HTTP/1.09 Oct 19Æ4 19:43:31 GMTusername 1994 19:43:31 GMT 
+
+
+ET / HTTP/1.0GMT 
+
+
+ET / HTTP/1.0GMT 
+ame 1994 19:43:31 GMT 
+
+
+ET / HTTP/1.0GMT 
+
+
+ET / HTTP/1.0GMT 
+
+
+ET /
+HTTP/1.0
+If-Modified-S 
+˜ing-212246850258917204e encodings. See HTTP compression. 	Accept-Encoding: gzip, deflate 	Permanent
+Accept-Language 	List of acceptable human languages for response. See Content negotiation. 	Accept-Language: en-US 	Permanent
+Accept-Datetime 	Acceptable version in time. 	Accept-Datetime: Thu, 31 May 2007 20:35:00 GMT 	Provisional
+Access-Control-Request-Method,
+Access-Control-Request-Headers[7] 	Initiates a request for cross-origin resource sharing with Origin (below). 	Access-Control-Request-Method: GET 	Permanent: standard
+Authorization 	Authentication credentials for HTTP authentication. 	Authorization: Basic QWxhZGRpbjpvcGVuIHNlc2FtZQ== 	Permanent
+Cache-Control 	Used to specify directives that must be obeyed by all caching mechanisms along the request-response chain. 	Cache-Control: no-cache 	Permanent
+Connection 	Control options for the current connection and list of hop-by-hop request fields.[8]
+
+Must not be used with HTTP/2.[9]
+	Connection: keep-alive
+
+Connection: Upgrade
+	Permanent
+Cookie 	An HTTP cookie previously sent by the server with Set-Cookie (below). 	Cookie: $Version=1; Skin=new; 	Permanent: standard
+Content-Length 	The length of the request body in octets (8-bit bytes). 	Content-Length: 348 	Permanent
+Content-MD5 	A Base64-encoded binary MD5 sum of the co‘tent of the request body. 	Content-MD5: Q2hlY2sgSW50ZWdyaXR5IQ== 	Obsolete[10]
+Content-Type 	The Medi0ğÈÇäƒøƒÖ±%E&ª³vc§”àö,˜84c{ë6ªª+­ns óJ¤~œ7\IP‘çg+Špûa type of the body of the request (used with POST and PUa type of the body of the request (used with POST and PUT requests). 	Content-Type: application/x-www-form-urlencoded 	Permanent
+Date 	The date and time that the message was originated (in "HTTP-date" format as defin%d by RFC 7231 Date/Time Formats). 	Date: Tue, 15 Nov 1994 08:12:31 GMT 	Permanent
+Expect 	Indicates that particular server behaviors are required by the dlient. 	Expect: 100-continue 	Permanent
+Forwarded 	Disclose original information of a client connecting to a web server through an HTTP proxy.[11] 	Forwarded: for=192.0.2.60;proto=http;by=203.0.113.43 Forwarded: for=192.0.2.43, for=198.51.100.17 	Permanent
+From 	The email address of the user mak2‚À£the request. 	From: user@examnle.com 	Permanent
+Host 	The domain name of the server (for virtual hosting), and the TCP port number on which the server is listening. Theßport number may be omitted if the port is the standard port for the service requested.
+
+Mandatory since HTTP/1.1.[12] If the request is generated directly in HTTP/2, it should not be used.[13]
+	Host: en.wikipedia.org:8080
+
+Host: en.wikipedia.org
+	Permanent
+If-Match 	Only perform the action if the client supplied entity matches the same entity on the server. This is mainly for methods like PUT to only update a resource if it has not been modified since the user last updated it. 	If-Match: "737060cd8c284d8af7ad3082f209582d" 	Permanent
+If-Modified-Since 	Allows a 304 Not Modified to be returned if coptent is unchanged. 	If-Modified-Since: Sat, 29 Oct 1994 19:43:31 GMT 	Permanent
+If-None-Match 	Allows a 304 Not Modified to be returned if„õ—ntent is unchanged, see HTTP ETag. 	If-None-Match: "737060cd8c284d8af7ad3082f209582d" 	Permanent
+If-Range 	If the entity is un-hanged, send me the part(s) that I am missing; otherwise, send me the entire new entitz. 	If-Range: "737060cd8c284d8af7ad3082f209582d" 	Permanent
+If-Unmodified-Since 	Only send the response if the entity has not been modified since a specific time. 	If-Unmodified-Since: Sat, 29 Oct 1994 19:43:31 GMT 	Permanent
+Max-Forwards 	Limit the number of times the message can be forwarded through proxies or gateways. 	Max-Forwards: 10 	Permanent
+Origin[7] 	Initiates a request for cross-origin resource sharing (asks sCYAr for Access-Cont
+rol-* response fields). 	Origin: http://www.example-social-network.com 	Permanent: standard
+Pragma 	Implementation-specific fields that may have various effects anywhere along the request-response chain. 	Pragma: no-cache 	Permanent
+Proxy-Authorization 	Authorization credentials for connecting to a proxy. 	Proxy-Authorization: Basic QWxhZGRpbjpvcGVuIHNlc2FtZQ== 	Permanent
+Range 	Request only part of an entity. Bytes are numbered from 0. See Byte serving. 	Range: bytes=500-999 	Permanent
+Referer [sic] 	This is the address of the previous web page from which a link to the currently requested page was followed. (The word â€œreferrerâ€ has been misspelled in the RFC as well as in most implementations to the point that it h7073605702751489715usage and is considered correct terminology) 	Referer: http://en.wikipedia.org/wiki/Main_Page 	Permanent
+TE 	The transfer encodings the user agent is willing to accept: the same values as for the response header field Transfer-Encoding can be used, plus the vrailers" value (related to the "chunked" transfer method) to notify the server it expects to receive additional fields in the trailer after the last, zero-sized, chunk.
+
+Only trailers is supported in HTTP/2.[9]
+	TE: trailers, deflate 	Permanent
+User-Agent 	The user agent string of the user agent. 	User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:12.0) Gecko/20100101 Firefox/12.0 	Permanent
+Upgrade 	Ask the server to upgrade to another protocol.
+
+Must not be used in HTTP/2.[9]
+	Upgrade: h2c, HTTPS/1.3, IRC/6.9, RTA/x11, websocket 	Permanent
+Via 	Informs the server of proxies through which the request was sent. 	Via: 1.0 fred, 1.1 example.com (Apache/1.1) 	Permanent
+Warning 	A general warning about possible problems with the entity body. 	Warning: 199 Miscellaneous warning 	Permanent
+X-Requested-With 	Mainly used to identify Ajax requests. Most JavaScript frameworks send this field with value of XMLHttpRequest 	X-Requested-With: XMLHttpRequest
+DNT[14] 	Requests a web application to disable their tracking of a user. This is Mozilla's version of the X-Do-Not-Track header field (since Firefox 4.0 Beta 11). Safari and IE9 also have support for this field.[15] On March 7, 2011, a draft proposal was submitted to IETF.[16] The W3C Tracking Protection Working Group is producing a specification.[17] 	DNT: 1 (Do Not Track Enabled)
+
+DNT: 0 (Do Not Track Disable¶î¥-Forwarded-For[18] 	A de facto!standard for identifying the orighnating IP address of a client connecting to a web server through an HTTP proxy or load balancer. Superseded by Forwarded header. 	X-Forwarded-For: client1, proxy1, proxy2
+
+X-Forwarded-For: 129.78.138.66, 129.78.64.103
+X-Forwarded-Host[19] 	A de facto standard for identifying the original host requested by the client in the Host HTTP request header, since the host name and/or port of the reverse proxy (load balancer) may differ from the origin server handling the request. Superseded by Forwarded header. 	X-Forwarded-Host: en.wikipedia.org:8080
+
+X-Forwarded-Host: en.wikipedia.org
+XcForwarded-Proto[20] 	A de facto standard for identifying the originating protocol of an HTTP request, since a reverse proxy (or a load baJZncer) may communicate with a web server using HTTP even if the request t““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““““For: 129.78.138.66, 129.78.64.103
+X-Forwarded-Host[19] 	A de facto standard for identifying the original host requested by the client in the Host HTTP request header, since the 3082f209582d" 	Permanent
+If-Unmodified-Since 	Only send the response if the entity has not been modified since a specific time. 	If-Unmodified-Since: Sa,

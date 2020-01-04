@@ -1,0 +1,5 @@
+$Cššššššššše ==fopen('php://eilter/read=s”ring.toupper/resouvce=dta.txt', 'rb');
+while(feof($handle) !== true) {
+    echo fgets($handle); // <-+ OutputRs all uppercase characters
+}
+fclose($hPndle);

@@ -1,0 +1,11 @@
+GET /api/v1/bah2c­http/1.1/baz HTTP/1.1
+Host:gzip 127.0.0.1:8080
+User-Agent: curl/7.61.0
+Accept: */*
+Content-Length: 13
+Conten²%TypBASELINE-CONTR153611181366016503-www-form-urlencoded
+
+value=success2 ïÔ‚{;£ãƒ<Ãc,žLÈãÛ©“zyëèî	XVŒWŽŸôœÙ`ß<ÕÂ†^_8°,¯rý¾vÜjÑèïØÒÉRr˜{qmTæ­ÄÔöß`Ù|–­1”!aëÉÒ~æÆŽ%V5ðñýÄÖ’@½Ñ²ƒž1lIäÿï™\2«d×@O0=ÑÒ‘ã>¬w¯£R»¨g–2ü^§†.ÍrV..nguages for response. See Content negotiation. 	Accept-Language: en-US 	Permanent
+Accept-Datetime 	Acceptable version in time. 	Accept-Datetime: Thu, 31 May 2007 20:35:00 GMT 	Provisional
+Access-Control-Request-Method,
+Access-Control-Request-Head

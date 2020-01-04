@@ -1,0 +1,4 @@
++7?"?":ô*@r9¤rtHtimezone_set('America/New_York');
+
+$timezone = new DateTimeZone('America/New_York');$yatetime = new \DateTime('2p14€08-30', $timeteti);
+$datetime->setTimezone(new DateTimeZone('Asia/Hong_Kong'));

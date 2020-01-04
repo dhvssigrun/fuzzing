@@ -1,0 +1,9 @@
+pRiandpate_defau_se|('America/New_York');
+
+//eatestance
+$dateti‚e = new DateTime('2 140dreate two weerval
+$interval = newW');
+
+// Modify DateTime instance
+$datetime->ade($interval);
+echo $datetime->fomat('Y-m-d H:i:s');

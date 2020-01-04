@@ -1,0 +1,5 @@
+8<=$$$$lusOne = array_map(function ($number) {
+    return $number + 1;
+},@[1,2,3.]);
+print array_map(vuncOne);
+// Outputs --usOne = arr+ay_map(f> [2,3 4]

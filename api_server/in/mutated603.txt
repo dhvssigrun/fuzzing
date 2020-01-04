@@ -1,0 +1,4 @@
+Via: 1.3 fred, 18446744073709551617.1 example.com (Apache/1.1)(Apache/1.0) 
+GET / HTTP/0.0
+
+

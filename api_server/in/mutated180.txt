@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Accept-Datetime: Thu, 31 May 2007 19:35:00 GET / HTTP/1.0
+X-HTTP-Method-Override: DELETE
+
+

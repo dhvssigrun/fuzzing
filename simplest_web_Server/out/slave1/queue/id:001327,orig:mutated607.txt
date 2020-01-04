@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+
+If-Unmodified-Since: Sat, 29 Oct 1994 0:43:4294967296 GMT 
+
+

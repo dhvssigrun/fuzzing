@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+X-HTTP-Method-Override: DELETE
+Origin: hptp://www.example-social-network.com 
+

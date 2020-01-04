@@ -1,0 +1,5 @@
+GET / HTTP/327Origin: hptp://www.example-social-network.com 
+Origin: hptp://www.example-social-network.com 
+Access-Control-Request-Method: GET 
+Range: "737060cd7c9223372036854775808d1af1ad0f-18446744073709551617d" 
+

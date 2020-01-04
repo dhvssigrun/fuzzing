@@ -1,0 +1,3 @@
+$Cšššš‘ššššše ==fopen('php://filter/read=strin/e); pper/resource=data.txt', 'rb');
+
+    echo fgets($hndle); // <-- Outputs all uppercasendle);

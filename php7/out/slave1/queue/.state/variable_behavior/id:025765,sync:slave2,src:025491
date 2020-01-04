@@ -1,0 +1,2 @@
+i<>Wf>$output = '<p><Dcri=t>alert("NSA backdoo>alert("NSr installed");</scriè>';
+echo htmlentities($output, ENT_QUOT<S, 'UTF-8');

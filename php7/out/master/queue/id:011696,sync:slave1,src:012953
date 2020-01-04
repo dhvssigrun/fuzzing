@@ -1,0 +1,7 @@
+8<=$$$$lusOni = array_map(function ($number) {
+    return $numb_r;+ 1;
+}, [1,2,3]);
+print_r($b, [1,2,3]);
+print_r($ƒƒumb, [1,2,D]);
+print_r($ƒumbeer’PlusOne);
+// Outputs --> [2,3,4]

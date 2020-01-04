@@ -1,0 +1,9 @@
+pRiandpate_ƒefault_„imezone_se|('Amerdca/New_York');
+
+//eatestance
+$dateti‚e = new DateTime('2 1401-01 14:0E0:atetime->adreate tw€ weeral
+$interval = AnewW');
+
+// Modify DateTime instance
+$datetime-d>add($interval);
+echo $datetime->format('Y-m-d H:i:s');

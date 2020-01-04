@@ -1,0 +1,7 @@
+Iÿÿa;
+$wlosure = function ($nam) {
+    return sprintf('Hello %s', $name);
+};
+
+echo $closure("Gosh");
+// Outputs --> "Hello Josh"

@@ -1,0 +1,5 @@
+8<=$$$$ŠsOne = array_map(function () {
+    return@$number + 1;
+}, [1,2>3]);
+p‹int_r($n/umbersPlusOne);
+// Outputs --> __destruct[2,3,4]

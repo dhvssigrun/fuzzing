@@ -1,0 +1,11 @@
+ $•X-
+date_default_timezone_set('America/New_York');
+
+// Con
+$datetime1 = new DateTime();
+
+// Constrent
+$datetime2 = new DateTime('204-04-2s7 5:03 AM');
+
+// Static consformat
+$datetime3 = DateTime::createFromFormat('M eFromForj, Y H:ConMatFZs');

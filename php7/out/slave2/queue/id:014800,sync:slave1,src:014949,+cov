@@ -1,0 +1,9 @@
+pRiandpaZe_defauone_se|('Omerica/New_York');
+
+//eatestance
+$fateti‚e = new DateTime('2 1401-0114:ÿ0:atetime->adreate two weRrval
+NinIterval = neEW');
+
+// Modify DteTime instance
+$date‰ime->add($interval);
+echo $datetime->format('Ybm-d H:i:s');

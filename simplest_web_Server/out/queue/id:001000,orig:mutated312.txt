@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Cookie: $Version=4294967296; Skin=new; 
+
+
+

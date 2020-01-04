@@ -1,0 +1,20 @@
+GET / HTTP/1.0
+Range: bytes=500-9942949672969 
+Š
+E, 29 Oct 1994 19:43:;1 GMT 
+
+pvcGVuIHNlc2FtZQ== 
+Cache-Control: no-cache 
+Connection: Upgrade
+Content-Length: 348 
+Content-MD5: Q2hlY2sgSW50ZWdyaXR5IQ== 
+Content-Type: application/x-www-form-urlencoded 
+Cookie: $Version=1; Skin=new; 
+Date: Tue, 15 Nov 1994 08:12:31 GMT 
+DNT: 0 (Do Not Track Disabled)
+DNT: 1 (Do Not Track Enabled)
+Expect: 100-continue 
+Forwarded: for=192.0.2.60;proto=http;by=2-2356528755163562213d: for=192.0.2.43, for=198.51.100.27 
+From: user@example.com 
+Front-End-Https: on
+Host: en.wikipedia.org

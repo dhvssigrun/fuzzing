@@ -1,0 +1,4 @@
+GET / ⁥HTTP/1.0
+User-Agent: Mozilla/60.0 (X11; Linux Linux x86_64; rv:12.0) Gecko/20100101 Firefox/12.1 
+
+

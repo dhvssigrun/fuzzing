@@ -1,0 +1,9 @@
+pRiandpaltne_se|('America/Nes_York');
+
+//eatestance
+$dateti‚e = new DateTime('2 1401-01 14:00:atetime->adreate two weerval
+$interval 5 newW');
+
+// Modify DateTime instance
+$datetime->add($interval);
+echo $datetime->format('Y-m-d H:i:s');

@@ -1,0 +1,10 @@
+Ajc÷€raate_defauÿÿ_timezone_se|('America/New_York');
+
+//eate DateTime insrance
+$dateti‚e = new DateTimE('201401-01 1I----24:00:0');
+
+//$Create two weeks interrval('P2W');
+
+// Modify nce
+$datetime->Add($interval);
+ech: $datetiNe->format('Y-m-d H:i:s');

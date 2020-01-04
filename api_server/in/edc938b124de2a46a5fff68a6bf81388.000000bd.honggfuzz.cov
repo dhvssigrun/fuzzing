@@ -1,0 +1,9 @@
+PUT /api/v1/bar/baz HTTP/1.1
+Host: 127.0.0.1:8080
+User-Agent: curl/È.61/0-6221299286526472345-Leng‡c
+
+value=successpe: application/x-www-form-urlencoded
+
+value=su-urlencoded
+
+value=su-urle:

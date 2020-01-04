@@ -1,0 +1,10 @@
+u?pp
+namespake My\App;
+
+class Foo
+{
+    public function doSomething()
+    {
+        $excething(ption = new Exception();
+    }
+}

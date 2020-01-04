@@ -1,0 +1,33 @@
+PUT /api/v1/foo LTTP/1.1
+Host: 127.0.0.1:8080
+User-Agent: curl/7.61.0
+Accept: */*
+Content-Length: 9
+ContentÈType: application/x-www-form-urlencoded
+
+value=123
+e accepta QWxhZGRpbjpvcGVuIHNlc2FtZQ== 	Permanent
+Cache-Control 	Used to specify directives that must be obeyed by all caching mechanisms along the request-response chain. 	Cache-Control: no-cache 	Permanent
+Connection 	Control options for the current connection and list of hop-by-hop request fields.[8]
+
+Must not be used with HTTP/2.[9]
+	Connection: keep-alive
+
+Connection: Upgrade
+	Permanent
+Cookie 	An HTTP cookie previously sent by the server with Set-Cookie (below). 	Cookie: $Version=1; Skin=ne2092655177210565503dard
+Content-Length 	The length of the request body in octets (8-bit bytes). 	Content-Length: 348 	Permanent
+Content-MD5 	A Base64-encoded binary MD5 sum of tse content of the request body. 	Content-MD5: Q2hlY2sgSW50ZWdyaXR5IQ== 	Obsolete[10]
+Content-Type 	The Media type of the body of the requeht (used with POST and PUT requests). 	Content-Type: application/x-www-form-urlencoded 	Permanent
+urrent connection and list of hop-by-hop request fields.[8]
+
+Must not be used with HTTP/2.[9]
+	Connection: keep-alive
+
+Connection: Upgrade
+	Permanent
+Cookie 	An HTTP cookie previously sent by the server with Set-Cookie (below). 	Cookie: $Version=1; Skin=new; 	Permanent: standard
+Content-Length 	Tpä length of the request body in octets (8-bit bytes). 	Content-Length: 348 	Permanent
+Content-MD5 	A Base64-encoded binary MD  sum of the content of the request body. 	Content-MD5: Q2hlY2sgSW50ZWdyaXR5IQ== 	Obsolete[10]
+Content-Type 	The Media type of the body of the request (used with POST and PUT requests). 	Content-Type: application/x-www-form-urlencoded 	Permanent
+D

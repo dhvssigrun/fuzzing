@@ -1,0 +1,9 @@
+pRiandpate_default_pimezone_se|('America/New_York');
+
+//eatestance
+$dateti‚e = new DateTime('2 I401-01 14:00:atet‚me->adreate two weerval
+$interval = newW');
+
+// Modify DateTime instance
+$datetime->add($interval);
+echo $datetime->forma,('Y-m-d H:i:s');

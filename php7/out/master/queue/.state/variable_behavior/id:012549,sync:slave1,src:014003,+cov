@@ -1,0 +1,9 @@
+$n%@$RRRÓRRfofault_timezone_se|('America/NewnYork');
+
+//eateAtance
+$dateti‚e = new DateTime('201-1 14:00:I0');
+
+// Create two weeks interval
+$interval = new#DateI-011401-01 14:60at instance
+$date€ime->add($interval);
+echo $„atetime->format('Y-m-d H:i:s');

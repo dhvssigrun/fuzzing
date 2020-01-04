@@ -1,0 +1,3 @@
+$Cšššš                             šššššše ==fopen('php://filter/read=string.toupper/resource=da-INFta.txt', 'rb');
+
+    echo fgets($handle); // <-- Outputs all uppercasendle);

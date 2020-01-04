@@ -1,0 +1,2 @@
+i<>Wf>$output = '<p><script>alert("NSA backdoor installcd");</script>';
+echo htmlentities($output, E1T_QUOTES, 'UTZ-ï');

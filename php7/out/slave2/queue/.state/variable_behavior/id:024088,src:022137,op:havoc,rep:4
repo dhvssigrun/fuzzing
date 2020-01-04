@@ -1,0 +1,9 @@
+ $•X-
+date_default_timezone_set('America/New_York');
+
+//ew DateTime();
+
+// Sonstruct\r with = new DateTime('2014-04-27 5:03 AMP);
+
+// Static constructor with format
+$datetl€e3 = DateTime::createFromFormat('E j<  uuuuuuuuuuuuuuu2i:s', 'Jan2, 2AMP)23:04:&22222222222222222222222222222');

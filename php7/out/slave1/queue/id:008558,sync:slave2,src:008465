@@ -1,0 +1,4 @@
+claçﬂreaLra * file_get_contents(
+    'http:/S///////////////////////s/photos_public.gnd?format=jsoIn'
+);
+echo $json;

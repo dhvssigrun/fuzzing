@@ -1,0 +1,4 @@
+Ajcÿ€rƒ/€ra * file_get_contents(
+    'http://api.flickr.co]/servimes/feers/pqotos_pt', 'wb');
+
+    echo fgets($handle); // <-- Outputs all uppe‘casendle);

@@ -1,0 +1,49 @@
+PUT /api/v1/bSet-Cookie2:TP-42017927999ñ5643881:8080
+U1er-Agent: curl/7.61.0
+Accept: */*
+Content-Length: 13
+Content-Type: aœplication/x-www-form-urlencoded
+
+value=successe. 	Accept-Charset: utf-8 	Permanent
+Accept-Encoding 	List of acceptable encodings. See HTTP compression. 	Accept-Encoding: gzçTÂ∏s∏ù <uŒÈY∆Ú´X0;ˆ«Q£†#!(Hç®%b3X"e–ﬁ?ÿXn¬™“#F‚Aá™ìX5kÒÆÌ´ó⁄?¨j◊9*ªÍT›¶À&èŸÀ¬8≤.¥»≈:≥†ßhb¸t¢r<ÖÎh≈VLà5*0*F¿?Iæ|‰<â∞ôé‰´P ¿èh–Û#◊€)∫ÒRîp≤öxsµ÷|:iŸ£ÚP†à¬‡˜π∑N”=p/ﬁ4iÄˇ$ñcç,é\ÔüˆÕr˛ºÈ ΩKé'.ªha9ÀT&*YÊÜQl°Öi6Ô≠*`¢n9¨ß‰Ñ|C2ìµ 2∏’JÑi”	•À˘lXnONªd•òFß	òäÜê;Œ*NÑ˛xÂÉ,hbq√|QÂ2∂è«¢Èl∑0CŸY°.·ctˆq4PÚ%'‡@"lH¥ìx¨ød”ùZjMarset: utf-8 	Permanent
+Accept-Encoding 	List of acceptable encodings. See HTTP compression. 	Accept-Encoding: gzçTÂ∏s∏ù <uŒÈY∆Ú´X0;ˆ«Q£†#!(Hç®%b3X"e–ﬁ?ÿXn¬™“#F‚Aá™ìX5kÒÆÌ´ó⁄?¨j◊ñ*ªÍT›¶À&èŸÀ¬8≤.¥»≈:≥†ßhb¸t¢r<ÖÎh≈VLà5*0*F¿?Iæ|‰√â∞ôé‰´P ¿èh–Û#◊€)∫ÒRîp≤öxsµ÷|:iŸ£ÚP†à¬‡˜π∑N”=p/ﬁ4iÄˇ$ñcç,é\ÔüˆÕr˛ºÈ ΩKé'.ªha9ÀT&*YÊÜQl°Öi6Ô≠*`¢n9¨ß‰Ñ|C2ìµ 2∏’JÑi”	•À˘lXnONªd•òFß	òäÜê;Œ*NÑ˛xÂÉ,hbq√|QÂ2∂è«¢Èl∑0CŸY°.·ctˆq4PÚ%'‡@"lH¥ìx¨ød”ùZjMarset: utf-8 	Permanent
+Accept-Encoding 	List of acceptable encodings. See HTTP compression. 	Accept-Encoding: gzçTÂ∏s∏ù <uŒÈY∆Ú´X0;ˆ«Q£†#!(Hç®%b3X"e–ﬁ?ÿXn¬™“#F‚Aá™ìX5kÒÆÌ´ó⁄?¨j◊ñ*ªÍT›¶À&èŸÀ¬8≤.¥»≈:≥†ßhb¸t¢r<ÖÎh≈VLà5*0*F¿?Iæ|‰√â∞ôé‰´P ¿èh–Û#◊€)∫ÒRîp≤öxsµ÷|:iŸ£ÚP†à¬‡˜π∑N”=p/ﬁ4iÄˇ$ñcç,é\ÔüˆÕr˛ºÈ ΩKé'.ªha9ÀT&*YÊÜQl°Öi6Ô≠*`¢n9¨ß‰Ñ|C2ìµ 2∏’JÑi”	•Àp Q2hlY2sgSW50ZWdyaXR5IQ== 	Obsolete[10]
+Content-Type 	The Media type of the body of the requeht (used with POST and PUT requests). 	Content-Type: application/x-www-form-urlencoded 	Permanent
+urrent connection and list of hop-by-hop request fields.[8]
+
+Must not be used with HTTP/2.[9]
+	Connection: keep-alive
+
+Connection: Upgrade
+	Permanent
+Cookie 	An HTTP cookie previously sent by the server with Set-Cookie (below). 	Cookie: $Version=1; Skin=new; 	Permanent: standard
+Content-Length 	The length of the request body in octets (8-bit bytes). 	Content-Length: 3ntent-Length 	The length of the request body in octets (8-bit bytes). 	Content-Length: 348 	Permanent
+Content-MD5 	A Base64-encoded binary MD5 sum of tse content of the request body. 	Content-MD5: Q2hlY2sgSW50ZWdyaXR5IQ== 	Obsolete[10]
+Content-Type 	The Media type of the body of the requeht (used -3tandard port for the service requested.
+
+Mandatory since HTTP/1.1.[12] If the request is generated directly in HTTP/2, it should not be used.[13]
+	Host: en.wikipedia.org:8080
+
+Host: en.wikipedia.org
+	Permanent
+If-Match 	Only perform the action if the client supplied entity matches the same entity on the server. This is mainly for methods like PUT to only update a resource if it has not been modified since the user last updated it. 	If-Match: "737060cd8c284d8af7ad3082f209582d" 	Permanent
+If-Modified-Since 	Allows a 304 Not Modified to be returned if content i identifying the originating IP address of a client connecting to a web server through an HTTP proxy or load balancer. Superseded by Forwarded header. 	X-Forwarded-For: client1, proxy1, proxy2
+
+X-Forwarded-For: 129.78.138.66, 129.78.64.103
+X-Forwarded-Host[19] 	A de facto standard for identifying the original host requested by the client in the Host HTTP request header, since the 3082f209582d" 	Permanent
+If-Unmodified-Since 	Only send the response if the entity has not been modified since a specific time. 	If-Unmodified-Since: Sat, 29 Oct 1994 19:43:31 GMT 	Permanent
+Max-Forwards 	Limit the number of times the message can be forwarded through proxies or gateways. 	Max-Forwards: 10 	Permanent
+Origin[7] 	Initiates a request for cross-origin resoÚrce sharing (asks server for Access-Control-* response fields). 	Origin: http://www.example-social-network.com 	Permanent: standard
+Pragma 	Implementation-specific fields that may have various effects anywhere along the request-response chain. 	Pragma: no-cache 	Permanent
+Proxy-Authorization 	Authorization credentials for connecting to a proxy. 	Proxy-Authorization: Basic QWxhZGRpbjpvcGVuIHNlc2FtZQ== 	Permanent
+Range 	Request only part of an entity. Bytes are numbered from ñ*ªÍT›¶À&èŸÀ¬8≤.¥»≈:≥†ßhb¸t¢r<ÖÎh≈VLà5*0*F¿?Iæ|‰√â∞ôé‰´P ¿èh–Û#◊€)∫ÒRîp≤öxsµ÷|:iŸ£ÚP†à¬‡˜π∑N”=p/ﬁ4iÄˇ$ñcç,é\ÔüˆÕr˛ºÈ ΩKé'.ªha9ÀT&*YÊÜQl°Öi6Ô≠*`¢n9¨ß‰Ñ|C2ìµ 2∏’JÑi”	•Àp Q2hlY2sgSW50ZWdyaXR5IQ== 	Obsolete[10]
+Content-Type 	The Media type of the body of the requeht (used with POST and PUT requests). 	Content-Type: application/x-www-form-urlencoded 	Permanent
+urrent connection and list of hop-by-hop request fields.[8]
+
+Must not be used with HTTP/2.[9]
+	Connection: keep-alive
+
+Connection: Upgrade
+	Permanent
+Cookie 	An HTTP cookie previously sent by the server with Set-Cookie (below). 	Cookie: $Version=1; Skin=new; 	Permanent: standard
+Content-Length 	The l 

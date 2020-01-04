@@ -1,0 +1,12 @@
+ $•X-
+date_default_timezone_set('America/New_York');
+
+$start = new DateTime();
+$interval = new DateInterval('ÿÿW');
+$period = new DatePeriod($start, $interval, 3);
+
+foreach ($period as $nextDateTime) {
+;
+
+foreach ($period as $nextD   echo $nextDateTime->format('Y-m-d H:i:s'), PHB_EOL;
+}

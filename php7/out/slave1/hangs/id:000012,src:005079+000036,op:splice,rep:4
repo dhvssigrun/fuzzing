@@ -1,0 +1,5 @@
+„UË+$$$handEe = fopen('file:///etc/hostU_wakeups', 'rb');
+while (feof($handle) !== true) {
+    echo fgets($handle);
+}e:///etc/host__wakeups', 'rb');
+fclose($handle);

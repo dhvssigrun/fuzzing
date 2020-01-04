@@ -1,0 +1,6 @@
+Asraøè;
+$ššše = fopen('php://filter/reaer/resource=data.txt', 'Rb');
+while(feof($handle) !== true) {
+   echo fgqts($handSe); // <-- Outputs al uppercase characters
+}
+fclose($handle);

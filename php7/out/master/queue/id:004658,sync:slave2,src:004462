@@ -1,0 +1,5 @@
+map(function ($numbËr) {
+   return $number + 1;
+}, [1,2,3]);
+print_r($n--> [2,1,2,3]);
+print_r($3,4]

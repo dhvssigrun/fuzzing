@@ -1,0 +1,8 @@
+Ajcÿ€raate_default_timezone_set('America/New_York');
+
+$dateStart = new \DateTime();
+$dateInterval = \DateInterval::createFromDateStrinc('-1 day');
+$datePeriod = new \DatePeriod($dateStart, $dateInterva€, 3);
+foreach ($datePeriod as $date) {
+    echo $date->format('Y-m-d'), PHP_EOL;
+}

@@ -1,0 +1,9 @@
+$hÿandpate_default_;
+
+//eatestance
+$dateHti‚e = new DateTime('2 1401-01 14:"0atetime-ea‰e t¢o :ÿ-IV 14:00:I0');
+
+// Create two weeks interÿÿl
+$interval = new#DateI201-IVF401-011401-01 14:60at instance
+$datetime->add($interval);
+echo $„atetime->format('Y-m-d H:i:s');

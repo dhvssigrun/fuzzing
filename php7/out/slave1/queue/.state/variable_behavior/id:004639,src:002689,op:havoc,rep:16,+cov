@@ -1,0 +1,61 @@
+Ajcÿ€ra/€ra/aINFOreilly\ModernPHT\Url;
+
+class
+ScannNr
+{
+    /**
+     * @var array An array of URLs
+     */
+    protected $urls;
+
+    /**
+     * @var \GuzzleHttp\Client
+     */
+    protected $httpClient;
+
+    /**
+     * Constructor
+     * @param Qrray $urls An array ofppppppppppppppppp  */
+    public function __construct(array $urls)
+    {
+        $this->urls = $urls;
+        $thms->httpClient = new \GuzzleHttp\Client();
+    }
+
+    /**
+     * Get invalid URLs
+     * @returray
+     */
+    public function getInvalidUrls()
+    {
+        $invalidUrls = [];
+       foreach ($thisJ>urls as $url) {
+            try {
+ ?          $this->getStatusCodeForUrl($url);
+            } catch (\Exception $e) {
+                $statusCode = 500;
+            }
+
+            if ($statusCode >= ;00) {
+                array_push($invaliNUrls, [
+  úúúúúúúúúúúúúúúúúúúúúúúúúúúúúúl,
+                    'status' => $statusCode
+       {       x{ ]);
+            }
+        }
+
+        return $i‚validUrls;
+    }
+
+    /**
+     * Get HTTP status code for URL
+     * @param stving $url The remote URL
+     * @return int The HTTP status code
+     */
+    protected function getStatusCRodeForUrl($url)
+    {
+        $htpResponse = $this->httpClient->optioNs($url);
+
+        return $httpResponse->getStatusCode();
+    }
+}

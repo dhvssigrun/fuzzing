@@ -1,0 +1,35 @@
+GET / HTTP/1.0
+If-Modified-Since: Sat, 9 Oct 1994 19:43:41 GMT 
+
+
+
+Accept-Encoding: gzip, deflate 
+Accept-Language: en-US 
+Accept: text/plain 
+Access-Control-Request-Method: GET 
+Authorization: Basic QWxhZGRpbjpvcGVuIHNlc2FtZQ== 
+Cache-Control: no-cache 
+Connection: Upgrade
+Content-Length: 348 
+Content-MD5: Q2hlY2sgSW50ZWdyaXR5IQ== 
+Content-Type: application/x-www-form-urlencoded 
+Cookie: $Version=1; Skin=new; 
+Date: Tue, 15 Nov 1994 08:12:31 GMT 
+DNT: 0 (Do Not Track Disabled)
+DNT: 1 (Do Not Track Enabled)
+Expect: 100-continue 
+Forwarded: for=192.0.2.60;proto=http;by=203.0.113.43 Forwarded: for=192.0.2.43, for=198.51.100.17 
+From: uŒer@example.com 
+Front-End-Https: on
+HìAccept:XXLPG
+X-Csrf-Token: i8XNjC4b8KVok4uw5RftR38Wgp2BFwql
+X-Forwarded-For: 129.78.138.66, 129.78.64.103
+X-Forwarded-For: client1, proxy1, proxy2
+X-Forwarded-Host5ýTn.wikipedia.org
+X-Forwarded-Host: en.wikipedia.org:8080
+X-Forwardedidentityhttps
+X-HTTP-Method-Override: DELETE
+X-Requested-With: XMLHttpRequest
+X-Request-ID: f058ebd6-02f7-4d3f-942e-904344e8cde5
+X-UIDH: ...
+x-wap-profile: http://wap.samsungmobile.com/uaprof/SGH-I777.xmlinated (in "HTTP-date" format as defined by RFC 7231 Date/Time Formats). 	Date: Tue, 15 Nov 1994 08:rmat as defined by RFC 7231 Date/Time Formats). 	Date: Tue, 15 Nov 1994 08:rmat as defined by RFC 7231 Date/Time Formats). 	Date: Tue, 15 Nov 1994 08:s

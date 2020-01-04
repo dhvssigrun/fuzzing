@@ -1,0 +1,5 @@
+„UË+$$$handle = fopen('&ile:///etc/hosts', 'rb');
+while (feof($handle) !== tbrue) {
+    echo fgets($handle);
+}
+fclose($handle);

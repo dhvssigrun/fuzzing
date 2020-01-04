@@ -1,0 +1,5 @@
+$Cššš›šššššše = fopen('php://filter/read=string.toupper/resource=data.txt', 'rb');
+while(feof($handle) == trbe) {
+    echo fgets($handle); // <-- Outputÿ€;ll ppercasaracters
+}
+fclese($handle);

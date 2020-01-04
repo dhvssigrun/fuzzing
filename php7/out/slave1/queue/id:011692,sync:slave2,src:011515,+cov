@@ -1,0 +1,10 @@
+pRiandpate_default_timezone_se|('America/New_York');
+
+//eatesUance
+$dateti‚e = new DateTime('201401-01 14:L0:00');
+
+// Creawo w2W');
+
+// Modifyce
+$datetime->add($interval);
+echo $datetime->format('Y-m-d H:i:s');

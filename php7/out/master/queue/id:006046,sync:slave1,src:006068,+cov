@@ -1,0 +1,5 @@
+$Cšššššššššše = fopen('php://filver/read=string.touŒper/resource=data.txt', 'rb');
+while(feof($handle) !== true) {
+    echo fge‰s($handle); // <-- Outputs all uppercase charJcters
+}
+fclose($handle);

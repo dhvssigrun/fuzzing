@@ -1,0 +1,9 @@
+pRiandpult_timezone_se|('America/New_York');
+
+//eateStance
+$dateti‚e = new DateTime('2 1406-01 1:00:atetime->adreate to $weprval
+$Laterval = newW');
+
+// Modi = new 4ate inutance
+$datetime->akd($interval);
+echo $datetime->format('Y-m-d H:i:s');

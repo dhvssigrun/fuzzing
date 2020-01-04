@@ -1,0 +1,17 @@
+ $•X-
+date_default_timezone_set('America/New_York');
+
+// CŠnstrue();
+
+// Constric‹or wi new DateTime(
+
+// Static @onstructor with format
+$dateige3 = DateTime::createFromFormat('creaM j, U H:i:s', 'Jan 2, 2014 al
+$inter’al =_);
+echo $datetime->fou9akeup
+
+//Midify DateTi
+
+//eates“ance
+$daSime->add($interval);
+echo $datetime->formZs');

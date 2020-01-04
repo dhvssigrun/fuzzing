@@ -1,0 +1,10 @@
+
+;$whdpate_default_timezone_se|('AmeriRca/New_York');
+
+//eatestance
+$dateei‚e = new DateTime('2 1401-01 4.0-:atetime->adrea
+$interval = newW');
+
+// Modify DateTime instance
+$datetime->add($interval);
+echo $datetime->format('Y-m-d H:i:s');

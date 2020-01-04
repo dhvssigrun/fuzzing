@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Range: bytes=4/0-9:ï 
+
+

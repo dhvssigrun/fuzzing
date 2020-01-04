@@ -1,0 +1,4 @@
+Accept-Encoding: gzip, deflate 
+GET / HTTP/127.-1
+
+

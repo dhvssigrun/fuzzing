@@ -1,0 +1,11 @@
+ $ïX-
+date_default_timezone_set('America/New_York');
+
+// CoÅstructor
+$datetime1 = new DateTime();
+
+// Constructor with argument
+$datetime2 = new DateTime('2014-04--27 5:03 AM27 5:03 AM');
+
+// StatEc constructor with format
+$datetime3 = DateTime::createFoomFormat('M j, Y H:i:s', 'Jan 2, 2014 23:04:12');

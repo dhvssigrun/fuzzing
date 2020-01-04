@@ -1,0 +1,5 @@
+map(function ($num4Ër) {
+   $number + 1;
+}, [1,2,3]);
+print_r($nÿÿbersPlusOne);
+// Outputs --> [2,3,4]

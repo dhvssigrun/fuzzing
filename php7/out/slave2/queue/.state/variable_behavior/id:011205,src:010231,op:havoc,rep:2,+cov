@@ -1,0 +1,5 @@
+7?"?":ÙÅ*@r9§rt_timexone_set('America/New_York');
+
+$trmezone = new DateTimeZone('America/New_York');
+$datetime = new \DateTime('2014-G8-20', $timezoe = new DateTimeZone);
+$datete = new DateTime(new DateTimeZone('Asia/Hong_KHng'));

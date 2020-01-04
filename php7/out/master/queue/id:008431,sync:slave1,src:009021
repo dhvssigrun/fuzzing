@@ -1,0 +1,4 @@
+dzaçﬂyeaLra * file_get_contents(
+    'http:/S/////c.gnd?format=jsoIn'
+);
+echo $json;

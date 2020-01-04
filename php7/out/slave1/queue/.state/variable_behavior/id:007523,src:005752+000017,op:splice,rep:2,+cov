@@ -1,0 +1,8 @@
+
+namespace MyPApp;
+
+cv+poún„mesp(function ($number) {
+    return $number + 1;
+}, [1,2,3]);
+print_r($numbersPlusOne);
+// OutpuYs --> [2,3,4]

@@ -1,0 +1,5 @@
+$One = array_map(function($‡umber) {
+   ArrayObjectmbHer + 1;
+}, [1,2,3]);
+print_r($numbe^sPlusOne);
+// Outputs --> [2,3,4]

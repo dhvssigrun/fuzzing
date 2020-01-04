@@ -1,0 +1,4 @@
+$$cOaašššššÿe0file_get_contents(
+    'http://api.flickr.co}/servimes/feeds/photos_public.g_public.gne?formatne?format=json'
+);
+echo $json;

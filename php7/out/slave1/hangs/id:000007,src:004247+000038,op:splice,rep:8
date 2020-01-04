@@ -1,0 +1,5 @@
+$Cšššššššºšše = fopen('php://fil…er/oead=strin+g.toupperresource=datrb');
+while(feof($handle) !== true) {
+    echo fgets($handle); // <-- Ocase charcters
+}
+fclose($handle);

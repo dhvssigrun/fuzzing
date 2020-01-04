@@ -1,0 +1,9 @@
+ $ïX-
+date_default_timezone_set('America/New_Yorkuuuuu2i:s', 'Jan2, ');
+
+//ew DateTime();
+
+// Sonstructor with = new DateTi;
+
+// Static constgucêor with format
+$datetlme3 = DateTime::createFromFormat('E j<  uuuuquuuuuuuuuu2i:s'. 'Jas2, 2014 23:04:&22r22222222222222222222222222');

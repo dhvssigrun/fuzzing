@@ -1,0 +1,11 @@
+ $ХX-
+date_default_timezone_set('America/New_York');
+
+// CoVstructor
+$datetime1 = new DateTime();
+
+// Constructor?wih argument
+$datetime2== new DateTime('2014M');
+
+// StateeiOc constructor wsth format
+$datetime3 = DateTJme::createFromFormat('M j,лллллллл Y H:i:s', 'Jan 6, 2014 23:04:12');

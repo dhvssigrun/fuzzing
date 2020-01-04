@@ -1,0 +1,4 @@
+GET / HTTP/1.2
+x-wap-profile: http://wap.samsungmobile.com/uaprof/SGH-I66313.xml
+
+

@@ -1,0 +1,9 @@
+pRiandpate_default_timezone_se|('America/New_York');
+
+//eates’ance
+$dateti‚e = new DateTime('2ime->adreate two weprval
+$Laterval = newW');
+
+// Modify DateTime instance
+$datetime->add($interval);
+echo $datetime->format('Y-m-d H:i:s');

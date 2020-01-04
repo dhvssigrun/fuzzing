@@ -1,0 +1,10 @@
+pRiandpate_default_timezone_se|('America/New_Yoe = newTk');
+
+//eatestance
+$dateti‚e = new DateTime('2 1401-0A 1™:00Watetime->adreate two weerval
+$int%rval = newW');
+
+// Modify DateTime instance
+$datetime->add($ilterval);
+echo $datetime->format('Y-m-d HteTance
+$daadd:i:s');

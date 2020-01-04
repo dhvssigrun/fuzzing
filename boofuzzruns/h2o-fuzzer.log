@@ -1,0 +1,188 @@
+time: 20181120160429
+sessionFileName: 20181120160429.h2o.session
+session importing get requests
+[2018-11-20 16:04:30,685] Test Case: 1: HTTP VERBS.verbs.1
+[2018-11-20 16:04:30,688]     Info: Type: Group. Default value: 'GET'. Case 1 of 147279 overall.
+[2018-11-20 16:04:30,691]   Test Step: Calling procmon pre_send()
+[2018-11-20 16:04:32,743]     Info: Opening target connection (127.0.0.1:8080)...
+[2018-11-20 16:04:32,748]     Info: Connection opened.
+[2018-11-20 16:04:32,751]   Test Step: Fuzzing Node 'HTTP VERBS'
+[2018-11-20 16:04:32,755]     Transmitting 28 bytes: 47 45 54 20 2f 69 6e 64 65 78 2e 68 74 6d 6c 20 48 54 54 50 2f 31 2e 31 0d 0a 0d 0a 'GET /index.html HTTP/1.1\r\n\r\n'
+[2018-11-20 16:04:32,759]     Info: 28 bytes sent
+[2018-11-20 16:04:32,775]     Info: Closing target connection...
+[2018-11-20 16:04:32,779]     Info: Connection closed.
+[2018-11-20 16:04:32,783]   Test Step: Contact process monitor
+[2018-11-20 16:04:32,793]     Check: procmon.post_send()
+[2018-11-20 16:04:32,798]       Check Failed: procmon detected crash on test case #1: [03:50.51] Crash. Exit code: <unknown>. Reason - Process died for unknown reason
+                                
+[2018-11-20 16:04:32,821]   Test Step: Sleep between tests.
+[2018-11-20 16:04:32,838]     Info: sleeping for 0.250000 seconds
+[2018-11-20 16:04:33,101]   Test Step: Failure summary
+[2018-11-20 16:04:33,110]     Info: procmon detected crash on test case #1: [03:50.51] Crash. Exit code: <unknown>. Reason - Process died for unknown reason
+                              
+[2018-11-20 16:04:33,120]   Test Step: restarting target
+[2018-11-20 16:04:33,129]     Info: restarting target process
+[2018-11-20 16:04:36,160]     Info: giving the process 3 seconds to settle in 
+[2018-11-20 16:04:44,175] Test Case: 2: HTTP VERBS.verbs.2
+[2018-11-20 16:04:44,178]     Info: Type: Group. Default value: 'GET'. Case 2 of 147279 overall.
+[2018-11-20 16:04:44,192]   Test Step: Calling procmon pre_send()
+[2018-11-20 16:04:46,212]     Info: Opening target connection (127.0.0.1:8080)...
+[2018-11-20 16:04:46,216]     Info: Connection opened.
+[2018-11-20 16:04:46,218]   Test Step: Fuzzing Node 'HTTP VERBS'
+[2018-11-20 16:04:46,221]     Transmitting 29 bytes: 48 45 41 44 20 2f 69 6e 64 65 78 2e 68 74 6d 6c 20 48 54 54 50 2f 31 2e 31 0d 0a 0d 0a 'HEAD /index.html HTTP/1.1\r\n\r\n'
+[2018-11-20 16:04:46,232]     Info: 29 bytes sent
+[2018-11-20 16:04:46,244]     Info: Closing target connection...
+[2018-11-20 16:04:46,256]     Info: Connection closed.
+[2018-11-20 16:04:46,269]   Test Step: Contact process monitor
+[2018-11-20 16:04:46,272]     Check: procmon.post_send()
+[2018-11-20 16:04:46,277]       Check Failed: procmon detected crash on test case #2: 
+[2018-11-20 16:04:46,288]   Test Step: Sleep between tests.
+[2018-11-20 16:04:46,300]     Info: sleeping for 0.250000 seconds
+[2018-11-20 16:04:46,587]   Test Step: Failure summary
+[2018-11-20 16:04:46,596]     Info: procmon detected crash on test case #2: 
+[2018-11-20 16:04:46,603]   Test Step: restarting target
+[2018-11-20 16:04:46,607]     Info: restarting target process
+[2018-11-20 16:04:49,633]     Info: giving the process 3 seconds to settle in 
+[2018-11-20 16:04:52,655] Test Case: 3: HTTP VERBS.verbs.3
+[2018-11-20 16:04:52,659]     Info: Type: Group. Default value: 'GET'. Case 3 of 147279 overall.
+[2018-11-20 16:04:52,663]   Test Step: Calling procmon pre_send()
+[2018-11-20 16:04:54,682]     Info: Opening target connection (127.0.0.1:8080)...
+[2018-11-20 16:04:54,692]     Info: Connection opened.
+[2018-11-20 16:04:54,701]   Test Step: Fuzzing Node 'HTTP VERBS'
+[2018-11-20 16:04:54,723]     Transmitting 29 bytes: 50 4f 53 54 20 2f 69 6e 64 65 78 2e 68 74 6d 6c 20 48 54 54 50 2f 31 2e 31 0d 0a 0d 0a 'POST /index.html HTTP/1.1\r\n\r\n'
+[2018-11-20 16:04:54,729]     Info: 29 bytes sent
+[2018-11-20 16:04:54,740]     Info: Closing target connection...
+[2018-11-20 16:04:54,746]     Info: Connection closed.
+[2018-11-20 16:04:54,749]   Test Step: Contact process monitor
+[2018-11-20 16:04:54,780]     Check: procmon.post_send()
+[2018-11-20 16:04:54,788]       Check Failed: procmon detected crash on test case #3: 
+[2018-11-20 16:04:54,793]   Test Step: Sleep between tests.
+[2018-11-20 16:04:54,796]     Info: sleeping for 0.250000 seconds
+[2018-11-20 16:04:55,058]   Test Step: Failure summary
+[2018-11-20 16:04:55,068]     Info: procmon detected crash on test case #3: 
+[2018-11-20 16:04:55,099]   Test Step: restarting target
+[2018-11-20 16:04:55,105]     Info: restarting target process
+[2018-11-20 16:04:58,130]     Info: giving the process 3 seconds to settle in 
+[2018-11-20 16:05:01,150] Test Case: 4: HTTP VERBS.verbs.4
+[2018-11-20 16:05:01,154]     Info: Type: Group. Default value: 'GET'. Case 4 of 147279 overall.
+[2018-11-20 16:05:01,157]   Test Step: Calling procmon pre_send()
+[2018-11-20 16:05:03,169]     Info: Opening target connection (127.0.0.1:8080)...
+[2018-11-20 16:05:03,184]     Info: Connection opened.
+[2018-11-20 16:05:03,188]   Test Step: Fuzzing Node 'HTTP VERBS'
+[2018-11-20 16:05:03,191]     Transmitting 32 bytes: 4f 50 54 49 4f 4e 53 20 2f 69 6e 64 65 78 2e 68 74 6d 6c 20 48 54 54 50 2f 31 2e 31 0d 0a 0d 0a 'OPTIONS /index.html HTTP/1.1\r\n\r\n'
+[2018-11-20 16:05:03,195]     Info: 32 bytes sent
+[2018-11-20 16:05:03,198]     Info: Closing target connection...
+[2018-11-20 16:05:03,212]     Info: Connection closed.
+[2018-11-20 16:05:03,216]   Test Step: Contact process monitor
+[2018-11-20 16:05:03,226]     Check: procmon.post_send()
+[2018-11-20 16:05:03,231]       Check Failed: procmon detected crash on test case #4: 
+[2018-11-20 16:05:03,242]   Test Step: Sleep between tests.
+[2018-11-20 16:05:03,248]     Info: sleeping for 0.250000 seconds
+[2018-11-20 16:05:03,529]   Test Step: Failure summary
+[2018-11-20 16:05:03,534]     Info: procmon detected crash on test case #4: 
+[2018-11-20 16:05:03,539]   Test Step: restarting target
+[2018-11-20 16:05:03,544]     Info: restarting target process
+[2018-11-20 16:05:06,563]     Info: giving the process 3 seconds to settle in 
+[2018-11-20 16:05:09,609] Test Case: 5: HTTP VERBS.verbs.5
+[2018-11-20 16:05:09,614]     Info: Type: Group. Default value: 'GET'. Case 5 of 147279 overall.
+[2018-11-20 16:05:09,619]   Test Step: Calling procmon pre_send()
+[2018-11-20 16:05:11,643]     Info: Opening target connection (127.0.0.1:8080)...
+[2018-11-20 16:05:11,653]     Info: Connection opened.
+[2018-11-20 16:05:11,683]   Test Step: Fuzzing Node 'HTTP VERBS'
+[2018-11-20 16:05:11,687]     Transmitting 30 bytes: 54 52 41 43 45 20 2f 69 6e 64 65 78 2e 68 74 6d 6c 20 48 54 54 50 2f 31 2e 31 0d 0a 0d 0a 'TRACE /index.html HTTP/1.1\r\n\r\n'
+[2018-11-20 16:05:11,692]     Info: 30 bytes sent
+[2018-11-20 16:05:11,697]     Info: Closing target connection...
+[2018-11-20 16:05:11,701]     Info: Connection closed.
+[2018-11-20 16:05:11,706]   Test Step: Contact process monitor
+[2018-11-20 16:05:11,728]     Check: procmon.post_send()
+[2018-11-20 16:05:11,732]       Check Failed: procmon detected crash on test case #5: 
+[2018-11-20 16:05:11,735]   Test Step: Sleep between tests.
+[2018-11-20 16:05:11,746]     Info: sleeping for 0.250000 seconds
+[2018-11-20 16:05:12,007]   Test Step: Failure summary
+[2018-11-20 16:05:12,016]     Info: procmon detected crash on test case #5: 
+[2018-11-20 16:05:12,046]   Test Step: restarting target
+[2018-11-20 16:05:12,050]     Info: restarting target process
+[2018-11-20 16:05:15,063]     Info: giving the process 3 seconds to settle in 
+[2018-11-20 16:05:18,083] Test Case: 6: HTTP VERBS.verbs.6
+[2018-11-20 16:05:18,102]     Info: Type: Group. Default value: 'GET'. Case 6 of 147279 overall.
+[2018-11-20 16:05:18,106]   Test Step: Calling procmon pre_send()
+[2018-11-20 16:05:20,126]     Info: Opening target connection (127.0.0.1:8080)...
+[2018-11-20 16:05:20,136]     Info: Connection opened.
+[2018-11-20 16:05:20,145]   Test Step: Fuzzing Node 'HTTP VERBS'
+[2018-11-20 16:05:20,166]     Transmitting 28 bytes: 50 55 54 20 2f 69 6e 64 65 78 2e 68 74 6d 6c 20 48 54 54 50 2f 31 2e 31 0d 0a 0d 0a 'PUT /index.html HTTP/1.1\r\n\r\n'
+[2018-11-20 16:05:20,173]     Info: 28 bytes sent
+[2018-11-20 16:05:20,178]     Info: Closing target connection...
+[2018-11-20 16:05:20,185]     Info: Connection closed.
+[2018-11-20 16:05:20,202]   Test Step: Contact process monitor
+[2018-11-20 16:05:20,214]     Check: procmon.post_send()
+[2018-11-20 16:05:20,219]       Check Failed: procmon detected crash on test case #6: 
+[2018-11-20 16:05:20,222]   Test Step: Sleep between tests.
+[2018-11-20 16:05:20,225]     Info: sleeping for 0.250000 seconds
+[2018-11-20 16:05:20,488]   Test Step: Failure summary
+[2018-11-20 16:05:20,523]     Info: procmon detected crash on test case #6: 
+[2018-11-20 16:05:20,531]   Test Step: restarting target
+[2018-11-20 16:05:20,536]     Info: restarting target process
+[2018-11-20 16:05:23,563]     Info: giving the process 3 seconds to settle in 
+[2018-11-20 16:05:26,583] Test Case: 7: HTTP VERBS.verbs.7
+[2018-11-20 16:05:26,618]     Info: Type: Group. Default value: 'GET'. Case 7 of 147279 overall.
+[2018-11-20 16:05:26,623]   Test Step: Calling procmon pre_send()
+[2018-11-20 16:05:28,638]     Info: Opening target connection (127.0.0.1:8080)...
+[2018-11-20 16:05:28,641]     Info: Connection opened.
+[2018-11-20 16:05:28,644]   Test Step: Fuzzing Node 'HTTP VERBS'
+[2018-11-20 16:05:28,657]     Transmitting 31 bytes: 44 45 4c 45 54 45 20 2f 69 6e 64 65 78 2e 68 74 6d 6c 20 48 54 54 50 2f 31 2e 31 0d 0a 0d 0a 'DELETE /index.html HTTP/1.1\r\n\r\n'
+[2018-11-20 16:05:28,661]     Info: 31 bytes sent
+[2018-11-20 16:05:28,664]     Info: Closing target connection...
+[2018-11-20 16:05:28,681]     Info: Connection closed.
+[2018-11-20 16:05:28,685]   Test Step: Contact process monitor
+[2018-11-20 16:05:28,689]     Check: procmon.post_send()
+[2018-11-20 16:05:28,700]       Check Failed: procmon detected crash on test case #7: 
+[2018-11-20 16:05:28,703]   Test Step: Sleep between tests.
+[2018-11-20 16:05:28,726]     Info: sleeping for 0.250000 seconds
+[2018-11-20 16:05:28,984]   Test Step: Failure summary
+[2018-11-20 16:05:28,995]     Info: procmon detected crash on test case #7: 
+[2018-11-20 16:05:28,998]   Test Step: restarting target
+[2018-11-20 16:05:29,010]     Info: restarting target process
+[2018-11-20 16:05:32,039]     Info: giving the process 3 seconds to settle in 
+[2018-11-20 16:05:35,058] Test Case: 8: HTTP VERBS.verbs.8
+[2018-11-20 16:05:35,071]     Info: Type: Group. Default value: 'GET'. Case 8 of 147279 overall.
+[2018-11-20 16:05:35,083]   Test Step: Calling procmon pre_send()
+[2018-11-20 16:05:37,109]     Info: Opening target connection (127.0.0.1:8080)...
+[2018-11-20 16:05:37,119]     Info: Connection opened.
+[2018-11-20 16:05:37,125]   Test Step: Fuzzing Node 'HTTP VERBS'
+[2018-11-20 16:05:37,132]     Transmitting 33 bytes: 50 52 4f 50 46 49 4e 44 20 2f 69 6e 64 65 78 2e 68 74 6d 6c 20 48 54 54 50 2f 31 2e 31 0d 0a 0d 0a 'PROPFIND /index.html HTTP/1.1\r\n\r\n'
+[2018-11-20 16:05:37,142]     Info: 33 bytes sent
+[2018-11-20 16:05:37,149]     Info: Closing target connection...
+[2018-11-20 16:05:37,153]     Info: Connection closed.
+[2018-11-20 16:05:37,156]   Test Step: Contact process monitor
+[2018-11-20 16:05:37,160]     Check: procmon.post_send()
+[2018-11-20 16:05:37,172]       Check Failed: procmon detected crash on test case #8: 
+[2018-11-20 16:05:37,183]   Test Step: Sleep between tests.
+[2018-11-20 16:05:37,187]     Info: sleeping for 0.250000 seconds
+[2018-11-20 16:05:37,468]   Test Step: Failure summary
+[2018-11-20 16:05:37,476]     Info: procmon detected crash on test case #8: 
+[2018-11-20 16:05:37,483]   Test Step: restarting target
+[2018-11-20 16:05:37,490]     Info: restarting target process
+[2018-11-20 16:05:40,530]     Info: giving the process 3 seconds to settle in 
+[2018-11-20 16:05:43,540] Test Case: 9: HTTP VERBS.verbs.9
+[2018-11-20 16:05:43,543]     Info: Type: Group. Default value: 'GET'. Case 9 of 147279 overall.
+[2018-11-20 16:05:43,547]   Test Step: Calling procmon pre_send()
+[2018-11-20 16:05:45,560]     Info: Opening target connection (127.0.0.1:8080)...
+[2018-11-20 16:05:45,563]     Info: Connection opened.
+[2018-11-20 16:05:45,567]   Test Step: Fuzzing Node 'HTTP VERBS'
+[2018-11-20 16:05:45,570]     Transmitting 32 bytes: 43 4f 4e 4e 45 43 54 20 2f 69 6e 64 65 78 2e 68 74 6d 6c 20 48 54 54 50 2f 31 2e 31 0d 0a 0d 0a 'CONNECT /index.html HTTP/1.1\r\n\r\n'
+[2018-11-20 16:05:45,580]     Info: 32 bytes sent
+[2018-11-20 16:05:45,601]     Info: Closing target connection...
+[2018-11-20 16:05:45,606]     Info: Connection closed.
+[2018-11-20 16:05:45,615]   Test Step: Contact process monitor
+[2018-11-20 16:05:45,619]     Check: procmon.post_send()
+[2018-11-20 16:05:45,635]       Check Failed: procmon detected crash on test case #9: 
+[2018-11-20 16:05:45,639]   Test Step: Sleep between tests.
+[2018-11-20 16:05:45,642]     Info: sleeping for 0.250000 seconds
+[2018-11-20 16:05:45,899]   Test Step: Failure summary
+[2018-11-20 16:05:45,903]     Info: procmon detected crash on test case #9: 
+[2018-11-20 16:05:45,907]   Test Step: restarting target
+[2018-11-20 16:05:45,919]     Info: restarting target process
+[2018-11-20 16:05:48,945]     Info: giving the process 3 seconds to settle in 
+[2018-11-20 16:05:51,955] Test Case: 10: HTTP VERBS.verbs.10
+[2018-11-20 16:05:51,958]     Info: Type: Group. Default value: 'GET'. Case 10 of 147279 overall.
+[2018-11-20 16:05:51,961]   Test Step: Calling procmon pre_send()

@@ -1,0 +1,4 @@
+Ajcÿ€ra/€rk * file_get_contenos(
+    'http://api.flickr.com/services/feeds/photos_public.gne?format=json'
+);
+echo $json;

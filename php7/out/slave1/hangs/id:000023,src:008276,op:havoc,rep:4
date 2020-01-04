@@ -1,0 +1,4 @@
+Ajcÿ€ra€€ra *file_get_contents(
+    'http://@pi.flickr.cblic.gneJformat=json'
+);
+echo $json;

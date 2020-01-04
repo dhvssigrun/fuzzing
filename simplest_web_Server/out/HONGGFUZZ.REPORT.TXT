@@ -1,0 +1,127 @@
+=====================================================================
+TIME: 2018-12-18.03:17:59
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 6
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 10 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ targetPid       : 0
+ targetCmd       : 
+ wordlistFile    : ../../../../sessions/simplest_web_Server/dictionary/httpd.wordlist
+ dynFileMethod: 
+ fuzzTarget   : ./simplest_web_server 
+ORIG_FNAME: [DYNAMIC]
+FUZZ_FNAME: ../../../../sessions/simplest_web_Server/out//SIGSEGV.PC.470dfd.STACK.1a34745644.CODE.128.ADDR.(nil).INSTR.cmpq___$0x0,(%rax).fuzz
+PID: 2345
+SIGNAL: SIGSEGV (11)
+FAULT ADDRESS: (nil)
+INSTRUCTION: cmpq___$0x0,(%rax)
+STACK HASH: 0000001a34745644
+STACK:
+ <0x00000000004747d6> [mg_cgi_ev_handler():0 at /home/kali/fuzzing/victims/mongoose-6.13/examples/simplest_web_server/simplest_web_server]
+ <0x000000000043d71f> [mg_call():0 at /home/kali/fuzzing/victims/mongoose-6.13/examples/simplest_web_server/simplest_web_server]
+ <0x000000000043cf67> [mg_close_conn():0 at /home/kali/fuzzing/victims/mongoose-6.13/examples/simplest_web_server/simplest_web_server]
+ <0x000000000043ce0f> [mg_if_poll():0 at /home/kali/fuzzing/victims/mongoose-6.13/examples/simplest_web_server/simplest_web_server]
+ <0x00000000004478ea> [mg_mgr_handle_conn():0 at /home/kali/fuzzing/victims/mongoose-6.13/examples/simplest_web_server/simplest_web_server]
+ <0x000000000044b326> [mg_socket_if_poll():0 at /home/kali/fuzzing/victims/mongoose-6.13/examples/simplest_web_server/simplest_web_server]
+ <0x000000000043ec95> [mg_mgr_poll():0 at /home/kali/fuzzing/victims/mongoose-6.13/examples/simplest_web_server/simplest_web_server]
+ <0x000000000042cd35> [HonggfuzzNetDriver_main():0 at /home/kali/fuzzing/victims/mongoose-6.13/examples/simplest_web_server/simplest_web_server]
+ <0x000000000047b623> [netDriver_mainProgram():0 at /home/kali/fuzzing/victims/mongoose-6.13/examples/simplest_web_server/simplest_web_server]
+ <0x00007ffff7f80f2a> [[UNKNOWN]():0 at /lib/x86_64-linux-gnu/libpthread-2.27.so]
+ <0x00007ffff7cf6edf> [[UNKNOWN]():0 at /lib/x86_64-linux-gnu/libc-2.27.so]
+=====================================================================
+=====================================================================
+TIME: 2018-12-18.03:18:05
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 6
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 10 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ targetPid       : 0
+ targetCmd       : 
+ wordlistFile    : ../../../../sessions/simplest_web_Server/dictionary/httpd.wordlist
+ dynFileMethod: 
+ fuzzTarget   : ./simplest_web_server 
+ORIG_FNAME: [DYNAMIC]
+FUZZ_FNAME: ../../../../sessions/simplest_web_Server/out//SIGSEGV.PC.7ffff7c82da4.STACK.1afdb1ddce.CODE.128.ADDR.(nil).INSTR.mov____-0x8(%rdi),%rcx.fuzz
+PID: 8078
+SIGNAL: SIGSEGV (11)
+FAULT ADDRESS: (nil)
+INSTRUCTION: mov____-0x8(%rdi),%rcx
+STACK HASH: 0000001afdb1ddce
+STACK:
+ <0x0000000000434876> [mbuf_insert():0 at /home/kali/fuzzing/victims/mongoose-6.13/examples/simplest_web_server/simplest_web_server]
+ <0x0000000000434c92> [mbuf_append():0 at /home/kali/fuzzing/victims/mongoose-6.13/examples/simplest_web_server/simplest_web_server]
+ <0x000000000043efb0> [mg_send():0 at /home/kali/fuzzing/victims/mongoose-6.13/examples/simplest_web_server/simplest_web_server]
+ <0x000000000043ee1b> [mg_vprintf():0 at /home/kali/fuzzing/victims/mongoose-6.13/examples/simplest_web_server/simplest_web_server]
+ <0x000000000043f14f> [mg_printf():0 at /home/kali/fuzzing/victims/mongoose-6.13/examples/simplest_web_server/simplest_web_server]
+ <0x00000000004744c9> [mg_cgi_ev_handler():0 at /home/kali/fuzzing/victims/mongoose-6.13/examples/simplest_web_server/simplest_web_server]
+ <0x000000000043d71f> [mg_call():0 at /home/kali/fuzzing/victims/mongoose-6.13/examples/simplest_web_server/simplest_web_server]
+ <0x000000000047013f> [mg_recv_tcp():0 at /home/kali/fuzzing/victims/mongoose-6.13/examples/simplest_web_server/simplest_web_server]
+ <0x00000000004401b6> [mg_do_recv():0 at /home/kali/fuzzing/victims/mongoose-6.13/examples/simplest_web_server/simplest_web_server]
+ <0x000000000043fd4a> [mg_if_can_recv_cb():0 at /home/kali/fuzzing/victims/mongoose-6.13/examples/simplest_web_server/simplest_web_server]
+ <0x0000000000447f76> [mg_mgr_handle_conn():0 at /home/kali/fuzzing/victims/mongoose-6.13/examples/simplest_web_server/simplest_web_server]
+ <0x000000000044b326> [mg_socket_if_poll():0 at /home/kali/fuzzing/victims/mongoose-6.13/examples/simplest_web_server/simplest_web_server]
+ <0x000000000043ec95> [mg_mgr_poll():0 at /home/kali/fuzzing/victims/mongoose-6.13/examples/simplest_web_server/simplest_web_server]
+ <0x000000000042cd35> [HonggfuzzNetDriver_main():0 at /home/kali/fuzzing/victims/mongoose-6.13/examples/simplest_web_server/simplest_web_server]
+ <0x000000000047b623> [netDriver_mainProgram():0 at /home/kali/fuzzing/victims/mongoose-6.13/examples/simplest_web_server/simplest_web_server]
+ <0x00007ffff7f80f2a> [[UNKNOWN]():0 at /lib/x86_64-linux-gnu/libpthread-2.27.so]
+ <0x00007ffff7cf6edf> [[UNKNOWN]():0 at /lib/x86_64-linux-gnu/libc-2.27.so]
+=====================================================================
+=====================================================================
+TIME: 2018-12-18.08:57:44
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 6
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 10 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ targetPid       : 0
+ targetCmd       : 
+ wordlistFile    : ../../../../sessions/simplest_web_Server/dictionary/httpd.wordlist
+ dynFileMethod: 
+ fuzzTarget   : ./simplest_web_server 
+ORIG_FNAME: ../../../../sessions/simplest_web_Server/in//cf788d21a20332186fd5b45511249e04.0000186b.honggfuzz.cov
+FUZZ_FNAME: ../../../../sessions/simplest_web_Server/out//SIGABRT.PC.7ffff7c34f3b.STACK.d23b1c914.CODE.-6.ADDR.(nil).INSTR.mov____0x108(%rsp),%rcx.fuzz
+PID: 25067
+SIGNAL: SIGABRT (6)
+FAULT ADDRESS: (nil)
+INSTRUCTION: mov____0x108(%rsp),%rcx
+STACK HASH: 0000000d23b1c914
+STACK:
+ <0x00007ffff7c362f1> [[UNKNOWN]():0 at /lib/x86_64-linux-gnu/libc-2.27.so]
+ <0x00007ffff7c77867> [[UNKNOWN]():0 at /lib/x86_64-linux-gnu/libc-2.27.so]
+ <0x00007ffff7c7de0a> [[UNKNOWN]():0 at /lib/x86_64-linux-gnu/libc-2.27.so]
+ <0x00007ffff7c82faa> [[UNKNOWN]():0 at /lib/x86_64-linux-gnu/libc-2.27.so]
+ <0x0000000000434876> [mbuf_insert():0 at /home/kali/fuzzing/victims/mongoose-6.13/examples/simplest_web_server/simplest_web_server]
+ <0x0000000000434c92> [mbuf_append():0 at /home/kali/fuzzing/victims/mongoose-6.13/examples/simplest_web_server/simplest_web_server]
+ <0x000000000043efb0> [mg_send():0 at /home/kali/fuzzing/victims/mongoose-6.13/examples/simplest_web_server/simplest_web_server]
+ <0x000000000043ee1b> [mg_vprintf():0 at /home/kali/fuzzing/victims/mongoose-6.13/examples/simplest_web_server/simplest_web_server]
+ <0x000000000043f14f> [mg_printf():0 at /home/kali/fuzzing/victims/mongoose-6.13/examples/simplest_web_server/simplest_web_server]
+ <0x00000000004744c9> [mg_cgi_ev_handler():0 at /home/kali/fuzzing/victims/mongoose-6.13/examples/simplest_web_server/simplest_web_server]
+ <0x000000000043d71f> [mg_call():0 at /home/kali/fuzzing/victims/mongoose-6.13/examples/simplest_web_server/simplest_web_server]
+ <0x000000000047013f> [mg_recv_tcp():0 at /home/kali/fuzzing/victims/mongoose-6.13/examples/simplest_web_server/simplest_web_server]
+ <0x00000000004401b6> [mg_do_recv():0 at /home/kali/fuzzing/victims/mongoose-6.13/examples/simplest_web_server/simplest_web_server]
+ <0x000000000043fd4a> [mg_if_can_recv_cb():0 at /home/kali/fuzzing/victims/mongoose-6.13/examples/simplest_web_server/simplest_web_server]
+ <0x0000000000447f76> [mg_mgr_handle_conn():0 at /home/kali/fuzzing/victims/mongoose-6.13/examples/simplest_web_server/simplest_web_server]
+ <0x000000000044b326> [mg_socket_if_poll():0 at /home/kali/fuzzing/victims/mongoose-6.13/examples/simplest_web_server/simplest_web_server]
+ <0x000000000043ec95> [mg_mgr_poll():0 at /home/kali/fuzzing/victims/mongoose-6.13/examples/simplest_web_server/simplest_web_server]
+ <0x000000000042cd35> [HonggfuzzNetDriver_main():0 at /home/kali/fuzzing/victims/mongoose-6.13/examples/simplest_web_server/simplest_web_server]
+ <0x000000000047b623> [netDriver_mainProgram():0 at /home/kali/fuzzing/victims/mongoose-6.13/examples/simplest_web_server/simplest_web_server]
+ <0x00007ffff7f80f2a> [[UNKNOWN]():0 at /lib/x86_64-linux-gnu/libpthread-2.27.so]
+ <0x00007ffff7cf6edf> [[UNKNOWN]():0 at /lib/x86_64-linux-gnu/libc-2.27.so]
+=====================================================================

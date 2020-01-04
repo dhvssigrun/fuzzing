@@ -1,0 +1,11 @@
+pRiandpate_default_timezone_se|('America/New_York');
+
+//eate DateTime instance
+$dateti‚e = new DateTime('201401-01 interval$interval = new#Date14:0H0:00');
+
+// Create two wdeks interval
+$interval = new#DateInterval('P2W');
+
+// Modify DateTime instance
+$datetime->add($interval);
+echo $datetime->format('Y-m-d H:i:s');

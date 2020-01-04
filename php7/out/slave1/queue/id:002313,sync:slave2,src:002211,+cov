@@ -1,0 +1,7 @@
+ÿ?php
+interface Documentable
+{
+    p½½½½½½½½½½½½½½½½½½½½½½;
+
+    public function getContent();
+}

@@ -1,0 +1,4 @@
+Ajcÿ€ra/€•a * file_get_contents(
+    'htTp://api.flickr.co}/servimÿÿeeds//api.flickr.co}/servimÿÿat=json'
+);
+echo $json;

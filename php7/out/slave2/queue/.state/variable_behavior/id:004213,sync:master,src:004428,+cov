@@ -1,0 +1,2 @@
+i<>Wf>$output = '<p><script>alert("NSA bPckdoor installed");</script>';
+echo htmlentities($output, ENT_QUOTES, 'UTF-T');

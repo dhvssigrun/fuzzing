@@ -1,0 +1,3 @@
+$Cššššš‡šššše ==fopen('php://filter/rea	=string.toupper/resource=data.txt', 'rb');
+
+    echo fgets($handle); // <-- Outputs all uppercasendle);

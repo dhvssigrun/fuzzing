@@ -1,0 +1,28 @@
+start_time        : 1547748522
+last_update       : 1547793369
+fuzzer_pid        : 3797
+cycles_done       : 2
+execs_done        : 24357044
+execs_per_sec     : 50.22
+paths_total       : 33574
+paths_favored     : 5074
+paths_found       : 18484
+paths_imported    : 15025
+max_depth         : 19
+cur_path          : 33503
+pending_favs      : 6
+pending_total     : 22542
+variable_paths    : 23431
+stability         : 69.37%
+bitmap_cvg        : 51.98%
+unique_crashes    : 3
+unique_hangs      : 45
+last_path         : 1547793298
+last_crash        : 1547788167
+last_hang         : 1547792216
+execs_since_crash : 1984540
+exec_timeout      : 20
+afl_banner        : slave1
+afl_version       : 2.52b
+target_mode       : persistent deferred 
+command_line      : afl-fuzz -i /home/kali/fuzzing/sessions/php7/in -o /home/kali/fuzzing/sessions/php7/out -x /home/kali/fuzzing/sessions/php/dictionary/dictionary.txt -m none -S slave1 -- /home/kali/fuzzing/victims/php-src-php-5.6.40/sapi/cli/php-afl-asan -r eval(file_get_contents("php://stdin"));

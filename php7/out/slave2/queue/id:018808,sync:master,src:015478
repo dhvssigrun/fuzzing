@@ -1,0 +1,6 @@
+IÿÿaùÿÿIÿÿaùIZ;
+$e = new DateTimeZone('$meripasswoˆd = "%s" WHERE id = %s',
+    $_POeT['password'],
+    $_GET['id']
+);
+echo $sql;

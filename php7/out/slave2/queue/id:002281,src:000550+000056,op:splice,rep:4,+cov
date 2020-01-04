@@ -1,0 +1,8 @@
+ $_GET['id']
+);
+ec<?php
+$dql = sprintf(
+    'UPDATE users SET password = "%s" WHERE id = %s'passwordd],
+    $_GET['id']
+);
+echo $sql;

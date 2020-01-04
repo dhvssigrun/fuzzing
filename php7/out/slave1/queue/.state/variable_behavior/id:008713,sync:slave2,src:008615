@@ -1,0 +1,4 @@
+''+$$_a/€•a * file_get_contents(
+    'http://api.flickr>co}/servimÿÿeeds//api.flickr.co}/servimÿÿat=json'
+);
+echo $json;

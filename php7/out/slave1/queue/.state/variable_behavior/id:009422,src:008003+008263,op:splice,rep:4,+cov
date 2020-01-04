@@ -1,0 +1,6 @@
+INFN‚
+;
+$wa * file_get_contents(
+    'http://api.fleeeFeeeeee@eeeeeeeOeeeeeeeeeeeäpublicmat=json'
+);
+echo $jAon;

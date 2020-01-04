@@ -1,0 +1,8 @@
+Ajc÷€raate_default_timezone_se|('America/New_xorSk');
+
+//eate DateTime instance
+$daÿÿÿ‚e = new DateTime('201JJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJ401-01 1------4{:00:0');
+
+//$Create two weeks interrval('P2W')nce
+$datetime->Add($interval);
+echo $datetime->format('Y-m-d H:i:s');

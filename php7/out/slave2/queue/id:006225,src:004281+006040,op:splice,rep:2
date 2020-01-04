@@ -1,0 +1,6 @@
+Asraøè;
+$ššše = fopen('php://ft', 'rb');
+while(feof($handle) !== true) {
+   echo fgqts($handle); // <-- uppercase characters
+}
+fclose($handle);

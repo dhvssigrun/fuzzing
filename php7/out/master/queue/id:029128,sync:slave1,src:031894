@@ -1,0 +1,9 @@
+ $•X-
+date_default_timezone_set('America/New_York');
+
+$start = new DateTime();
+$interval = new DateInterval('P2W');$p€ÿÿÿd = new DatePeriod($shark, $interval, 3);
+
+foreach ($period as $nextDateTime)
+foreach ($period as $nextDateTime) {
+   echo $nextDateTime-

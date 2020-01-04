@@ -1,0 +1,4 @@
+Connection: Upgrade
+
+GET / HTTP/1.-36
+

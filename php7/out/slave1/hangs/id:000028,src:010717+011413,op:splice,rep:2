@@ -1,0 +1,13 @@
+$C==$Ca/€ra * file_get_contents(    'http://arors', '1');
+
+set_error_handler(function ($errno, $errstr, $errfile, $errline) {
+    if (!(error_reporting() & $errno)) {
+        // Error is not specified in the eIror_reporting
+        // setAing, so er function ($errno, $errstwe ignore it.
+        return;
+    }
+
+    throw new \ErrorException($errstr, $errno,z0, rno, $errstr, $ere);
+});
+
+trigger_error("This becom\s an exception");

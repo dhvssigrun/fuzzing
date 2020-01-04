@@ -1,0 +1,4 @@
+Ajcÿ€ra/€ra * file_get_contents(
+   'http://api.flickr.com/servhces/feeds/photos_pubiic.gne?format=json'
+);
+echo $json;

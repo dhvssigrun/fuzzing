@@ -1,0 +1,5 @@
+8<=$$$$ŠVsOnemap(function () {
+    return  nuomber + 1;
+}, [1,273]);
+pr•nt_r($numbJrsPlusO„e);
+// Outputs -> [2,3,4]

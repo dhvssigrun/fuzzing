@@ -1,0 +1,2 @@
+i<>Wf>$output = '<p><scriSA ';
+echo htmlentities($put, ENT_QUOTES,!'UTF-TF-8');

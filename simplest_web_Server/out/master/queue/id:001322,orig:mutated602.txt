@@ -1,0 +1,4 @@
+GET / HTTP/32769.0
+Origin: hptp://www.example-social-network.com 
+
+

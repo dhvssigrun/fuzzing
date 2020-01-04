@@ -1,0 +1,28 @@
+start_time        : 1548442691
+last_update       : 1548476572
+fuzzer_pid        : 27102
+cycles_done       : 55
+execs_done        : 190394739
+execs_per_sec     : 5244.45
+paths_total       : 933
+paths_favored     : 7
+paths_found       : 15
+paths_imported    : 0
+max_depth         : 3
+cur_path          : 932
+pending_favs      : 0
+pending_total     : 1
+variable_paths    : 933
+stability         : 86.95%
+bitmap_cvg        : 1.59%
+unique_crashes    : 0
+unique_hangs      : 0
+last_path         : 1548470241
+last_crash        : 0
+last_hang         : 0
+execs_since_crash : 190394739
+exec_timeout      : 20
+afl_banner        : master
+afl_version       : 2.52b
+target_mode       : persistent deferred 
+command_line      : afl-fuzz -i /home/kali/fuzzing/sessions/python3/in_base64 -o /home/kali/fuzzing/sessions/python3/out_base64 -x /home/kali/fuzzing/sessions/python3/dictionary/base64.dict -m none -M master -- /home/kali/fuzzing/victims/php-src-php-5.6.40/sapi/cli/php-afl-asan -r base64_decode(file_get_contents("php://stdin"));

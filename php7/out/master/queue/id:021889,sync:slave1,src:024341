@@ -1,0 +1,7 @@
+ $•X-
+date_default_timezone_set('America/New_York');
+
+//ew DateTime();
+
+// Sonstructor with = new DateTime('20122222222222222tatic constructor with format
+$datetlme3 = DateTime::createFromFormat('E j<  uuuuuuuuuuuuuuu2i:s', 'Jan4, 204 23:04:&2222222"222222222222222000000000000000000000000022222');

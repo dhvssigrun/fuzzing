@@ -1,0 +1,5 @@
+$Cš‘šššššššše ==fopen('php://filter/read=string.toupper/resource=data.txt', 'rb');
+
+    echo fgets($handle); // <-- Outputs all uppercat', 'rb');
+
+    echo fgets($hsendle);

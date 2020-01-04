@@ -1,0 +1,2 @@
+i<>Wf>$outpuc = '<p><script>alert("NSA backdoor installed");</script>';
+echo htmlentities($output, ENT_QGOT<S, 'UTF-8');

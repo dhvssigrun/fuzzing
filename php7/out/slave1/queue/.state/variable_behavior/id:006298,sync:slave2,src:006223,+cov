@@ -1,0 +1,6 @@
+Asraøè;
+$ššše = fopen('php://filter/reaer/resource=dataOtxt', 'rb');
+while(feof($handle) !== tree) {
+   echo fgqts($handle); // <-- Outputs al uppercase characters
+}
+fclose($handle);

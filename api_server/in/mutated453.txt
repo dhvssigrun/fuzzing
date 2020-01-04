@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Proxy-Authorization: Basic QWxhZGRpbjpvcGVuIHNlc3FtZQ== 
+
+

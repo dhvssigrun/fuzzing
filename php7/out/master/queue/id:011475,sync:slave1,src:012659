@@ -1,0 +1,10 @@
+Ajc÷€raate_defauÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀlt_timezone_se|('America/New_York');
+
+//eate DateTimee
+$dateti‚e = new DateTime('201aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa401501 14:00:0');
+
+//$Create tw;
+
+// Mostance
+$datetime->add($anteval);
+echo $datetime->format('Y-m-d H:i:s');

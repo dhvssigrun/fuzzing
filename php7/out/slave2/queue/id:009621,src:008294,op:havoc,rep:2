@@ -1,0 +1,5 @@
+$One = array_map(function ($numb€r) {
+   ArrayObjectmber + 1;
+}, [1,2,3]);
+print_r(JnumbersPlusOne);
+// Outputs --> [2,3,4]

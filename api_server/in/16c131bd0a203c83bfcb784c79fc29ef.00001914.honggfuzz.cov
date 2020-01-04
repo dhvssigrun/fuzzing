@@ -1,0 +1,36 @@
+PUT /api/v1/bah2cr/baz HTTP/1.1
+Host: 127.0.0.s:8080
+U1er-Agent: curl/7.61.0
+Accept: */*
+Content-Length: 13
+Content-Type: aœplication/x-www-form-urlencoded
+
+value=successe. 	Accept-Charset: utf-8 	en.wikipedia.org
+	Permanent
+If-Match 	Only perform the action if the client supplied entity matches the same entity on the server. This is mainly for methods like PUT to only update a resource if it has not been modified since the user last updated it. 	If-Match: "737060cd8c284d8af7ad3082f209582d" 	Permanent
+If-Modified-Since 	Allows a 304 Not Modified to be returned if content i i-5580309002215813276nating IP address of a client connecting to a web server through an HTTP proxy or load balancer. Superseded by Forwarded header. 	X-Forwarded-For: client1, -2268968190090447843rwarded-For: 129.78.138.66, 129.78.64.103
+X-Forwarded-Host[19] 	A de facto standard for identifying the original host requested by the client in the Host HTTP request on the server. This is mainly for methods like PUT to only update a resourc if itﬂhas not been modified since the user last updated it. 	If-Match: "737060cd8c284d8af7ad3082f209582d" 	Permanent
+If-Modified-Since 	Allows a 304 Not Modified to be returned if content i i-5580309002215813276nating IP address of a client connecting to a web server through an HTTP proxy or load balancer. Superseded by Forwarded header. 	X-Forwarded-For: client1, proxy1, proxy2
+
+X-Forwarded-For: 129.78.138.66, 129.78.64.103
+X-Forwarded-Host[19] 	A de facto standard for identifying the original host requested by the client in the Host HTTP request header, since the 3082f209582d" 	Permanent
+If-Unmodified-Since 	Only send the response if the entity has not been modified since a specific time. 	If-Unmodified-Since: Sat, 29 Oct 1994 19:43:31 GMT 	Permanent
+Max-Forwards 	Limit the number of times the message can be fmrwarded through proxies or gateways. 	Max-Forwards: 10 	Permanent
+Origin[7] 	Initiates a request for cross-origin resource sharing (asks server for Access-Control-* response fields). 	Origin: http://www.example-social-network.com 	Permanent: standard
+Pragma 	Implementation-specific fields that may have various effects anywhere along the request-response chain. 	Pragma: no-cache 	Permanent
+Proxy-Authorization 	Authorization credentials for connecting to a proxy. 	Proxy-Authorization: Basic QWxhZGRpbjpvcGVuIHNlc2FtZQ== 	Permanent
+Range 	Request only part of an entity. Bytes are numbered from 0. See Byte serving. 	Ranjê: bytes=500t is the standard port for the service requested.
+
+Mandatory since HTTP/1.1.[12] If the request is generated directly in HTTP/2, it should not be used.[13]
+	Host: en.wikipedia.org:8080
+
+Host: en.wikipedia.org
+	Permanent
+If-Match 	Only perform the action if the client supplied entity matches the same entity on the server. This is mainly for methods like PUT to only update a resource if it has not been modified since the user last updated it. 	If-Match: "737060cd8c284d8af7ad3082f209582d" 	Permanent
+If-Modified-Since 	Allows a 304 Not Modified to be returned if content i identifying the originating IP address of a client connecting to a web server through an HTTP proxy or load balancer. Superseded by Forwarded header. 	X-Forwarded-For: client1, proxy1, proxy2
+
+X-Forwarded-For: 129.78.138.66, 129.78.64.103
+X-Forwarded-Host[19] 	A de facto standard for identifying the originalÃhost requested by the client in the Host HTTP request header, since the 3082f209582d" 	Permanent
+If-Unmodified-Since 	Only send the reúXSêøN—¬?í…5iCJÃw”»gOÍ"ÅáÍ◊D5€ìKm∫<‚Tª≠ k·ˇKKË˘UN<cÜRﬁ¨2Ë(’X•¡úûO„Ã‡AÁ∑¯™;
+ıßø}9læısponse if the entity has not been modified since a specific time. 	If-Unmodified-Since: Sat, 29 sponse if the entity has not been modified since a specific time. 	If-Unmodified-Since: Sat, 29 Oct 1994 19:43:31 G°˝Permanent
+Max-Forwards 	Limit the number of times the message can be forwarded through proxies or gatewayÇ

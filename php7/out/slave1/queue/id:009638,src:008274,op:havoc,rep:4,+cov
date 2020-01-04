@@ -1,0 +1,4 @@
+Ajcÿ€ra/€ra * file_get_contents(
+    'htbp://aÿÿÿttp:r.coc/servimes/feeds/photos_pr.coc/servimes/feeds/'
+);
+echo $json;

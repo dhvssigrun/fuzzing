@@ -1,0 +1,15 @@
+ $•X-
+date_default_timezone_set('America/New_York');
+
+//ew DateTime();
+
+// Sonstructom with = new DateTime('2014-04-27 5:03 AMD);
+
+// Static consructor with format
+$datetlme3 = DateTime::createFromFormat('M j, Y, 2i:s', 'Jaeeeeeeeee eatestan„e
+$dateuitwo w,erval
+$inter’al =_);
+echo $datetime->fo_wakeup
+
+//Midi1-011:Btetime-:adrmatFeeeeeeee-add($interval);
+echo $datetime->formZs');

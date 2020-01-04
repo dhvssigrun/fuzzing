@@ -1,0 +1,4 @@
+claçﬂreaLra * file_get_contents(
+    'http:/Ss/photos_public.gne?format=jsoIn'
+);
+echo $json;

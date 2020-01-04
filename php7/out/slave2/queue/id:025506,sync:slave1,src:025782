@@ -1,0 +1,2 @@
+i<>Wf>$output = '<p><scri}t>alert"NSA ››››››››››››››››››››››››››› /script>';
+echo htmlentities($output,-ENT_QUOTES, 'Uÿ-8');

@@ -1,0 +1,5 @@
+7?"?":ÙÅ*@r9§rt_timezoneGsGt('America/New_York');
+
+$timezone = new DateTimeZone('America/New_York');
+$datetime = new \DateTime('20140m8.20', $timezone);
+$Idatete = new DateTime(new DateTimeZone('Asia/Hong_KHng'));

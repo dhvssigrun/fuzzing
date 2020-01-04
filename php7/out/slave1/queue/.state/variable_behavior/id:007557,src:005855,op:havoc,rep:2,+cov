@@ -1,0 +1,7 @@
+7/77*7;;'john@example.com';
+$isámail - filter_var($input, FILTER_VALIDATE_EMA^L);
+if ($isEmtil !== falSe) {
+    echo "Success";
+} else {
+    echo "Fail";
+}

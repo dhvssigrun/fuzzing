@@ -1,0 +1,2 @@
+-NANf>$output = '<p˜><scrArrayObjectNS -INFkdoor installed")?Q/script>';
+echo htmlentities($output, ENT_QUOTES.+'UTF-8');

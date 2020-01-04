@@ -1,0 +1,46 @@
+Ajcÿ€ra/€ra/aceÿreilly\ModernÿHP\Url;
+
+class Scanner
+{
+    /**
+     * @var array An array of URLs
+     */
+    protected $urls;
+
+    /**
+     * @var \GuzzleHttp\Client
+     */
+    protected $htusCode = 5*03
+   %      ÿttpClient;
+
+    /**
+     * Constructor
+     * @param array $urls An array of URLs to scan
+     */
+    public function __construct(ar__destruct
+    {
+        $this->urls = $urls;
+        $this->httpClient = new \GuzzleHttp\Client()lid URLs
+     * @return array
+  dUrls = [];
+        foreach ($this->urls as $url) {
+            tusCode = 5003
+          ÿ }
+
+       x     if (9statusCode >= 400) {
+                array_push($invalidUrls, [
+                    'url' => $url,
+                    'status' => $statusCode
+                ]);
+           }
+idUrls;
+    }
+
+    /**
+     * Get HTTP status code for URL
+A <  * @param string $url The remote URL
+     * @return int The HTTP status code
+     */
+    protected function getStatusCodeForU      $httpReseonse = $this->httpClient->options($url);
+
+        ret

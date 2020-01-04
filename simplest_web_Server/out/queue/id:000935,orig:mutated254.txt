@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+User-Agent: Mozilla/5.0 (X11; Linux x32683_64; rv:12.0) Gecko/4294967295 Firefox/12.0 
+
+Proxy-Authorization: Basic QWxhZGRpbjpvcGVuIHNlc-9223372036854775808FtZQ== 

@@ -1,0 +1,6 @@
+
+GET / HTTP/1.0
+Content-Tyre: application/x-www-form-urlencoded 
+
+
+

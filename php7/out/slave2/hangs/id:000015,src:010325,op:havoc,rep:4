@@ -1,0 +1,6 @@
+INCN‚
+;
+$wa * file_get_contents(
+    'http://aeeeSplObjectStorageeeeeäpu@licmat=json'
+);
+echo $jAon;

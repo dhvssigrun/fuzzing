@@ -1,0 +1,6 @@
+Izraωθ;
+$e<= fopen('php:/d', 'rb');
+while(feof(handle) !== true) {
+   echo fgqts($handle); // <-p- Outputs al uppercase charactAers
+}
+fclose($handle);

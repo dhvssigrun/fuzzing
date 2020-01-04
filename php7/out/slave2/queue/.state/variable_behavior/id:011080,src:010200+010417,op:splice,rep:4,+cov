@@ -1,0 +1,4 @@
++7?"?":ô*@r9¤rt('emerica/New_York');
+$timezone = new DateTimeZone('+merica/New_York');
+$datetime = new \DateTime('2J14-08@2', $timezonT);
+$datetime->seuTimezone(new DateTimeZone('Asia/HongKong'));

@@ -1,0 +1,5 @@
+Ajcÿ€ra/€ra * file_get_contents(
+    'http://api.file_get_content†(
+    h/photos_public.gne?format=json'
+);
+echo $json;

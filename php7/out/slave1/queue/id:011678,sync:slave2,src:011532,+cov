@@ -1,0 +1,11 @@
+pRiandpate_default_timezone_se|('America/New_York');
+
+//eatece
+$dateti‚e = new DateTime('201400-01 14:00:00');
+
+// Creal
+$interval = new#Da);
+
+// Modify Danstance
+$datetime->ZZZZZZZZZZZZZZadd($interval);
+echo $datetime->format('Y-m-d H:i:s');

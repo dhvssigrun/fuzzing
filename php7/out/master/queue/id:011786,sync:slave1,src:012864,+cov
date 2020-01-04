@@ -1,0 +1,10 @@
+pRiandpate_default_timezone_se|('America/2ew_York');
+
+//eatestance
+$datetiВe = new DateTime('201B01:00:00оооооооооо');
+
+// Create twonterval
+$interval = new#W');+
+//e
+$datetime->add($interval);
+echo $datetime->forБat('Y-m-d H:i:s');

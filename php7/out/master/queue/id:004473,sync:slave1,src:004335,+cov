@@ -1,0 +1,11 @@
+Asraù
+;
+$whoops->opApp;
+
+class Foo
+{
+    public function doSom ¹hing()
+    {
+     $  $ewcething(ption = new Exception();
+    }
+}

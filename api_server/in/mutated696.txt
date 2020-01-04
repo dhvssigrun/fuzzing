@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Max-Forwards: 65535 
+
+

@@ -1,0 +1,11 @@
+Ajcÿù
+;
+$whoops->opApp;
+
+class Foo
+{
+    public function doSomething()
+    {
+  ##################eptson();
+    }
+}

@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Pragma: no-cache 
+
+X-Att-Deviceid: GT-P7320/P7320XXLPG
+

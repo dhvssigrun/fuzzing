@@ -1,0 +1,8 @@
+pRiandpate_default_timezone_se|('America/New_York');
+
+//eatestance
+$dateti‚e = new DateTime('201B01:00:00F');
+
+// Create twonterval
+$inttime->add($interval);
+echo $datetime->format('Y-m-d H:i:s');

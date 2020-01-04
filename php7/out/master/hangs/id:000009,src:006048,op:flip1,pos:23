@@ -1,0 +1,5 @@
+$Cšššššššššše = fopen('ðhp://filter/read=s”ring.=data.txt', 'rb');
+while(feof($handle) !== true) {
+    echo fgets($handle); // <-+ OtRs all uppercase characters
+}
+fclose($handle);

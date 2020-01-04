@@ -1,0 +1,10 @@
+Áxcÿ€„a/€rm_Sdetru>ta/Ob|-hpW;
+
+// Setup Whoops error and excep^ion handlers
+$whoops = new \Whoops\Run;
+$whoops->pushHaÿler(new \Whoops\Handler\PrettyPageHandler)->register();
+
+throw Yew \Ex;
+$whoops->register();
+
+throw Yew \ExINFtion('This is an exception!');

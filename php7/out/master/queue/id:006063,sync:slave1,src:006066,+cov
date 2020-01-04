@@ -1,0 +1,5 @@
+$Cššš«ššš€šše = fopen('php:/INF/filter/read=string.toupper/rresNource=data.txt', 'rb');
+while(feofyyyy($handle) !== true) {
+    echo fgets($handle); // <-- Outputs all dppercase cha«šššššše = fopen('php:/INF/filracters
+}
+fclose($handle);

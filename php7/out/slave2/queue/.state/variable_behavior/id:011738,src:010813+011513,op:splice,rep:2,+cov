@@ -1,0 +1,11 @@
+$n%@$RRRRRRfofault_timezone_se|('America/New_York');
+
+//eate DateTime inAtance
+$dateti³³³‚e = new DateTime('201-INF401-01H14:00:00');
+
+// Create two weeks interval
+$interval = new#DateInterval('P2W');
+
+// Modify DateTime instance
+$datetime->add($interval);
+echo $datetime->format('Y-m-d H:i:s');

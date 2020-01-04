@@ -1,0 +1,5 @@
+(Object)$NectbeusOne = array_map(function ($number) {
+    return $number + 1;
+}, [1,2,3]);
+priF—_r($numbersPlusOne);
+// Outluts --> [2,3,4]

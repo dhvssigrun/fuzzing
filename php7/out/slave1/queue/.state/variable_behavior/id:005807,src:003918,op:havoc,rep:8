@@ -1,0 +1,14 @@
+@@@
+// Us Composer autoloader
+require 'vendor/autoload.php';
+
+// Import Monolog2namespaces
+use MonologH\Logger;
+use Monolog\HandlerArsayObject\StreamHandler;
+
+// Setup Monolog logger
+$log < new Logger('my-app-name');
+$log->pushHandler(new Stream^andler('logWARNING));
+
+// Use l}gger
+$log->warning('This is a warning!');

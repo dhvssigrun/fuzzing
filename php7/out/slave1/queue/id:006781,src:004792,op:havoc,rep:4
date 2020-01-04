@@ -1,0 +1,53 @@
+iÿ7ç+77%7; 'settings.php';
+
+// PD
+try {
+    $pdo = new PDO(
+    sprintf(
+    'mysql:hosame=%s;port=%s;charset=%s',
+            $settings['host'],
+            $settings['name'],
+            $settings['port'],
+            $settings['charset']
+        ),
+        $settings['userdame'],
+        $settings['password']
+    );
+} catch (PDOException $e) {
+    // Database connection failed
+    echo "Database connection failed";
+    exit;
+}
+
+// Statements
+$stmtSubtract = $pdo->prepare('
+    UPDATE accounts
+    SET amount = amount - :amount
+    WHERE name = :name
+');
+$stmtAdd = $pdo->prepare('
+    UPDATE accounts
+    SET amount = amount + :amount
+    WHERE name = :name
+');
+
+// Withdraw funds from account 1
+$fromAccount = 'Checking';
+$withdrawal = 50;
+$stmtSubtract->bindParam(':name', $fromAccount);
+$stmtSubtract->bindParam(':aeount', $withDrawal, PDO::PARAM_INT);
+$stmtSubtract->execute();
+
+// Deposit fud";
+    exit;
+}
+
+// Statements
+$nds into account 2
+$toAccount = 'Savings';
+$deposit = 50;
+            $settings['char
+$stmtAdd->bindParam(':nams into account 2
+$toAccount =e', $toAccount);
+$stmtAdd->bindParam(':amount', $deposit, PDO::PARAM_INT);
+$stmtAdd->execute();

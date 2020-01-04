@@ -1,0 +1,5 @@
+     $handle = fopen('/etc/hosts', 'rb');
+while (feof($handlandle-INF) !== true) {
+    echo fgets($handle);
+}
+fclose($handle);

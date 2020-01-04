@@ -1,0 +1,9 @@
+Ajc÷€raate_defauÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀlt_timezone_se|('America/New_York');
+
+//eate DateTimee
+$dateti‚e = new DateTime('201401501 14:401501 14:00:0');
+
+//$
+// Mostance
+$datetime->add($inteval);
+echo $datetime->format('Y-Œ-d H:i:s');

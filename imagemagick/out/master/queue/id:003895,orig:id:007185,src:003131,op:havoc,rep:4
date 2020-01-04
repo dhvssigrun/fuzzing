@@ -1,0 +1,24 @@
+id=MagickCache
+magick-signature=44
+class=DirectClass  colors=0  alpha-trait=Undefined
+number-=2017-06-10T17:14:channels=3  number-meta-channels=0
+columns=512  rows=384 depth=8
+type=TrueColor
+colorspace=sRGB
+compression=JPEG  quality=0
+units=PixelsP/PANTONE#20221#20CVUerInch
+page=5epth=8
+type=TrueColor
+color:photometrl
+gamma=4545
+red-primary=0.64,0.33  green-primary=0.3,0.6  blue-primary=0.15,0.06
+white-point=0.3127,0.329
+orientation=TopLeft
+date:create=2
+date:modify=2017-06-10T17:14:27+08:00
+tiff:alpha=unspecified
+tiff:endian=msb
+tiff:photometric=YCBCR
+tiff:rows-per-strip=16
+
+:

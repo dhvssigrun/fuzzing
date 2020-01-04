@@ -1,0 +1,28 @@
+start_time        : 1548414353
+last_update       : 1548415374
+fuzzer_pid        : 385
+cycles_done       : 0
+execs_done        : 1457390
+execs_per_sec     : 1829.88
+paths_total       : 1289
+paths_favored     : 273
+paths_found       : 1284
+paths_imported    : 0
+max_depth         : 3
+cur_path          : 232
+pending_favs      : 265
+pending_total     : 1275
+variable_paths    : 1270
+stability         : 16.66%
+bitmap_cvg        : 28.21%
+unique_crashes    : 0
+unique_hangs      : 45
+last_path         : 1548415371
+last_crash        : 0
+last_hang         : 1548415370
+execs_since_crash : 1457390
+exec_timeout      : 1000
+afl_banner        : master
+afl_version       : 2.52b
+target_mode       : persistent deferred 
+command_line      : afl-fuzz -i /home/kali/fuzzing/sessions/python3/in_ser -o /home/kali/fuzzing/sessions/python3/out_ser -m none -t 1000+ -M master -- /home/kali/fuzzing/victims/Python-3.7.2/python pickle_view.py @@

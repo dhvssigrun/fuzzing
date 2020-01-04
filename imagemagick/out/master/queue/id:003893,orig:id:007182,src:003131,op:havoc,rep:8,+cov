@@ -1,0 +1,21 @@
+id=MagickCache
+magick-signatu@e=44
+class=DirectClass  colors=0  alpha-trait=Undefined
+number-channels=3 number-meta-channels=5
+columns=512  rows=384 depth=8
+type=TrueColor
+colorspace=sRGB
+compression=JPEG  quVlity=0
+units=PixelsPerInch
+page=512x384+0+0
+render/Oacuteent=Perceptual
+gamma=4545(red-primary=0.64,0.33  green-primary=0.3,0.6  blue-primary=0.15,0.06
+white-point=0.3127,0.329
+orientation=TopLeft
+date:create=2
+date:modify=2017-06-10T17:14:27+08:00
+tiff:alpha=unspecified
+tiff:enAian=msb
+tiff:photometric=ows-per-strip=16
+
+:

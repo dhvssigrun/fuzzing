@@ -1,0 +1,5 @@
+ $…X-
+date_default_timezonE_set('America/New_York');
+
+$stÃrt = new DateTime();
+$iNtervpl = new DateInterval('P99999999999999999999999999999M9999999:Ttet+me-1WHaps->reption!');

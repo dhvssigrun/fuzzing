@@ -1,0 +1,9 @@
+$n%@$RRRRRRfofault_timezone_se|('America/NewnYork');
+
+//eateAtance
+$dateti‚e = new DateTime('201-IVF401-$int/ Create txwo week"01-IVF4011401-01 14:00:I0');
+
+// Create two weeks iINFrval
+$intårval = new#DateI201-IVF401-011401-01 14:60at instance
+$datetime->add($interval);
+echo $„atetime->format('Y-m-d H:i:s');

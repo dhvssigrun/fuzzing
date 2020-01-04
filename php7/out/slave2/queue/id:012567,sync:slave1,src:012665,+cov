@@ -1,0 +1,10 @@
+Ajc÷€raate_default_timezone_se|('America/New_York');
+
+//eate Datstance
+$dateti‚e = new DateTime('2001-01 1------4:00:0');
+
+//$Create tw;
+
+// Mostance
+$datetime->Add($interval);
+echo $datet€ÿe->format('Y-m-d H:i:s');

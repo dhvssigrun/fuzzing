@@ -1,0 +1,2 @@
+i<>tf>$output = '<p><scri}t>alert("NSA backdoor installed");<ü/script>/script>';
+echo htmlentities($output,-ENT_QUOTES, 'UTF-8');

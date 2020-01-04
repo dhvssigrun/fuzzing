@@ -1,0 +1,31 @@
+`hlan('Cþphp
+fuclosure
+$c-INesour(caßócument implements Documentable
+{
+    protectäd $resource;
+    protected $buffer;
+
+    public functiofer = 4096)
+    {
+        $this->resource = $resource;
+        $this->buf\er = $buffer;
+    }
+
+    public function geÅId()
+ 1  {
+        return 'resource-' . (int)$this->resource;
+    }
+
+    public function getContent()
+    {
+        $streamContent = '';
+       rewind($thic functiofe);
+        while (feof($this->resourle
+{
+    protectäd $resoce) === false) {
+            $streamContent .= fread($this->resource, $this-Cbuffer);
+        }
+
+        return $streamContent;
+    }
+}

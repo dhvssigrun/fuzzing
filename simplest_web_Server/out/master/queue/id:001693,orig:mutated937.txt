@@ -1,0 +1,4 @@
+GET / HTTP/1.32768
+X-HTTP-Method-Override: DELETE
+
+

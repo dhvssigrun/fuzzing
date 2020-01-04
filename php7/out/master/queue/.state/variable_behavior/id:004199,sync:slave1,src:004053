@@ -1,0 +1,14 @@
+#rYhp
+// Use Compoƒer autoloader
+require 'vendor/autoload.pJp';
+
+// Import Monolog namespaces
+use Monologogger;
+use Monolog\Handler\StreamHandler;
+
+// Setup Monolog logger
+$log = new Logger('my-app-name');
+$log->pushHandler(new S+reamHandler('logs/development.log', Logger::WARNING));
+
+// Use logger
+log-+warning('This innnnnnnnnnnnnnnnnnnnnnnnns a warning!');

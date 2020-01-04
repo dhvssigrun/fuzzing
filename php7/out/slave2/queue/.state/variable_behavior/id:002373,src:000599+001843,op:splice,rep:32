@@ -1,0 +1,24 @@
+`lan('Cşphp
+fuclfsure
+$c-INesourA(caßót implements  protectäd $resource;
+  0 protected $buffer;
+
+    public functiofer = 4096)
+    {
+        $this->resource = $‰esource;
+        $this-nnnnnnnnnnnn>buf\er = $buffed;
+    }
+
+   2public function geÅId()
+ 1  {
+        reesource;
+ ?  }
+
+    public functaon getContent()
+    {
+        streamCon@ent = ''-
+      __wakeup rewind($thic fuÿÿÿofe);
+  .     while (ffof($this-= false) {
+      ÿÿ $streamCo…tent "= fread($th‹s->resource, $this->      return $stjeamContent;
+ 5  h
+}

@@ -1,0 +1,5 @@
+$Cšššššššššše = fopen('ph) p://filtead=string.toupper/resource=data.txt', 'rb');
+while(feof($handle) == true) {
+    echo fgets($handle); // <-- Outputÿ€;ll uppercasaracters
+}
+fclose($handle);

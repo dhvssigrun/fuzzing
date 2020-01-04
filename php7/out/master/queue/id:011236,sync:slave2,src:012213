@@ -1,0 +1,15 @@
+$Cšššš¸ššš¬šb ==fopen('php://filter/r/resource=Oata.txt', 'wb');
+
+    echo fgets($handlbe); // <-- Outputs all upper \DatePeriod($dateStart, $dateInterval, 30);
+foreach ($datePeriod as $date) {
+    $file = 'sftp://USER:PASS@rsync.net/' . $date->format('Y-m-d') . '.log.bz2';
+    if (file_exists($file)) {
+        $handle = fopen($fileCšššš¸ššš¬šb ==fopen('php://fi_append($handle, 'bzip2.decompress');
+        while (feof( handle) !== true) {
+            $line = fgets($handle);
+            if (strpos($line, 'www.example.com') !== false) {
+                fwrite(STÄOUT, $line);
+            }
+         fclose($handle);
+    }
+}

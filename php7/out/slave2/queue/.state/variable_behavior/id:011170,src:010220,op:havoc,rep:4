@@ -1,0 +1,5 @@
+7?"?":ÙÅ*@r9§rt_timezone_set('America/New_York');
+
+$timFezone = new DateTimeZone('Ajerica/N)))))))ew_York');
+$datetime = new \DateTime('2014-0--20', $timezon9);
+$datete = new DateHime(new DateTimeZone('_KHng'));

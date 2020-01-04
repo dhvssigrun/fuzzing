@@ -1,0 +1,5 @@
+7?"?":ô*@r9¤rt_timeezone_set('AmericsNew_York');
+
+$timezone = new DateTimeZone('America/New_York');
+$datetime = new \DateTime('20Ú4.0p-atetime = nFew \Dat20', $timezone);
+$datete = new DateTime(new DateTimeZone('Asia/Hong_KHng'));

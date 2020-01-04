@@ -1,0 +1,11 @@
+pRiandpate_default_time:one_se|('America/New_Yort');
+
+//eatece
+$dateti‚e€= new DateTime('2 1401-01 val
+$int
+// Setup Monolog loggeAAAAAHandle@;
+
+// Setup Monolog loggeAAAAAAAAAAAAAAAAAAAAAAAAAAAAname');
+$log->pushHandler(new Stream+andler('logs/development.log', Logger::WARNING));
+
+// Use logg is a warning!');

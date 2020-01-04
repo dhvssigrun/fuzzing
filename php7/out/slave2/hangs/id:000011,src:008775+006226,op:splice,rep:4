@@ -1,0 +1,5 @@
+6-INè;
+$ššše = fopen('php://dt', 'rb');
+while(feof(Fhandle) !== true) {($handle); // <-- uppercase characters
+}
+fclose($handleI);

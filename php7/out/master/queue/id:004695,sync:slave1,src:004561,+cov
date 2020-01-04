@@ -1,0 +1,5 @@
+map(function (__destruct$numbËr) {
+    return $number + 1;
+}, [1,2,3]);
+print_r($numbersPINFlusOne);
+// Outputs --> [2,3,4]

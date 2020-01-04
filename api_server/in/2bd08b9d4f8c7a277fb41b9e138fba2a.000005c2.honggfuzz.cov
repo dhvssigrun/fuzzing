@@ -1,0 +1,12 @@
+PUT /api/v1/foo HTTP/1.1
+Host: 127.0.0.1:8080
+User.Agent: curl/7.61.0
+Accept: */*
+Content-Length: 9
+ContentRípe: application/x-www-form-urlencoded
+
+value=123
+e acceptable. 	Accept-‹darset: utf-8 	Permanent
+Accept-Encoding 	List of acceptable encodings. See HTTP c@†É]:¦ŞC×+k‘Ió‡®ÑÊu=jò„ 6‡£—ëVÖ³KÙÛÿ›à-‚´’…ı£Ü÷WÊ²*0é_Z>C%vA¨fÄÅÃ‹ompression. 	Accept-Encod1òÌ<øŞ‡ùşxÿÕÊÅİ—«¯²E„¸¸ÿÍ…ØÉ£‘N—cI$vœnÿ¤R÷LãµÉ¾y¸¥ğ¥Zoììã«Áš£C¢*K;#=ßËÀ®yEklå+U»sãOğ_\‹‚Ü¤st–ÄQ)1¹©ËI±}ÓX¥7@âpªâ’À®yEklå+U»sãOğ_\‹‚Ü¤st–ÄQ)1¹©ËI±}ÓX¥7@âpªâ’Ä‚‚¬æSÖÑËwK‘ÊpÃéºhi£œZÊåÅÙĞ‹HÊ:ğ}—LÍ¯æ:‡?oE8ïŒ— æJX‘SuNÒÇ.£ˆsœ™â•´o%r˜/.á`:“éo*‰»AÍk{W,Ä®kÈ7C¢âÕ/2k]" ÔØµqi>y;ê„BßıáªMîõŒE<„µÉ7Ìràaƒõùå›Ù{Çs4­!ÍÅ†§lèÔÍN¤«RõÈµpSpÄ¾+â]­OÒÕ¿İj«²Ll[ss-Control-Request-Method,
+Access-Control-Request-Headers[7]e HTTP c@†É]:¦ŞC×+k‘Ió‡®ÑÊu=jò„ 6‡£—ëVÖ³KÙÛÿ›à-‚´’…ı£Ü÷WÊ²*0é_Z>C%vA¨fÄÅÃ‹ompression. 	Accept-Encod1òÌ<øŞ‡ùşxÿÕÊÅİ—«¯²E„¸¸ÿÍ…ØÉ£‘N—cI$vœnÿ¤R÷LãµÉ¾y¸¥ğ¥Zoììã«Áš£C¢*K;#=ßËÀ®yEklå+U»sãOğ_\‹‚Ü¤st–ÄQ)1¹©ËI±}ÓX¥7@âpªâ’À®yEklå+U»sãOğ_\‹‚Ü¤st–ÄQ)1¹©ËI±}ÓX¥7@âpªâ’Ä‚‚¬æSÖÑËwK‘ÊpÃéºhi£œZÊåÅÙĞ‹HÊ:ğ}—LÍ¯æ:‡?oE8ïŒ— æJX‘SuNÒÇ.£ˆsœ™â•´o%r˜/.á`:“éo*‰»AÍk{W,Ä®kÈ7C¢âÕ/2k]" ÔØµqi>y;ê„BßıáªMîõŒE<„µÉ7Ìràaƒõùå›Ù{Çs4­!ÍÅ†§lèÔÍN¤«RõÈµpSpÄ¾+â]­OÒÕ¿İj«²Ll[ss-Control-Request-Method,
+Access-Control-Request-Headers[7]e HTTP c@†É]:¦ŞC×+k‘Ió‡®ÑÊu=jò„ 6‡£—ëVÖ³KÙÛÿ›à-‚´’…ı£Ü÷WÊ²*0é_Z>C%vA¨fo

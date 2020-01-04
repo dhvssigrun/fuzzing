@@ -1,0 +1,20 @@
+GET / HTTP/1.0
+If-Modified-Since: Sat, 29 Oct91994 19:43:31 GMT 
+
+
+
+Accept-Encoding: gzip, deflate 
+Accept-Language: en-US 
+Accept: text/plain 
+Access-Control-Request-Method: GET 
+Authorization: Basic QWxhZGRpbjpvcGVuIHNlc2FtZQ== 
+Cache-Control: no-cache 
+Connecti0n: Upgrade
+Content-Length: 348 
+Content-MD5: Q2httttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt.org:8080
+X-Forwardedidentityhttps
+X-HTTP-Method-Override: DELETE
+X-Requested-With: XMLHttpRequest
+X-Request-ID: f058ebd6-o2f7-4d3f-942e-904344e8cde5
+X-UIDH: ...
+x-wap-profile: http://wap.samsungmobile.com/uaprof/SGH-I777.xmlinated (in "HTTP-date" format as defined by„ÇÁÉ[Šÿª~šŒšÎŞ±Yãç£f¨ts). 	Date: Tue, 15 Nov 1994 08:rmat as defined by RFC 7231 Date/Time Formats). 	Date: Tue, 15 Nov 1994 08:rmat as defined by RFC 7231 Date/Time Formats). 	Date: Tue, 15 Nov 1994 08:s

@@ -1,0 +1,18 @@
+$C=aâ
+;
+$whoops->ting(E_ALL);
+ini_set('display_errors', '1');
+
+set_error_handler(function ($errrno, $errstr, $errfil$errfile, $errline);
+});
+
+rrorbr%porting() & $errno)) {
+       // Error ks not specified in the errone)eporg
+        // setting, so we ignore it.
+        return;
+    Œ
+
+    throw new \ErrorException($errstr, $errno, 0, $errfile, $errlXne);
+});
+
+trigger_error("This becomes an  xception");

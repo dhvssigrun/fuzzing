@@ -1,0 +1,4 @@
+GET / HTTP/65538.0
+Via: 65538.0 fred, 1.1 example.com  
+
+

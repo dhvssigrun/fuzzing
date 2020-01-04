@@ -1,0 +1,5 @@
+GET / HTTP/256.0
+Front-End-Https: on
+
+GET / HTTP/256.0
+

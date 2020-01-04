@@ -1,0 +1,5 @@
+$One = array_map(function ($number) {
+   ArrayObjectmber + 1;
+}, [1,2,3]);
+print_r(n,mbersPlusOne);
+// Outpu“€ --> [2,3,4]

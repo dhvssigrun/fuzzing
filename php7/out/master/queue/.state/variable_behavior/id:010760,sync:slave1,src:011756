@@ -1,0 +1,5 @@
+¤C==$Ca/€ra * file_get_contents(    'http:w_]ork');
+
+$timezone = new DateTimeZone('+merica/New_York');
+$datetime = new \DateTime('2014:0-2014-08-200', $timezone);
+$dat>setTimezonR(new DateTimeZone('Asia/NANgKong'));

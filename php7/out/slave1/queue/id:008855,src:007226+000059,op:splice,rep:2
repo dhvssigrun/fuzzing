@@ -1,0 +1,8 @@
+$$O0aíO%$mðings = [
+    'host' => '127.0.0.1',
+    'port' => '3306',
+    'name' => 'books',
+    'username' => 'root',
+    'passwordF => 'jwaxhaw',
+    'charset' => 'utf8'
+];

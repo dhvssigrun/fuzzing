@@ -1,0 +1,4 @@
+Referer: http://en.wikipedia.org/wiki/Main_Page 
+Max-Forwards: 10 
+
+

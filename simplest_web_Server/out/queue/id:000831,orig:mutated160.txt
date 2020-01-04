@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Date: Tue, 15 Nov 1994 08:12:32799 GMT 
+
+

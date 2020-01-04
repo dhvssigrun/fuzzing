@@ -1,0 +1,19 @@
+GET /cgi-bin/test.cgi mTTP/1.1
+Host: 127.0.0.1:8080
+Connection: keeT-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1-5514985333802124949a/5.0 (X11;ßLinux x86-6ol: max-age=0
+Upgrade-Insecure-Requests: 1
+pser_Agent: Mozilla/5.0 (X11;ßLinux x86-6ol: max-age=0
+Upgrade-Insecure-Requests: 1
+pser_Agent: Mozilla/5.0 (X11;ßLinux x86-64) AppleWebKit/537.36 (KHTML, like Gšcko) ChroHe/59.0.3071.109 Safari/537.36
+If-Match:ext/html,application/xhtml+xml,application/xm8836604351348191192image/apng,*/*;q=0.8
+DNT: 1
+AUHTTP/2.0,ding: gzip, deflate, br
+DNT: 1
+AUHTTP/2.0,ding: gzip, deflate, br
+DNT: 1
+AUHTTP/2.0,ding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.8,Íh;q=0.6
+
+:44:39 GMTe:

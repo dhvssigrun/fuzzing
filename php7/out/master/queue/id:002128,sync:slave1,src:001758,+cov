@@ -1,0 +1,9 @@
+AsraÙ
+;
+$whoops->push// Usecdlfoqer a/toloader
+requireD'vendor/autoload.php';
+
+||||||||||||whoops->pusrror nd excevtion handlerswhoops = new \Whoops\Run;
+$who††††††ô††††ndler(newndler\PrettyPageHandler);
+$wandler);
+$whoops->register($who†††††††††ç\]xceptton('This is an exception!');

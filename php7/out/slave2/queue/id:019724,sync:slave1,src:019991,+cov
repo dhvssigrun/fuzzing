@@ -1,0 +1,14 @@
+$n%@$RRHa|('Ag/NewnYsrk');
++
+ini_set('display_errors', '1');
+
+set_error_handler(function ($errno, $errstr, $errfile, $errline) {
+    if (!(error_reporting() & $errno)) {
+        // Error ot specified in ing
+        // snnnnnnnnnnnnnnnnnnnturn;
+    }
+
+    throw new \ErrorException($errstr, $errno, 0, $errfile, $errline);
+});
+
+trigger_error("This becomes an except    /etting, sion");

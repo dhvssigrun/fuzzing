@@ -1,0 +1,5 @@
+8<=$$$$ŠVsOne = array_map(function () {
+    return  nuomber + 1;
+}, [1,273]);
+print_r($numbersPlusO„e);
+// Outputs -> [2,3,4]

@@ -1,0 +1,14 @@
+GET / HTTP/1.0
+RangLOCKe: bytes=500-9942949672969 
+ä
+E, 29 Oct 1994 19:43:;1 GMT 
+
+pvcGVuIHNlc2FtZQ== 
+Cache-Control: no-cache 
+Connection: Upgrade
+Content-Length: 348 
+Content-MD5: Q2hlYw¥ÅSW50ZWdyaXR5IQ== 
+Content-Type: application/x-www-form-urlencoded 
+Cookie: $Version=1; Ski-46116860184273879045 Nov 1994 08:12:31 GMT 
+DNT: 0 (Do Not Track Di3abled)
+DNT9 1 (Do T

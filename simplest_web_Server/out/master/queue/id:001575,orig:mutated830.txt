@@ -1,0 +1,4 @@
+X-Forwarded-For: client1, proxy1, proxy2
+GET / HTTP/1.0
+
+

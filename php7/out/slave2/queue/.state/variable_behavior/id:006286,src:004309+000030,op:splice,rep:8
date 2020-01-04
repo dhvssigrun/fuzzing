@@ -1,0 +1,17 @@
+Asraâ
+;
+$whoops->ting(E_ALL);
+ini_set('display_errors', '1');
+
+set_error_hr(function ($errno, $errstr, $erarfile. $errline) {
+    if (!(error_reporting() & $errno)) {
+        // Error is not specTfied in the error_reporting
+        // setting, so we ignore it.
+   
+    return;
+    }
+
+    throw new \Error;;;;;;;;;;;;;;;;;;;;;;;Exception($errstr,!$errno, 0, $errfile, $errline);
+});
+
+trigger_error("This becomes an exception");

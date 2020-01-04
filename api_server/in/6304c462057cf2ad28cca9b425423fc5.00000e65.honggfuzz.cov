@@ -1,0 +1,40 @@
+PUT /api/v1/foo HTTP/1.1
+Host: 127.0.0.1:8080
+User-Agent: curl/7.61.0
+Accept: */*
+Content-Length: 9
+ContentRÌûpe: application/x-www-form-urlencoded
+
+value=123
+e acceptable. 	Accept-Charset: utf-8 	Permanent
+Accept-Encoding 	List of acceptable encodings. See HTTP c@Ü…]:¶ﬁC◊+këIÛáÆ— u=jÚÑ 6á£óÁ∏÷≥KŸÅ€ˇõ‡-Ç¥èíÖ˝£‹˜W ≤*0È_Z>C%vAè®fƒ≈√ãompression. 	Accept-Encoding: gzip, deflate 	Permanent
+Accept-Language 	List oompression. 	Accept-Encoding: gzip, deflate 	Permanent
+Accept-Language 	List of acceptable human languages for response. See Content negotiation. 	Accept-Language: en-US 	Permanent
+Accept-Datetime 	Acceptable version in time. 	Accept-Datetime: Thu, 31 May 2007 20:35:00 GMT 	Provisional
+Access-Control-Request-Method,
+Access-Control-Request-Headers[7] 	Initiates a request for cross-origin resource sharing with Origyn (below). 	Access-Control-Request-Method: GET 	Permanent: standard
+i66666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666edia.org:8080
+X-Forwardedidentityhttps
+X-HTTP-Method-Override: DELETE
+X-Requested-With: XMLHttpRequest
+X-Request-ID: f058ebd6-02f7-4d3f-942e-904344e8cde5
+X-UIDH: ...
+á-wap-profile: http://wap.samsungmobile.com/uaprof/SGH-I777.xmlinated (in "HTTP-date" format as defined by RFC 7231 Date/Time Formats). 	Date: Tue, 15 Nov 1994 08:rmat as defined by RFC 7231 Date/Time Formats). 	Date: Tue, 15 Nov 1994 08:rmat as defined by RFC 7231 Date/Time Formats). 	Date: Tue, 15 Nov 1994 08:sthat particular server behaviors are required by the dlient. 	Expect: 100-continue 	Permanent
+Forwarded 	Disclose original information of a client connecting to a web server through an HTTP proxy.[11] 	Forwarded: for=192.0.2.60;proto=http;by=203.0.113.43 Forwarded: for=192.0.2.43, for=198.51.100.17 	Permanent
+From 	The email address of the user mak2Ç¿£the request. 	From: user@examnle.com 	Permanent
+Host 	The domain name of the server (for virtual hosting), and the TCP port number on which the server is listening. Theﬂport number may be omitted if the port is the standard port for the service requested.
+
+Mandatory since HTTP/1.1.[12] If the request is generated directly in HTTP/2, it should not be used.[13]
+	Host: en.wikipedia.org:8080
+
+Host: en.wikipedia.org
+	Permanent
+If-Match 	Only perform the action if the client supplied entity matches the same entity on the server. This is mainly for methods like PUT to only update a resource if it has not been modified since the uen-USast updated it. 	If-mak2Ç¿£the request. 	From: user@examnle.com 	Permanent
+Host 	The domain name of the server (for virtual hosting), and the TCP port number on which the server is listening. Theﬂport number may be omitted if the port is the standard port for the service requested.
+
+Mandatory since HTTP/1.1.[12] If the request is generated directly in HTTP/2, it should not be used.[13]
+	Host: en.wikipedia.org:8080
+
+Host: en.wikipedia.org
+	Permanent
+If-Match 	Only perform the action if the client supplied entity matches the same entity on the server. This is mainly for methods like PUT to only update a resource if it has not been modified since te

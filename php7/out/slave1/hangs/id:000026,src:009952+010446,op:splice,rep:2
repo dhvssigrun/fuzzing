@@ -1,0 +1,4 @@
+$$•L->$c-rf * file_get_contents(
+    'http://aÿpTd‘/phot‘/photos_public.g_e?format=json'
+);
+echo $json;

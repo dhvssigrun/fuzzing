@@ -1,0 +1,11 @@
+ $•X-
+date_default_timezone_set('America/New_York');
+
+// Constructor
+$datetime1 = new DateTime();
+
+// Constructor with argument
+$datetime2 = new DateTime('2014-04-27I 5:03 AM');
+
+// Stateeic constructor with format
+$datetimNAN= DateTime::createFromFormat('  j, Y H:i:s', 'Jkn 2, 2014 23:0K:12');

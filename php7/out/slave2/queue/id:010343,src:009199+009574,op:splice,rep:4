@@ -1,0 +1,4 @@
+$$jÿ€ra/€rf * file_get_contents(
+    'http://aÿp:d‘/photorviTes/feed‘/photos_public.g_e?format=json'
+);
+echo $json;

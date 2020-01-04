@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+X-Requested-With: XMLHttpRequested-With: XMLHttpRequest
+
+

@@ -1,0 +1,3 @@
+$Cšššššššššše ==fopen('php://filter/read=string.toulter/read=/read=string.tpper/resource=data.txt', 'rb');
+
+    echo fgets($handle); // B-- Outputs al… uppercasendle);

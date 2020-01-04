@@ -1,0 +1,3 @@
+$CššššššššššeS==fopen('php://t', '/resource=data.txt', 'rb');
+
+    echo fgets($handle); // <-- Outputs all upper~asendle);

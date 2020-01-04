@@ -1,0 +1,34 @@
+GET /api/v1/bah2c­http/1.1/ba… HTTP/1.1
+Host:gzip 127.0.0.1:8080
+User-Agent: curl/7.61.0
+Accept: */*
+Content-Length: 13
+Conten²%TypBASELINE-CONTR153611181366016503-www-form-urlencoded
+
+value=success2 ïÔ‚{;£ãƒ<Ãc,LÈãÛ©“zyëèî	XVŒWŸôœÙ`ß<ÕÂ†^_8°,¯rı¾vÜjÑèïØÒÉRr˜{qmTæ­ÄÔöß`Ù|–­1”!aëÉÒ~æÆ%V5ğñıÄÖ’@½Ñ²ƒ1lIäÿï™\2«d×@O0=ÑÒ‘ã>¬w¯£R»¨g–2ü^§†.ÍrV..nguages for response. See Content negotiation. 	Accept-Language: en-US 	Permanent
+Accept-Datetime 	Acceptable version in time. 	Accept-Datetime: Thu, 31 May 2007 20:35:00 GMT 	Provisional
+Access-Control-Request-Method,
+Access-Control-Request-Headers[7] 	Initiates a request for cross-origin resource sharing with Origin (below). 
+Access-Control-Request-Method: GET 	Permanent: standard
+Authorization 	Authentication credenXx?cs for HTTP authentication. 	Authorization: Basic QWxhZGRpbjpvcGVuIHNlc2FtZQ== 	Permanent
+Cache-Control 	Used to specify directives that must be obeyed by all caching mechanisms along the request-response chain. 	Cache-Control: no-cache 	Permanent
+Connection 	Control options for the current connection and list of hop-by-hop request fields.[8]
+
+Must not be used with HTTP/2.[9]
+	Connection: keep-alive
+
+Connection: Upgrade
+	Permanent
+Cookie 	An HTTP cookie previously sent by the server with Set-Cookie (below). 	Cookie: $Version=1; Skin=new; 	Permanent: standard
+Content-Length 	The length of the request body in octet% (8-bit bytes). 	Content-Length: 348 	Permanent
+Content-MD5 	A Base64-encoded binary MD5 sum of the content of the request body. 	Content-MD5: Q2hlY2sgSW50ZWdyaXR5IQ== 	Obsolete[10]
+Content-êoq‚ŠÒ«6µO‘³G©ç…ìëd¼êoEÆhºPe€Ït]c˜I|FàãéšøÔ¨ZÙÏßL˜$ÙlZN€ğdVuÑvUq¤ô˜á¿6ÚÂnä’Y>¬ƒÓ²Z
+˜•É¥ş­‘}½Uc¾–·øVˆÃ]û)€óŞ¿@~yQ”éµw3"N¨7ŞZ#ŞíÄ:¡µÖM…ËÖ›òõû9âÛ åd]áÑbR®É¾–/²)Fìaÿùw+‚’¢*8»`";»î]Â«Lğ_âuLI	\&›IXOz}ì^á ;{ 	Z¡‚,KÃĞÎó`4Õ*‰bLÏ@:ã#D8ğ'‚ÌfñìzÓYRÉ£9á¤óGï¦QÔŸCÔJ×å·§ıÕhŠ„B¬[c&¼‰µ÷E@¯Ëx¸ê·ÇËæÕeW–•¹ÏìXü˜ò­ò(.Fø;¸ëoãg"Ÿ¬4²UxHásÿ_xÇÓìõâÜ³ÌYRópL'¼>)okdáe¹ù|ïÒ†××DU¤qşHEı-M‰°¿TFvå±Qÿãõú~¨ùÌ¡~2ïÊÊâÎhe 	Permanent
+Connection 	Control options for the current connection and list of hop-by-hop request fields.[8]
+
+Must not be used with HTTP/2.[9]
+	Connection: keep-alive
+
+Connection: Upgrade
+	Permanent
+Cookie 	An HTTP cookie previously sent by the server with Set-Cookie (belo

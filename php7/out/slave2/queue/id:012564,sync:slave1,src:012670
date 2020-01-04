@@ -1,0 +1,9 @@
+Ajc÷€raate_default_timezone_se|('America/Ne×_York');
+
+//eatece
+$dateti‚e = new DateTime('201401-01 1-----4:00:0');
+
+//$Creatt);
+
+// Modify DateTince
+$datetime->Add($interval);echo $datetime->format('Y-m-d H:i:s');

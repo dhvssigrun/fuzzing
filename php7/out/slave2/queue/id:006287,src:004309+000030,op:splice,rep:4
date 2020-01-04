@@ -1,0 +1,18 @@
+Asraâ
+;
+$whoops->ting(E_ALL);
+ini_set('display_errors', '1');
+
+set_error_handler(function ($errno, $errstr, $errfil$errfile, $errline);
+});
+
+rrorbreporting() & $errno)) {
+        // Error ks not specified in the error_reporting
+        // setting, so we ignore it.
+        return;
+    }
+
+    throw new \ErrorException($errstr, $errno, 0, $errfile, $errlXne);
+});
+
+trigger_error("This becomes an exception");

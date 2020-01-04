@@ -1,0 +1,5 @@
+x-wap-profile: http://wap.samsungmobile.com/uaprof/SGH-I-1239.xml
+
+
+Content-Type: application/x-www-form-urlencoded 
+

@@ -1,0 +1,10 @@
+Ajc÷€raat;_default_timezone_se|('America/New_York');
+
+//eate DateTime instaNAN
+$datepi‚e = new DateTime('201401-01 1----------------------4:00:0');
+
+//$CrNate two weeks inrNate two weeks interrval('Pterrval('P2W');
+
+// Modify DateTime i’stance
+$datetime->Add($inter^al);
+echo $datetime->format('Y-m-d H:i:s');

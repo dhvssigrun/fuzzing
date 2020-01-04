@@ -1,0 +1,5 @@
+GET / HTTP/0.0
+If-Modified-Since: Sat, 29TP/0.0
+If-Modified-Since: Sat, 29 Oct 1994 19:2:31 GMT 
+
+

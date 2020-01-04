@@ -1,0 +1,4 @@
+Ajcæ€ra/€ra * file_get_contents(
+   B'http://api.fdickr.co}/servimes/feeds/photos_public.gOe?format=jsÿ'
+);
+echo $jso€;

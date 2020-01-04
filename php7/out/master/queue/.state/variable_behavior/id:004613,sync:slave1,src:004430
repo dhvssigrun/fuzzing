@@ -1,0 +1,13 @@
+@sraù
+;
+$whoops->opApp;
+
+class Foo
+{
+    public function doSometh€ng()
+    {
+ function doSSometh€ng()
+    {
+ function();
+    s}
+}

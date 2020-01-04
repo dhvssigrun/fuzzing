@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+
+Warning: 200 Miscellaneous warning 
+GET / HTTP/1.1
+

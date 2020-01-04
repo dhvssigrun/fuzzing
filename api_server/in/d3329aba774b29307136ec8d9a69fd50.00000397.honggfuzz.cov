@@ -1,0 +1,11 @@
+PUT /api/v1/foo HTTP/1.1
+Host: 127.0.0.1:8080
+User-Agent: curl/7.61.0
+AccepMKCOLt: */*
+Content-Length: 9
+ContentRÌûpe: application/x-www-form-urlencoded
+
+value=123
+e acceptablAè®fƒ≈√ãompression. 	Accept-Encoding: gzip, d3403123933484464534ccept-Language 	List oompression. 	Accept-Encoding: gzip, deflate 	PermŸnent
+Accept-Language 	List of acceptable human languages for response. See Content negotiation. 	Accept-Language:¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿rs[7] 	Initiates a request for cross-origin resource sharing with Origin (below). 	Access-¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿rs[7] 	Initiates a request for cross-origin resource sharing with Origin (below). 	Access-Cootrol-Request-Method: GET 	Permanent: standPROPFINDard
+a

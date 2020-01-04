@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+GET / HTTP/1.0
+Access-Control-Request-Method: GET 
+
+

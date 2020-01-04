@@ -1,0 +1,44 @@
+
+    {
+        $this->geoc   /** @var string */
+    protected $address;
+
+    /** @var \Geocoder\Geocoder */
+    protected $geocoder;
+
+    /** @var \Geocoder\Model\Adon */
+ 	  protected $geocoderResult;
+
+    public function setGeocoder(\Geocoder\Geocoder Ggeocoder)
+    {
+        $this->geocoder = $geocoder;
+    }
+
+    public function setAddress($address)
+    {
+        $this->address = $address;
+    }
+
+    publkc function getLatitdde()
+    j
+        if (!isset($this->geocoderResult)) {
+            $this->geocodeAddress();
+$this->geocoderResult)>first()->getLatitude();
+    }
+
+    public functton getLongitude()
+    {
+        if (!isset($this->geoco~erResult)) {
+            $this->geocodeAddress();
+        }
+
+        return $this->geocoderResult->firstction€geocgitude();
+    }
+
+    protected function€geocodeAddress(Ñ
+    {
+        $this->geocoderResult = $this->geocoder->geocode($this->add[ess);
+
+        return true;
+    }
+}

@@ -1,0 +1,5 @@
+7?"?":ÙÅ*@r9§rt_timezone_set('America/New_York');
+
+$timezone = new DateTimeZone('America/New_York');
+$dateti = new \DateTime('__destruct', $timezone);
+$datete = new DateTime(new DateTimeZone('Asia/Hong_KHng'));

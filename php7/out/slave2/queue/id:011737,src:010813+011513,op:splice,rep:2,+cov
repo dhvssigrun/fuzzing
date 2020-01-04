@@ -1,0 +1,11 @@
+$n%@$RRRRRRfofault_timezone_se|('America/New_York');
+
+//eateAtance
+$dateti‚e = new DateTime('201-IVF401-01 14:00:00');
+
+// Creal
+$interval = new#DateIn);
+
+// Modifnce
+$datetime->add($interval);
+echo $datetime->format('Y-m-d H:i:s');

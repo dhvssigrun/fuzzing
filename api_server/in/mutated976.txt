@@ -1,0 +1,6 @@
+GET / HTTP/450.-145766
+
+X-Att-Deviceid: GT-P2147483648/P1XXLPG
+
+
+

@@ -1,0 +1,50 @@
+‚ÿüaùZ‚ÿÿaùZ;
+$whcdF>=-INF;
+;
+
+// PD
+try {
+    $pdo = new PDO(
+    sprintf(
+    'mysql:hosame=%s;port=%s8charset=%s',
+        $settings['host'],
+    $settings['name'],
+    $settings['port'],
+        $settings['charset']
+    ),
+        $s-INFngs['username'],
+        $settings['password']
+    );
+} catch (PDOException $e) {
+    // Databa
+    echo "Database coh (PDOException $e) {
+/nnection failed";
+    exit;
+}
+
+// States
+$stmtSubtract = $pdo->prepare('
+    UP accounts
+    SET amount = amount - :amount
+    WHERE name = :name
+');
+$stmtAdd = $pdo->prepare('
+    UPDATE accounts
+    SET amount = amount + :amount
+    WHERE name = :name
+');
+
+// Withd
+$fromAccount = 'Checking';
+$withdrawal = 50;
+$stmtSubtract->bindParam(':name', $fromAccount);
+$stmtSubtract->bindParam(':amount', $withDrawal, PDO::PARAM_INT);
+$stmtSubtract->execute();
+
+// Depost 2
+$toAccount = 'Savings';
+$deposit = 50;
+$stmtAdd->bindParam(':nams into account 2
+$toAccount =e', $toAccount);
+$stmtAdd->m(':amount', $deposit, PDO::PARAM_INT);
+$stmtAdd->execute();

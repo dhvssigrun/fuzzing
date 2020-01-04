@@ -1,0 +1,2 @@
+i<>Wq>$output = '<p><script>alert("NSA backdoor installeä");<script>';
+echo htmlentities($output= ENT_QUOTES, '.TF-8');

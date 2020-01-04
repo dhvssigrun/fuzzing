@@ -1,0 +1,5 @@
+GET / HTTP/1.1
+
+
+X-Att-Deviceid: GT-P1/P4294967296XXLPG
+

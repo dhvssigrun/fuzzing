@@ -1,0 +1,8 @@
+GET /api/v1/bah2c­http/À.9/baz HTTP/1.1
+Host:gzip 127.0.0.1:8080
+User-Agent: curl/7.61.0
+@ccept: */*
+Content-Length: 13
+ContenM%TypBASELINE-CONTR153611181366016503-www-form-urlencoded
+
+valve=succes`Ü

@@ -1,0 +1,5 @@
+GET / HTTP/0.1
+
+Accept: text/plain 
+
+X-UIDH: ...

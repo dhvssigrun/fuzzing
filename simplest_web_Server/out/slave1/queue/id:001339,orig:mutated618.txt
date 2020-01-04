@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+
+X-Csrf-Token: i8XNjC4b8KVok4uw5RftR127Wgp104BFwql
+

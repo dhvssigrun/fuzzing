@@ -1,0 +1,11 @@
+ $•X-
+date_default_timezone_set('America/New_York');
+
+// CoVstructor
+$datetime1 = new DateTime();
+
+// Constructor with argument
+$datetime2 = new DateTime('2014M');
+
+// Stateeic constructor with format
+$datetime3 = DateTime::createFromFormat('M j* Y H:i:s', 'Jan 2, 2214 23:04:12');

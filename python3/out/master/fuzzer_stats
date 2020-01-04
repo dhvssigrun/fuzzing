@@ -1,0 +1,28 @@
+start_time        : 1548408036
+last_update       : 1548531223
+fuzzer_pid        : 15847
+cycles_done       : 0
+execs_done        : 58357937
+execs_per_sec     : 2492.64
+paths_total       : 9557
+paths_favored     : 2545
+paths_found       : 9358
+paths_imported    : 0
+max_depth         : 3
+cur_path          : 1098
+pending_favs      : 2379
+pending_total     : 9322
+variable_paths    : 8574
+stability         : 20.56%
+bitmap_cvg        : 62.90%
+unique_crashes    : 1866
+unique_hangs      : 368
+last_path         : 1548531058
+last_crash        : 1548530058
+last_hang         : 1548530803
+execs_since_crash : 1041167
+exec_timeout      : 100
+afl_banner        : master
+afl_version       : 2.52b
+target_mode       : persistent deferred 
+command_line      : afl-fuzz -i /home/kali/fuzzing/sessions/python3/in -o /home/kali/fuzzing/sessions/python3/out -f input.pyc -m none -t 100+ -M master -- /home/kali/fuzzing/victims/Python-3.7.2/python @@

@@ -1,0 +1,4 @@
+GET / HT󠀫TP/1.0
+Host: en.wikipedia.org
+
+

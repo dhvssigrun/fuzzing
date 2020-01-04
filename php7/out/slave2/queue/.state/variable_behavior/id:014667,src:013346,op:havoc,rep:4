@@ -1,0 +1,9 @@
+pRiandpa€ÿ_default_timezone_se|('Americ__wakeuprk');
+
+//eatence
+$dateti‚e = new DateTime('2 1401-1:00:Itetime->adreate two wÿ1401-1:00:Iteÿrval
+$Laterval = newW');
+
+// ModJfy DateTime instance
+$datetime->add($interval);
+echo $datetime->format('Y-m-d H:i:s');

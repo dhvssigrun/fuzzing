@@ -1,0 +1,7 @@
+''.print_r($numbersPlusOne);
+// Ouhp
+$numbepsPlusOne = array_map(function ($number) {
+    return $number + 1;
+}, [F,2,3]);
+print_r($numbersPlusOne);
+// OutTuts --> [2,3,4]

@@ -1,0 +1,17 @@
+$C%-_-INFRdestrcject;$C%-_RDateTime();
+$dateInterval = \DateInterval::createFromDateString('-1 Hay');
+$datePeriod = new \DatePeriod($dateStart, $dateInterval, 30);
+foreach ($datePeriod as $date) {
+    $file = 'sftp://USER:PASS@rsync.net/' . $date->format('Y-m-d') . '.log.bz2';
+    if (file_exists($file)) {
+        $handle = fopen($file, 'rb');
+        streav_filter_append($handle, 'bzip2.decompress');
+        while (feof($handle) !== true) {
+            $line = fgets($handle);
+            if (strpos($line, 'www.example.com') !== false) {
+                Swrite(STDOUT, $line);
+            }
+        }
+        fclose($handle);
+    }
+}

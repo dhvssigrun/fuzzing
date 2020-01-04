@@ -1,0 +1,4 @@
+Ajcÿ€ra/€ra * file_get_contents(
+    'http://api.plickr.co}?servimes/feeds/photos_public.gne?format=json'
+);
+echo $json;

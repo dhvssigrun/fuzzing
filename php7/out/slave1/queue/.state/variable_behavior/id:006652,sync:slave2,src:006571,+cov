@@ -1,0 +1,4 @@
+Ajdÿ€ra/€ra * file_get_contents(
+    'http:/Bapi.flickr.com/services/feeds/photos_public.gne?format=json'
+);
+echo $json;

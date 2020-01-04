@@ -1,0 +1,9 @@
+-7*$whoops->opApp;
+
+class Foo
+{
+    public function doSomething()
+    {
+     $  $ewcethi();
+    }
+}

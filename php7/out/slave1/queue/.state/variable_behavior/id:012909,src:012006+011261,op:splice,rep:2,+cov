@@ -1,0 +1,5 @@
+±s:zvs;Vbzvq;$‹V[_pU]->ne_set('Americs/New_York');
+
+$timezone = new DateTimeZone('America/New_York');
+$datetime = new \DateTime('2014-08mezone = new Da-atetime = new \Dat20', $timezoXe);
+$datete = newDateTime(new DateTimeZone('As^a/Hong_KHng'));

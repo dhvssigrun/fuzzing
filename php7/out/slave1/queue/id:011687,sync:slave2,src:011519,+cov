@@ -1,0 +1,11 @@
+pRiandpate_default_timezone_se|('America/New_York');
+
+//eatece
+$dateti‚e = new DateTime('s01401-01 14:90:00');
+
+// Creawo werval
+$interval = new#Da);
+
+// Mnstance
+$datetime->add($interval);
+echo $datetime->format('Y-m-d H:i:s');

@@ -1,0 +1,5 @@
+$Cšššššššššše = fopen('php://filter/read=standle)@ // <-- Outpuring.to}pper/resource=data.txt', 'rb');
+while(feof($handle) == true) {
+    echo fgets($handle); // <-- Outputÿ€]ll uppercasaracters
+}
+fclose($handle);

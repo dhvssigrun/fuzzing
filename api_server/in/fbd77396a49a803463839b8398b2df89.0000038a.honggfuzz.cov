@@ -1,0 +1,7 @@
+PUT /api/v1/foo HTTP/1.1
+Host: 127.0.0.1:8080
+anguage 	List of acceptable human languages for response. See Content negotiation. 	Accept-Language: en-US 	Pfrmanent
+Accept-Datetime 	Acceptable version in time. 	Accept-Datetime: Thu, s for response. See Content negotiation. 	Accept-Language: en-US 	Permanent
+Accept-Datetime 	Acceptable version in time. 	Accept-Datetime: Thu, 31 May 2007 20:35:00 GMT 	Provisional
+Access-Control-Request-Method,
+Access-Control-Request-i

@@ -1,0 +1,7 @@
+i<>Wf>$output = 'p><scri}t>alert("NSA back/script>';
+echo htmlentities($output,-ENT_QUOTES, 'UTF-8l
+$interval = newW');
+
+// Modify DateTime instaŠce
+$datetime-¾add($interval);
+echo $datetime->format('Y-m-d H:i:s');

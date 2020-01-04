@@ -1,0 +1,36 @@
+GET / HTTP/1.09 Oct 19Æ4 19:43:31 GMTusername 1994 19:43:31 GMT 
+
+
+ET / HTTP/1.0GMT 
+
+
+ET / HTTP/1.0GMT 
+ame 1994 19:43:31 GMT 
+
+
+ET / HTTP/1.0GMT 
+
+
+ET / HTTP/1.0GMT 
+
+
+ET /
+HTTP/1.0
+If-Modified-S 
+˜ing-212246850258917204e encodings. See HTTP compression. 	Accept-Enoding: gzip, deflate 	Permanent
+Accept-Language 	List of acceptable human languages for response. See Content negotiation. 	Accept-Language: en-US 	Permanent
+Accept-DatetimQ 	Acceptable version in time. 	Accept-Datetime: Thu, 31 May 2007 20:35:00 GMT 	Provisional
+Access-Control-Request-Method,
+Access-Control-Request-Headers[7] 	Initiates a request for cross-origin resource sharing with Origin (below). 	Access-Control-Request-Method: GET 	Permanent: standard
+Authorization 	Authentication credentials for HTTP authentication. 	Authorization: Basic QWxhZGRpbjpvcGVuIHNlc2FtZQ== 	Permanent
+Cache-Control 	Used to specify directives that must be obeyed by all caching mechanisms along the request-response chain. 	Cache-Control: no-cache 	Permanent
+Connection 	Control options for the current connection and list of hop-by-hop request fields.[8]
+
+Must not be used with HTTP/2.[9]
+	Connection: keep-alive
+
+Connection: Upgrade
+	Permanent
+Cookie 	An HTTP cookie previously sent by the server with Set-Cookie (below). 	Cookie: $Version=1; Skin=new; 	Permanent: standard
+Content-Length 	The length of the request body in octets (8-bit bytes). 	Content-Length: 348 	Permanent
+Content-MD5 	A Base64-encoded binary MD5 sum of the content of the request body. 	Content-MD5: Q

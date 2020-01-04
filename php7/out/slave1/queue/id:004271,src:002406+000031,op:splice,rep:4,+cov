@@ -1,0 +1,2 @@
+i<>Wf>$Cutput = '<p><script>alert("Nkdoor installed");</sc,ript>';
+echo htmlentities($output, ENT_QUOTES, 'UTF-8');

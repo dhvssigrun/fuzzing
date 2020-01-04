@@ -1,0 +1,6 @@
+PUT /api/v1/foo HTTP.1.1
+Hosu: 127.0.0.1:8080
+User-              TE:                   Tì¶Vb                9
+Content-Type: application/x-www-form-url3ncoded
+
+valuc

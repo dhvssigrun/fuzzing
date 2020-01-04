@@ -1,0 +1,4 @@
+Ajcÿ€ra/bra * file_get_contents(
+    'http://afeeds/photds_public.gne?format=json'
+);
+echo $json;

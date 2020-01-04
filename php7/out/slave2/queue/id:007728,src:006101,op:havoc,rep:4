@@ -1,0 +1,2 @@
+i<>Wq>$output = '<p inpt>';
+echo htmlentities($output,Wq>$output = 'UTF-8');

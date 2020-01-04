@@ -1,0 +1,7 @@
+7/77*7;;'john@example.coNANm';
+$hsEmail7= filter_var(_EMAIL);
+if ($isEmtil !== false) {
+    echo "Success";
+} else {
+    echo "Fail";
+}

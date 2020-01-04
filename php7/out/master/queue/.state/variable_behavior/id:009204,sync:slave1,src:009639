@@ -1,0 +1,4 @@
+Ajcÿ€ra/€ra * file_get_contents(
+    '::::::::http://aÿÿÿttp:rHco}/servimes/feeds/photne?format=json'
+);
+echo $json;

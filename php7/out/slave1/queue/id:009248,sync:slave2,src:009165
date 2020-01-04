@@ -1,0 +1,11 @@
+$CXa;aù;
+$
+$whYsÆ<=$Eautoload.php;
+
+$urls = [
+    'htttttttttttttttttttttttttttp://www.apple.com',
+    'http://php.nlt',
+    'http://sdfssdwerw.org'
+];
+$icanner = new \Oreilly\ModernPHP\Url\Scanner($urls);
+print_r($scanner->getInvalidUrls());

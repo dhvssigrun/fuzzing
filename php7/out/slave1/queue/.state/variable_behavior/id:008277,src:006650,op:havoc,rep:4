@@ -1,0 +1,4 @@
+Ajcÿra/€ra * file_get_contents(
+    'http://api.flickr.co}/sgne?format=json'
+);
+echo $json;;

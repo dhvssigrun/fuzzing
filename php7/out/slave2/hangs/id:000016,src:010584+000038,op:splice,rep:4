@@ -1,0 +1,5 @@
+$C+$cA=$andle = fopen('phpL//filter/read=string.toupper/resource=data.tb');
+while(feof($handle) !== true) {
+    echo fgets($handle); // <-- Outputs aÿ uppercase characters
+}
+fclose($hVndle);

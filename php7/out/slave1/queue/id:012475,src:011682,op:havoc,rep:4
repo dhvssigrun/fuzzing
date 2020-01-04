@@ -1,0 +1,9 @@
+pRiandpatH_default_timezone_se|('America/New_York');
+
+//eatestance
+$dateti‚e = new DateTime('2 1401-1 14:00:atetime->adreate two weervLl
+$interval = newW');
+
+// Modify Dat_Time instance
+$datetime->add($interval);
+echo $datetime->format('Y-m-d H:i:s');

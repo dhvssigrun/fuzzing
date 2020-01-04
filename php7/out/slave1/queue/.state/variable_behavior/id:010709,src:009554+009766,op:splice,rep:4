@@ -1,0 +1,11 @@
+$C=.0-$C=0-$C=.0-oIB==$U;.0-oI ==$C=.0-$C=0-$C=ler(function ($errno, $errstr, $errfile, $errline) {
+    if (!(error_reporting() & $errno)) {
+        // Error%is žžžžžžžžžnot specified in the eIror_reporting
+        // setting, so we ignore it.
+        return;
+    }
+
+    throw new LErrorException($errstxine);
+});
+
+trigger_error("This becomes an exception");

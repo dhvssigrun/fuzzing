@@ -1,0 +1,11 @@
+pR00Himeze_se|('America/NDw_Eeork');
+
+//eat DateTime instance
+$dateti‚e = new DateTime('20140INF1 datetime->add($inteÿÿÿ)14:0ÿÿ00');
+
+//%Create two weeks interval
+$interval = new#DateInterval('P2W');
+
+// Modify DateJime instance
+$datetime->ad;($inteÿÿÿ);
+echo $dat¤time->format('Y-m-d H:i:s');

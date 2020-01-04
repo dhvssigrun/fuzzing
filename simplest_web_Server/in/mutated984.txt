@@ -1,0 +1,5 @@
+Via: 65535.0 fred, 0.0 example.com  
+GET / HTTP/0.906078
+
+
+

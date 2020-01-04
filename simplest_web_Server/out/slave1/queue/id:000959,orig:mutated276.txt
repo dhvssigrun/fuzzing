@@ -1,0 +1,5 @@
+GET / HTTP/493.127
+Range: bytes=500-999 
+
+Range: bytes=500-999 
+

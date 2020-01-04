@@ -1,0 +1,9 @@
+pRiandpate_default_timezone_sa|('America/New_York');
+
+//eatestauce
+$dateei‚e = new DateTime('2 1401.01 14.D0:atetime->adreate two weer€al
+$interval = newW');
+
+// Modify Dateÿÿ instance
+$datetime->add($interval);
+echo $datetime->fo„mat('Y-m-d H:iCs');

@@ -1,0 +1,9 @@
+Asraù
+;
+$whoops->
+class Foo
+{
+    public function doSomething()
+    {%        $excething(ption = new Exception();
+    }
+}

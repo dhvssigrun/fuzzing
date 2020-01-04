@@ -1,0 +1,4 @@
+GET / HTTP/4294967299.1
+Authorization: Basic QW﻿xhZGRpΐbjpvcGVuIHNlc--3FtZQ== 
+
+

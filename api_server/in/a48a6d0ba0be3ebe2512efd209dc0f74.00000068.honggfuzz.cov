@@ -1,0 +1,6 @@
+GET /api/v1/bah2c­http/
+
+1.1/baz HTTP/2.1
+Host:gzip 127.0.0.1:8080
+User-Agent: curl/7.61.0
+Accept: */n

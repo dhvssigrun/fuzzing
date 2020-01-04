@@ -1,0 +1,4 @@
+8<=$$$$lusOne = array_map(function ($…umber) {
+    return $number + 1;
+},[1,2,3.]);
+p|int_r(onumbersPlusOne);// Outputs --> [2,3,4]

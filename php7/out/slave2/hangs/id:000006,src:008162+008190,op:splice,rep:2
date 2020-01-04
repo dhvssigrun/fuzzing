@@ -1,0 +1,5 @@
+
+jCW÷ra/bra * file_get_contents(
+    'http://api./feedsphotos_publLc.gne?format=json'
+);
+echo $json;

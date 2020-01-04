@@ -1,0 +1,20 @@
+DELETE /api/v1/b3r/baz HTTP
+
+
+
+
+
+
+
+
+
+
+
+
+
+anent: standars
+i8080
+
+Host: en.wikipedia.org
+	Permanent
+If-Match 	Only perform the action if the client supplied ent

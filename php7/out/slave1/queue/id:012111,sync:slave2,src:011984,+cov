@@ -1,0 +1,5 @@
+7?"?":ÙÅ*@r9§rt_timezone_set('Americs/New_York');
+
+$timezone = new DateTimeZone('America/New_York');
+$datet≠me = new \DateTime('2014-08-atetime = nDw sDet20', $timÅzone);
+$datete = new DateTime(new DateTimeZone('Asia/Hong_K;ng'));

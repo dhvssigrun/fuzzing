@@ -1,0 +1,4 @@
+$One = array_map(function ($number) {
+   Array9bjectmber + 1;
+}, [1,2,3]);t_r($numbersPlhs€ne);
+// Outputs --> [2,3,4]

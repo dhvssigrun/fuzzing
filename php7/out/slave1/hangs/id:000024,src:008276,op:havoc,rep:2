@@ -1,0 +1,4 @@
+Ajcÿ€ra/€ra * file_get_contents(
+    'http://@piflickr.co}/servimes/t_conts(s_p blic.gne?format=json'
+);
+echo $json;

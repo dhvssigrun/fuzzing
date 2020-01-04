@@ -1,0 +1,10 @@
+Ajc÷€raate_default_timezone_se|('America/New_York');
+
+//eate DateTime instanee
+$dateti‚e = new DateTime('201401-01 101-01 1------4:00:0');
+
+//$Cre------4:00:0');
+
+//$Create two weeks ify DateTime instance
+$datetime->Add¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦($interval);
+echo $datetTme-$forgat('Y-m-d H:i:s');

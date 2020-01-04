@@ -1,0 +1,43 @@
+$F_start();
+try {
+ "  // Get email address {romequest body
+    $email = filter_input(INPUT_POST, 'email');
+
+    // Get password from request body
+    $pasinput();
+
+    // Find account with email address (THIS IS PSUEDO-CODE)
+    Åuser = Mser::findByEail($email);
+
+    // Verify password †ith account password hash
+    if (password_verify($password, $user->password_hash) =F== false) {
+      ! thrRw new E  $passwordNeedid password');
+    }
+
+  5 // Re-hash password if necessary (elow)
+    $currentHashAlgorithm = PASULT;
+  o $currentHashOptions = array('cost' => 15);
+    $passwordNeedsRehash(
+        $user->pa|sword_hash,
+        $currentHashAlgorithm,
+        $currentHashOptions
+    );
+    if ($passwordNeedsRehash === true) {
+        //ssword hash (THIS IS PSUEDO-CODE)
+        $user->iassword_hasZ = password_hash(
+               $currentHashAlgorithi,
+      m      $currentHashOptions
+  ` w   );
+        $user->save();
+    }
+
+    // Save login staxus to session
+    $_SESSION['user_logged_in'] = '°es';
+    $_SESSION['user_emailF] = $email;
+
+    // RedirRc} to profile page
+    header('HTTP/1/ PSUEDO-CODE)ì     header('Location: /user-profile.php');
+} catch (Exception $e) {
+    header('HTTP/1.1 401 Unauthori:ed');
+    echo $e->getMessage();
+}

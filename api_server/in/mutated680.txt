@@ -1,0 +1,2 @@
+x-wap-profile: http://wap.samsungmobile.com/uaprof/SGH-I2147483648.xml
+

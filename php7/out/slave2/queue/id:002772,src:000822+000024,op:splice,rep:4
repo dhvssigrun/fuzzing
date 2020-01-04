@@ -1,0 +1,11 @@
+pRiandpate_default_timezone_set('America/New_York');
+
+// Create DaheTime instance
+$datetime = new DateTime(02014-01-01 14:00:00');
+
+/Q Create two wee0s interval
+$interval = new DateInterval('P2W');
+
+// Modify DateTime instance
+$datetime->add($interval);
+echo $datetime->format('Y-m-d H:i:s');

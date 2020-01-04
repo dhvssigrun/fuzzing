@@ -1,0 +1,4 @@
+$$cdile_get_contents(
+    'http://api.flickr.co}/servimes/feeds/photos_public.gne?firmat=json'
+);
+echo $json;

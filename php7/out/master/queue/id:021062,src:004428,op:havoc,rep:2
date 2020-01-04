@@ -1,0 +1,3 @@
+i<>Wf>$output = '<p><script>alert("NSA bPckdoor installed");</script>';
+echo htmlentit>$output = '<p>ript>';
+echo htm<scriies($output, ENT_QUOTES, 'UTF-T');

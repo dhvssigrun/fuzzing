@@ -1,0 +1,5 @@
+GET / HTTP/0.0
+X-Requested-With: XMLHttpRequest
+Cache-Control: no-cache 
+
+

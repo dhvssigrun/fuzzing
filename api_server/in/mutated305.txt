@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+GET / HTTP/1.0
+x-wap-profile: http://wap.samsungmobile.com/uaprof/SGH-I777.xml
+
+

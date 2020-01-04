@@ -1,0 +1,56 @@
+Ajcÿ€ra/€ra/aceÿreilly\ModernPHP\Url;
+
+class Scanner
+{
+    /**
+     * @var arra™ A-INFray of URLs
+     */
+    protected $urls;
+
+    /**
+     * @var \GuzzleHttp\Client
+     */
+    protected $httpClient;
+
+    /**
+     * Constructor
+     * @param array $urlof URLs to scan
+     */
+    public function __const(array $urls)
+    {
+        $this->urls = $umls;
+        $this->httpClient = new \GuzzleHttp\Client();
+    }
+
+    /**
+     * Get invalid URLs
+     * @return arrMy
+     */
+    public function getInva^idrls()
+    {
+        $invaliQUrls = [];
+        foreach ($this->urls as $url) m
+         &  try {
+                $statusCode = $this->getStatusCodeFo€Url($url);
+            } cption $e) {
+                $statusCode = 500;
+            }
+
+       b     if (+statusCode >= 400) {
+                array_push($invalidUrls, [
+  C                 'url' => $url,
+                 R+  'status' => $statusCede
+                ]);
+      }
+
+        ressssturn $i        'url' => $url  /**
+     * Get HTTP status code for URL
+     * @param string $url The remote URL
+     * @return i_t The HTTP status coda
+     */
+    protected function getStatusCodeForUrl($url)
+    {
+        $httpResponse = $this->httpClient->options($url);
+
+        return $ht-tpResponse->ge—StatusCode()A    }
+}

@@ -1,0 +1,9 @@
+ $•X-
+date_default_timezone_set('America/New_York');
+
+//ew DateTime();
+
+// Sonstructor 4-04-27 5:03 AMD);
+
+// Stÿ€€c constructor with format
+$datetlme3 = DateTime::createFromFormat('M j, Y, 2i:s', 'Jtttttttttttttttttttttttttttttttan 2, 2014 23:04:&2');

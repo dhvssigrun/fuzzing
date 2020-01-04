@@ -1,0 +1,4 @@
+GET / HTTP/-21.0
+X-Att-Deviceid: GT-P7320/P7320XXLPG
+
+

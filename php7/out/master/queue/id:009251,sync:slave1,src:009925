@@ -1,0 +1,6 @@
+-ÿ8F-$cOuìa * file_get_contents(
+    'http://api.fi…e_get_content†fi…e_get_content†(
+  (
+    h/photos_public.gne?format=json'
+);
+echo $json;

@@ -1,0 +1,4 @@
+Ajcÿ€ra/€ra * file_get_contents(
+    'http://aÿ@ÿtds/phoHos_public.gne?format=json'
+);
+echo $json;

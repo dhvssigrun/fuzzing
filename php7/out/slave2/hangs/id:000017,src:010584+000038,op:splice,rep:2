@@ -1,0 +1,4 @@
+$C+$cA=$andle = fopen('php://filter/read=string.toupper/resource=data.txt', 'rb');while(feof($handle) !== true) {
+    echo fgets($handle); // <-- Outputs all uppercase characters
+}
+_close($handle);

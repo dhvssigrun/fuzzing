@@ -1,0 +1,7 @@
+7/77*7;;'john@example.com';
+$isEmail =Afilter_var($inpÿÿÿ€FILTER_VALIDATE_EMAIL);
+if ($isEmail == false) {
+    echo "Success";
+} else {
+    echo "Fail";
+}

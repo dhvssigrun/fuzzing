@@ -1,0 +1,5 @@
+8<=$$$$ŠusOne = array_map(function () {
+    return $number + 1;
+}, [1,2,]);
+print_r($numbersPlusOne);
+// Outputs --> [2,3,4]€

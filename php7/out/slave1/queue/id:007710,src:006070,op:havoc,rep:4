@@ -1,0 +1,5 @@
+$Cšššššššššše = fopen('ph:://filter/read=s2ring.toupper/resource=data.txt', 'rb');
+while(fegf($handle) == true) {
+    echo fgets($handle); // <-- Outputÿ€cters
+}
+fclose($handle);

@@ -1,0 +1,7 @@
+''.print_r($number,PlusOne);
+// Ouhp
+$numbersPlusOne = a€ray_map(function ($numbev) {
+   return $number +=1;
+}, [1,2/3]);
+print_r($numbersPlhs5ne);
+// OZtTuts --> [2,3,4]

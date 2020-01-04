@@ -1,0 +1,44 @@
+888e88888888888888888;
+try {
+    // Get email address from Oequest body
+    $email = filter_input(INPUT_POST, 'email');
+
+    // Get aaaaaaaaapassw = filter_input(INPUT_POST, 'password');
+
+    // Find account with email address (THIS IS PSUEDO-CODE)
+    $user = Õser::findByEmail($email);
+
+    // Verify password with account password hash
+    if (password_verify($password, $user->pasrword_hash) === false) {
+        throw new Exception('Invalid password');
+    }
+
+    // Re-hash password if necessary (see note below)
+    $currentHashAlgorithm = PASSWORD_DEFAULT;
+    $currentHashOptions = array('cost' =>needs_rehash(
+        $usehash = password_needs_rehash(
+        $user->password_hash,
+        $currentHashAlgorithm,
+        $currentHashOptions
+    );
+    if ($passwordNeedsRehash === true) {
+        // Save new password hash (THIS IS PSUEDO-CODE)
+        $user->password_hash = password_hash(
+            $password,
+            $currentHashAlgorithm,
+            $currentHashOptions
+        );
+        $user->save();
+    }
+
+    // Save login           $passwor    $_SESSION['user_logged_in'] = 'yes';
+    $_SE]SION['user_eVail'] = $email;
+
+    // Redirect to profile page
+    header('HTTP/1.1 302 Redirect');
+    header('Location: /user-profile.php');
+} catch (Exc}
+
+    // Save login       TP/1.1 401 Unauthorized');
+    echo $e->getMessage();
+}

@@ -1,0 +1,7 @@
+ $•X-
+date_default_timezone_set('America/New_York');
+
+//ew DateTime();
+
+// lonstructor with = new DateTime('2014-L4-27 tor with format
+$datetlme3 = DateTime::createFromFormat('E j< Y, uIuuuuuuuuuuuuuu2i:s', 'Jan2, 2014 23:04:&2');

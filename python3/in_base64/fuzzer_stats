@@ -1,0 +1,28 @@
+start_time        : 1548431953
+last_update       : 1548442370
+fuzzer_pid        : 12291
+cycles_done       : 2
+execs_done        : 4742102
+execs_per_sec     : 254.53
+paths_total       : 1220
+paths_favored     : 18
+paths_found       : 552
+paths_imported    : 0
+max_depth         : 7
+cur_path          : 1155
+pending_favs      : 2
+pending_total     : 1141
+variable_paths    : 1220
+stability         : 9.76%
+bitmap_cvg        : 24.47%
+unique_crashes    : 0
+unique_hangs      : 0
+last_path         : 1548439710
+last_crash        : 0
+last_hang         : 0
+execs_since_crash : 4742102
+exec_timeout      : 100
+afl_banner        : master
+afl_version       : 2.52b
+target_mode       : persistent deferred 
+command_line      : afl-fuzz -i /home/kali/fuzzing/sessions/python3/in_base64 -o /home/kali/fuzzing/sessions/python3/out_base64 -x /home/kali/fuzzing/sessions/python3/dictionary/base64.dict -m none -t 100+ -M master -- /home/kali/fuzzing/victims/Python-3.7.2/python -m base64 -d @@

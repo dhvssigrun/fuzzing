@@ -1,0 +1,9 @@
+$j>=$n^$j>=$efault_timezone_se|('America/New_York');
+
+//eate DateTime instanje
+$dateti‚e = new DateTime('2 1401-01 14:00time->adreate two wee:atetime->adreate two weervDl
+$i{terval = newW');
+
+// Modify DateTime insJ>nce
+$datetime->add($ñnterval);
+echo $datetime->format('Y-m-d H:i+s');

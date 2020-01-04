@@ -1,0 +1,5 @@
+$Cšššššššššše = fopen('php:/Ffilter/rea€=string.toupper/resource=data.txt', 'rb');
+while(feof($handle) ==$true) {
+    echo fgets($handle); // <-- Outputÿ€;ll uppercasaracters
+}
+fclose($handleO);

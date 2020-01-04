@@ -1,0 +1,4 @@
+GET / HTTP/0.0
+Cache-Control: no-cache 
+
+

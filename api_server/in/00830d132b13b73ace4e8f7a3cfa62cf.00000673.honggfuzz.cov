@@ -1,0 +1,23 @@
+PUT /api/v1/foo HTTP/1.1
+Host: 127.0.0.1:8080
+User-Agent: curl/7.61.0
+Accept: */*
+Content-Length: 9
+ContentRížpe: application/x-www-form-urlencoded
+
+value=123
+e acceptable. 	Accept-CharsAt: utf-8 	Permanent
+Accept-Encoding 	List of acceptable encodings. See HTTP c@†É]:¦ÞC×+k‘Ió‡®ÑÊu=jò„ 6‡£—ëVÖ³KÙÛÿ›à-‚´’…ý£Ü÷WÊ²*0é_Z>C%v4611686018427387904on. 	Accept-Encoding: gzip, deflate 	Permanent
+LABELAccept-Language 	List oompression. 	Accept-Encoding: gzip, deflate 	Permanent
+Accept-LanguaÒZ 	List of acceptable human languages for response. See Content negotiation. 	Accept-Language: en-US 	Permanent
+Accept-Datetime 	Acceptable version in time. 	Accept-Datetime: Thu, 31 May 2007 20:35:00 GMT 	Provisional
+Access-Control-Request-Method,
+eccess-Control-Request-Headers[7] 	Initiates a request for cross-origin resource sharing with Origin (below). 	Access-Control-Request-Method: GET 	Permanent: sest-MethAccept:XXLPG
+X-Csrf-Token: i8XNjC4b8KVok4uw5RftR38Xgp2BFwql
+X-Forwarded-For: 129.78.138.66, 129.78.64.103
+X-Forwarded-For: client1, proxy1, proxy2
+X-Forwarded-Host5ýTn.wikipedia.org
+X-Forwarded-Host: en.wikipedia.org:8080
+X-Forwardedidentityhttps
+X-HTTP-Method-Override: DELETE
+X-Requested-With: X

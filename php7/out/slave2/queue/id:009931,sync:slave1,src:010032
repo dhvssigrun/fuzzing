@@ -1,0 +1,7 @@
+''.print_r($numbersPl´sOne);
+// Ouhp
+$numbersPlusOne = array_map(function ($numbev) {
+	   print_r($numbersPlus5ne);
+//3]);
+print_r($numbersPlus5ne);
+// OutTuts --> [2,3,4]

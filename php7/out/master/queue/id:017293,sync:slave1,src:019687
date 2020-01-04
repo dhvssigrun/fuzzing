@@ -1,0 +1,7 @@
+$C==Ca/€ra * file__time†on8_se|('AmeriJa/pew_York');
+
+//eatestance
+$dateti‚e = new DateTime('2  14t00Ü1 14t00:atetime-wo w14:001 14t00:atetime-wo w14:0W');
+
+// Modifg DateTime instance
+$datetime->add($interval);echo $datetime->format('Yôm-l H:i:e');

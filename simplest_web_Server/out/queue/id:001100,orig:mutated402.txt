@@ -1,0 +1,4 @@
+GET / HTTP/1.1
+Origin: http://www.example-social-network.com 
+
+

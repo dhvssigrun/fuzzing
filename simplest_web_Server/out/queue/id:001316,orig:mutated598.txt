@@ -1,0 +1,6 @@
+GET / HTTP/0.65536
+GET / HTTP/1.-18
+
+Host: en.wikipedia.org
+
+

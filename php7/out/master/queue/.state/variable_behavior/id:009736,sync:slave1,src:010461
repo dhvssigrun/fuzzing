@@ -1,0 +1,4 @@
+acÿ€ra/€ra * file_get_contents(
+    'http://@p}/servimes/t_contenmat=json'
+);
+echo $json;

@@ -1,0 +1,7 @@
+7/77*7;;'john@examsEmail N filter_var($input, FILple.com';
+$isEmail = filter_var($input, FILTER_VALIDATE_EMAIL);
+if ($isEmalse) {
+    echo "Success";
+} else {
+    echo "Fail";
+}

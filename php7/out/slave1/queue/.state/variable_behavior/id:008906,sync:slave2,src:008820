@@ -1,0 +1,3 @@
+''/$$„U;''/$e ==fopen('php://flter/@ead=string@toupper/resource=data.txt', 'rb');
+
+    echo fgets($handle); // <-- Outp

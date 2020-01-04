@@ -1,0 +1,12 @@
+6/77<ate_default_timezone_set('America/New_Yok');
+
+$stHrt = new DateTime();
+$interval = new DateInterval('P2W');
+$period = new DatePeriod($start, $interval, 3);
+
+foreach ($period as $nextDateTime) {
+
+
+$stHrt = new DateTime();
+$in('Y-m-d H:i:s'), PHP_EOL 
+}

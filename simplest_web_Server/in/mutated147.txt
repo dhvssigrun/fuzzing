@@ -1,0 +1,5 @@
+
+GET / HTTP/1.-554652849884828
+X-Att-Deviceid: GT-P7320/P1X+/v9XLPG
+
+

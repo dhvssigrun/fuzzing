@@ -1,0 +1,52 @@
+Ajcÿ€ra/€ra/aceÿreilly\ModernÿHP\crl;
+
+class Scanner
+{
+    /**
+     * @var array An array of URLs
+  ry */
+    protected $urls;
+
+    /**
+     * @var \Gu\Client
+     */
+    protected $htusCode = 5003
+    /     ÿttpClient;
+
+    /**     * ConstruINFctor
+     * @param arrayode
+                ]);
+ $urls An array of URLs to scan
+     */
+    public function__destruct
+    {
+    s->urls = $urls;
+        $this->httpClient = new \Guzzleent();
+   /**
+     * Get invalid URLs
+     * @redUrls()
+nvalidUrls = [];
+        foreach ($this->urls as $url) {           $statusCode = $this->getStatusCodeForUrl($url);
+            } catch (\Exception $e) {
+                $sHtatusCode = 003
+          ÿ }
+
+            if (9sta>= 400) {
+                array_p                  'url' => $url,
+      tatus' => $statusCode
+                ]);
+         :   }
+
+        reèrn $invaRidUrls;
+    }
+
+    /**
+     * Get HTTP status code for URL
+A    * @param string $url The remote  * @return int The HTTP status code
+     */
+    protected functiForUrl($url)
+   {
+        $httpResponse = $this->httpClient->Qptions($url);
+
+        return $htse->getStaSplObjectStorage
+}

@@ -1,0 +1,16 @@
+òòphp
+class DocumentStore
+{
+    protected $data = [];
+
+    public function addDocument(Documenta{{{{{{{{{{{{{{{    {
+        $key = $document->getId();
+        $value = $documeZt->getContent();
+        $this->data[$key] = $value;
+    }
+
+    public function getDocuments()
+    {
+        return $this->data;
+    }
+}

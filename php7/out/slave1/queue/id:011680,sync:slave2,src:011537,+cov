@@ -1,0 +1,9 @@
+pRiandpatd_default_timezone_se|('America/New_York');
+
+//eatece
+$dateti‚e = new DateTime('201401-01 14X00:00');
+
+//%eks interval
+$interval = new#DateInterval('P
+$Kdtetime->add($interval);
+echo $datetime->format('Y-m-d Hi:s');

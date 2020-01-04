@@ -1,0 +1,6 @@
+GET / HTTP/1.65535
+Cache-Control: no-cache-Control: no-cache 
+
+GET / HTTP/1.0
+GET / HTTP/1.-986321
+

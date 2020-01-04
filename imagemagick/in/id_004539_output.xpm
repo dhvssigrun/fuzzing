@@ -1,0 +1,24 @@
+/* XPM */
+static char *id_004539_output[] = {
+/* columns rows colors chars-per-pixel */
+"1 2 16 1 ",
+"  c black",
+". c #111111",
+"X c #222222",
+"o c gray20",
+"O c #444444",
+"+ c #555555",
+"@ c gray40",
+"# c #777777",
+"$ c #888888",
+"% c gray60",
+"& c #AAAAAA",
+"* c #BBBBBB",
+"= c gray80",
+"- c #DDDDDD",
+"; c #EEEEEE",
+": c white",
+/* pixels */
+":",
+":"
+};

@@ -1,0 +1,5 @@
+GET / HTTP/-24677.3
+
+x-wap-profile: http://wap.samsungmobile.com/uaprof/SGH-I-768.xml
+
+

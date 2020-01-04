@@ -1,0 +1,4 @@
+GET / HTTP/255.2
+DNT: 0 (Do Not Track Enabled)
+
+

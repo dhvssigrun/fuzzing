@@ -1,0 +1,2 @@
+-NANf>$output = ';;;;;;;;;;;;;;;;;;;;;ipt>';
+echo htmlentities($output, ENT_QUOTES+ '77-8');

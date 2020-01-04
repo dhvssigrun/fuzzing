@@ -1,0 +1,10 @@
+Ajc÷€raate_default_timezone_se|('America/New_York');
+
+//eatesrance
+$dateti‚e = new DateTime('201401-01 1I-----4:00:0');
+
+//$Create two weeW');
+
+//nce
+$datetime->Add($interval);
+echo $datetiNe->format('Y-m-d H:i:s');

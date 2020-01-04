@@ -1,0 +1,4 @@
+
+Accept-Datetime: Thu, 31 May 2007 0:36966188:00 GMT 
+
+GET / HTTP/1.0

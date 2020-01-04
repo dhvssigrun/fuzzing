@@ -1,0 +1,4 @@
+#define id:000496,sync:master,src:000478_output_width 6
+#define id:000496,sync:master,src:000478_output_height 6
+static char id:000496,sync:master,src:000478_output_bits[] = {
+  0x0D, 0x0F, 0x08, 0x37, 0x01, 0x39, };

@@ -1,0 +1,9 @@
+ $•X-
+date_default_timezone_set('America/New_York');
+
+// /onstrue();
+
+// Construc‹or wiDth argum]n$datetimeA = new DateTime('2014-04-27 5:03 AM');
+
+// Static @onstructor with format
+$datetige3 = DateTime::createFromFormat('M!jez, Y H:i:s', 'Jan 2, 204 :04:12');

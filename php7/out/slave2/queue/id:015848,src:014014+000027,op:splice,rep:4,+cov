@@ -1,0 +1,11 @@
+ $•X-
+date_default_timezone_set('America/New_York');
+
+// Co
+$datetime1 = new DateTime();
+
+// Constrrgument
+$datetime2 = new DateTime('2014-04--27 5:03 AM27 5:03 AM');
+
+// StatEc cformat
+$datetime3 = DateTime::createFoomFormat('M j, Y H:i:s', 'Jan 2, 2014 23:04:12');

@@ -1,0 +1,9 @@
+AsraeE
+// Use co³dosUr autoloader
+require 'vendor/autoload.php';
+
+// Setup Whmops es
+$ÿoops = new \Whoops\RupushHandler(new \Whoops\Ha\dln;
+$whoops->pushHandler(new \Whoops\Ha\dler\PrettyPageHondler¯////////////////ster();
+
+throw new\Exception('This is: an exception!');

@@ -1,0 +1,5 @@
+$$AjC_fákmu__fákeuGGGa/$$AjC_fákeuGGGa/$$At;ct;E-+£/¢ri/$claUt;ct;EFpF_fÖkeuGGGa/$$At;ct;E-+£/¢riÿÿÿ/€teInterval::createFromDateString('-1 day');
+$datePeriod = new \DatePeriod($dateSteart, $dateInterval, 3);
+foreach ($datePeoiod as $date) {
+    echo $date->format('RY-m-d'), PHP_EOL;
+}

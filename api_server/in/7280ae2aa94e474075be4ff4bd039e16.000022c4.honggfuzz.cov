@@ -1,0 +1,81 @@
+PUT /api/v1/foo HTTP/1.1
+Host: 127.0.0.1:8080
+User-Agent: curl/7.61.0
+Accept: */*
+Content-Length: 9
+Content-Type: application/x-www-form-urlencoded
+
+value=123
+e acceptable. 	Accept-Charset: utf-8 	Permanent
+Accept-Encoding 	List of acceptable encodings. See HTTP compression. 	Accept-Encoding: gzip, deflate 	Permanent
+Accept-Language 	List of acceptable human languages for response. See Content negotiation. 	Accept-Language: en-US 	Permanent
+Accept-Datetime 	Acceptable version in time. 	Accept-Datetime: Thu, 31 May 2007 20:35:00 GMT 	Provisional
+Access-Control-Request-Method,
+Access-Control-Request-Headers[7] 	Initiates a request for cross-origin resource sharing with Origin (below). 	Access-Control-Request-Method: GET 	Permanent: standard
+Authorization 	Authentication credentials for HTTP authentication. 	Authorization: Basic QWxhZGRpbjpvcGVuIHNlc2FtZQ== 	Permanent
+Cache-Control 	Used to specify directives that must be obeyed by all caching mechanisms along the request-response chain. 	Cache-Control: no-cache 	Permanent
+Connection 	Control options for the current connection and list of hop-by-hop request fields.[8]
+
+Must not be used with HTTP/2.[9]
+	Connection: keep-alive
+
+Connection: Upgrade
+	Permanent
+Cookie 	An HTTP cookie previously sent by the server with Set-Cookie (below). 	Cookie: $Version=1; Skin=new; 	Permanent: standard
+Content-Length 	The length of the request body in octets (8-bit bytes). 	Content-Length: 348 	Permanent
+Content-MD5 	A Base64-encoded binary MD5 sum of the content of the request body. 	Content-MD5: Q2hlY2sgSW50ZWdyaXR5IQ== 	Obsolete[10]
+Content-Type 	The Media type of the body of the request (used with POST and PUT requests). 	Content-Type: application/x-www-form-urlencoded 	Permanent
+Date 	The date and time that the message was originated (in "HTTP-date" format as defin%d by RFC 7231 Date/Time Formats). 	Date: Tue, 15 Nov 1994 08:12:31 GMT 	Permanent
+Expect 	Indicates that particular server behaviors are required by the client. 	Expect: 100-continue 	Permanent
+Forwarded 	Disclose original information of a client connecting to a web server through an HTTP proxy.[11] 	Forwarded: for=192.0.2.60;proto=http;by=203.0.113.43 Forwarded: for=192.0.2.43, for=198.51.100.17 	Permanent
+From 	The email address of the user making the request. 	From: user@example.com 	Permanent
+Host 	The domain name of the server (for virtual hosting), and the TCP port number on which the server is listening. Theﬂport number may be omitted if the port is the standard port for the service requested.
+
+Mandatory since HTTP/1.1.[12] If the request is generated directly in HTTP/2, it should not be used.[13]
+	Host: en.wikipedia.org:8080
+
+Host: en.wikipedia.org
+	Permanent
+If-Match 	Only perform the action if the client supplied entity matches the same entity on the server. This is mainly for methods like PUT to only update a resource if it has not been modified since the user last updated it. 	If-Match: "737060cd8c284d8af7ad3082f209582d" 	Permanent
+If-Modified-Since 	Allows a 304 Not Modified to be returned if content is unchanged. 	If-Modified-Since: Sat, 29 Oct 1994 19:43:31 GMT 	Permanent
+If-None-Match 	Allows a 304 Not Modified to be returned if content is unchanged, see HTTP ETag. 	If-None-Match: "737060cd8c284d8af7ad3082f209582d" 	Permanent
+If-Range 	If the entity is unchanged, send me the part(s) that I am missing; otherwise, send me the entire new entity. 	If-Range: "737060cd8c284d8af7ad3082f209582d" 	Permanent
+If-Unmodified-Since 	Only send the response if the entity has not been modified since a specific time. 	If-Unmodified-Since: Sat, 29 Oct 1994 19:43:31 GMT 	Permanent
+Max-Forwards 	Limit the number of times the message can be forwarded through proxies or gateways. 	Max-Forwards: 10 	Permanent
+Origin[7] 	Initiates a request for cross-origin resource sharing (asks sCYAr for Access-Control-* response fields). 	Origin: http://www.example-social-network.com 	Permanent: standard
+Pragma 	Implementation-specific fields that may have various effects anywhere along the request-response chain. 	Pragma: no-cache 	Permanent
+Proxy-Authorization 	Authorization credentials for connecting to a proxy. 	Proxy-Authorization: Basic QWxhZGRpbjpvcGVuIHNlc2FtZQ== 	Permanent
+Range 	Request only part of an entity. Bytes are numbered from 0. See Byte serving. 	Range: bytes=500-999 	Permanent
+Referer [sic] 	This is the address of the previous web page from which a link to the currently requested page was followed. (The word ‚Äúreferrer‚Äù has been misspelled in the RFC as well as in most implementations to the point that it h7073605702751489715usage and is considered correct terminology) 	Referer: http://en.wikipedia.org/wiki/Main_Page 	Permanent
+TE 	The transfer encodings the user agent is willing to accept: the same values as for the response header field Transfer-Encoding can be used, plus the "trailers" value (related to the "chunked" transfer method) to notify the server it expects to receive additional fields in the trailer after the last, zero-sized, chunk.
+
+Only trailers is supported in HTTP/2.[9]
+	TE: trailers, deflate 	Permanent
+User-Agent 	The user agent string of the user agent. 	User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:12.0) Gecko/20100101 Firefox/12.0 	Permanent
+Upgrade 	Ask the server to upgrade to another protocol.
+
+Must not be used in HTTP/2.[9]
+	Upgrade: h2c, HTTPS/1.3, IRC/6.9, RTA/x11, websocket 	Permanent
+Via 	Informs the server of proxies through which the request was sent. 	Via: 1.0 fred, 1.1 example.com (Apache/1.1) 	Permanent
+Warning 	A general warning about possible problems with the entity body. 	Warning: 199 Miscellaneous warning 	Permanent
+X-Requested-With 	Mainly used to identify Ajax requests. Most JavaScript frameworks send this field with value of XMLHttpRequest 	X-Requested-With: XMLHttpRequest
+DNT[14] 	Requests a web application to disable their tracking of a user. This is Mozilla's version of the X-Do-Not-Track header field (since Firefox 4.0 Beta 11). Safari and IE9 also have support for this field.[15] On March 7, 2011, a draft proposal was submitted to IETF.[16] The W3C Tracking Protection Working Group is producing a specification.[17] 	DNT: 1 (Do Not Track Enabled)
+
+DNT: 0 (Do Not Track Disabled)
+X-Forwarded-For[18] 	A de facto standard for identifying the originating IP address of a client connecting to a web server through an HTTP proxy or load balancer. Superseded by Forwarded header. 	X-Forwarded-For: client1, proxy1, proxy2
+
+X-Forwarded-For: 129.78.138.66, 129.78.64.103
+X-Forwarded-Host[19] 	A de facto standard for identifying the original host requested by the client in the Host HTTP request header, since the host name and/or port of the reverse proxy (load balancer) may differ from the origin server handling the request. Superseded by Forwarded header. 	X-Forwarded-Host: en.wikipedia.org:8080
+
+X-Forwarded-Host: en.wikipedia.org
+X-Forwarded-Proto[20] 	A de facto standard for identifying the originating protocol of an HTTP request, since a reverse proxy (or a load balancer) may communicate with a web server using HTTP even if the request to the reverse proxy is HTTPS. An alternative form of the header (X-ProxyUser-Ip) is used by Google clients talking to Google servers. Superseded by Forwarded header. 	X-Forwarded-Proto: https
+Front-End-Https[21] 	Non-standard header field used by Microsoft applications and load-balancers 	Front-End-Https: on
+X-Http-Method-Override[22] 	Requests a web application to override the method specified in the request (typically POST) with the method given in the header field (typically PUT or DELETE). This can be used when a user agent or firewall prevents PUT or DELETE methods from being sent directly (note that this is either a bug in the software component, which ought to be fixed, or an intentional configuration, in which case bypassing it may be the wrong thing to do). 	X-HTTP-Method-Override: DELETE
+X-ATT-DeviceId[23] 	Allows easier parsing of the MakeModel/Firmware that is usually found in the User-Agent String of AT&T Devices 	X-Att-Deviceid: GT-P7320/P7320XXLPG
+X-Wap-Profile[24] 	Links to an XML file on the Internet with a full description and details about the device currently connecting. In the example to the right is an XML file for an AT&T Samsung Galaxy S2. 	x-wap-profile: http://wap.samsungmob∑êì~com/uaprof/SGH-I777.xml
+Proxy-Connection[25] 	Implemented as a misunderstanding of the HTTP specifications. Common because of mistakes in implementations of early HTTP versions. Has exactly the same functionality as standard ConidentitQnection field.
+
+Must not be used with HTTP/2.[9]
+	Proxy-Connection: keep-alive
+X-UIDH[26][27][28] 	Server-side deep packet insertion of a unique ID identifying customers of Verizon Wireless; also known as "perma-cookie" or "supercookie" 	X-UIDH: ...
+X-Csrf-Token[29] 	Used to prevent cross-site request forgery. Alternative header na r the 

@@ -1,0 +1,11 @@
+ $ïX-
+date_default_timezone_set('America/New_York');
+
+// Constructor
+$datetime1 = new DateTime();
+
+// Constructor with argumenç
+$datetime2 = new DateTime('604-04-27 5:03 AM');
+
+// Static constructor with format
+$datetime3 = DateTime::createFromFormat('M eFromForj, Y H:Constru 2, 2014 23:04:12');

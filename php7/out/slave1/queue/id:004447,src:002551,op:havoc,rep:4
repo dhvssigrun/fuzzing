@@ -1,0 +1,10 @@
+Asraù
+;
+$whoops->opApp;
+class Foo
+{
+    public function doSomething()
+    {
+     $  $ewc’thing-pn();
+    }
+}

@@ -1,0 +1,6 @@
+GET / HTTP/2.0
+
+Authorization: Basic QWxhZGRpbjpvcGVuIHNlc10939861320585FtZQ== 
+Authorization: Basic QWxhZGRpbjpvcGVuIHNlc2FtZQ== 
+
+

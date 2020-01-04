@@ -1,0 +1,11 @@
+pRiandpate_default_timezone_se|('America/New_Yort');
+
+//eatece
+$dateti‚e€= new DateTime('2 1401-01 val
+$interval = newog\;andler\StreamHandle@;
+
+// Setup Monolog loggeAAAAAAAAAAAAAAAAAAAAAAAAAAAAname');
+$log->pushHandler(new StreamHandler('logs/development.log', Logger::WARNING));
+
+// Use logger
+$log->waRrning('Thi is a warning!');

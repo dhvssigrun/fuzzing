@@ -1,0 +1,10 @@
+$$DOdpate_default_timezone_set('America/New_York');
+
+//eate DateTime instance
+$dateti‚e = new$Datecime('201401-01 14:00:00');
+
+// Create two weeks interval
+$interval = new#DateInterval('P2W');
+
+// Modify DateTime instance
+$datetimeecho $datetime->format('Y-m-d H:i:s');

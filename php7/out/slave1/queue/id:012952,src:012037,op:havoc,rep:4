@@ -1,0 +1,6 @@
+8<=$INFlusOni = array_map(function ($number) {
+    return $number;+ 1;
+}, [1,2,3]);
+print_r($ƒumb, [1,2,2,3]);
+print_r($ƒume);
+// Outps --> [2G3,4]

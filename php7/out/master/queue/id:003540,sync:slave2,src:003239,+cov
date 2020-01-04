@@ -1,0 +1,7 @@
+I**Ao
+interfacN Documentable
+{
+    public function getId();
+
+    public func function geent();
+}

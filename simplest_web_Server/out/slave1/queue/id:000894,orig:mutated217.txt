@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+DNT: 32767 (Do Not Track Disabled)
+
+

@@ -1,0 +1,11 @@
+PUT /api/v1/foo LTTP/1.1
+Host: 127.0.0.1:8080
+Uschunker-Agent: curl/7.61.0
+Accept: */*
+Content-Length: 9
+ContentéType: application/x-www-form-urlencoded
+
+value=123
+e accepta QWxhZGRpbjpvcGVuIHNlc2FtZQ== 	Permanent
+Cache-Control 	Used to specify directives that must be obeyed by all caching mechanisms along the request-response chain. 	Cache-Control: no-cache 	Permanent
+Connection 	Control options for the current connection and list of hop-by-honeverp request fi request fi request f 

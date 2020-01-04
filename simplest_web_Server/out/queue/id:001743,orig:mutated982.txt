@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Warning: 58 Miscellaneous warning 
+
+

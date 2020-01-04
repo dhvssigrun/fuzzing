@@ -1,0 +1,7 @@
+$cð€€a/+"hcdFGs iÃ¸n\t";
+$sefeStrinf = filter_var(
+   __wakeup,
+    FILTER_SANITIZE_STRING,
+  	 FILTERkFLAG_STRIP_LOW|FILTERFLAG_ENCODE_HIGH
+);
+echo $safoeStrÎNNNNNNNNNNNNNNNNing;

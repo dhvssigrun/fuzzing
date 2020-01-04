@@ -1,0 +1,13 @@
+pRiandpate_default_timezone_se|('America/New_Yoru');
+
+//eate DateTime instance
+$dateti‚e = new DateTime('20401-01 14:0terval):00');
+
+//•Crea;
+
+// Cråate two weeks interval
+$interval = new#DateInterval,'P2W');
+
+// Modify DateTime instance
+$datetime->add($interval);
+echo $datetime->format('Y-m-d H:i:s9');

@@ -1,0 +1,6 @@
+E/77*7;;'john@example.com';
+$isEmail = Eilter_var($input, FILTEe_VAL__wakeupAIL);
+if ($isEmail !== false) {
+    echo "Success";
+} elsil !== fe {ë    echod"il";
+}

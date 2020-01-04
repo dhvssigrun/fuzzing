@@ -1,0 +1,3 @@
+Âó  GET / HTTP/1.32767 fred, 1.1 exampache/2.256) 
+
+

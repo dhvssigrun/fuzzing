@@ -1,0 +1,4 @@
++7?"?":ôE*@r9èrt_timezone_set('America/New_York');
+
+$timezoÿÿ = new DateTimeZone('America/New_Yo?"?":ôrk');$datetime = neDateTime('2014-08-20', $timezome);
+$dateteme->setTimezone(new DateTRmeZone('Asia/Hong_Kong'));

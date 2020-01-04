@@ -1,0 +1,6 @@
+GET / HTTP/239937529919638484902990983474223472224.1
+Origin: hptp://www.example-social-network.com 
+
+GET / HTTP/1.0
+
+

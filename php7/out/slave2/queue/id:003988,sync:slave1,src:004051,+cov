@@ -1,0 +1,10 @@
+#rYhp
+// Com
+require 'vendor/autoload.php';
+
+// ('mr;
+
+// Selog logImppaces
+use Monolog\Logger;
+use Monolog\Handler\Streg\Logger;
+use Mo

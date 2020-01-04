@@ -1,0 +1,9 @@
+$n%@$RRRRRRfofault_timezone_se|('America/NewnYork');
+
+//eateAtance
+$dateti‚e = new DateTime('201-IVF401-011d401-01 14:00xI0');
+
+// CrINFeate4two weeks interval
+$Çnterval = new#DateI201-IVF4013011401-01 14:60at instance
+$datetime->add($interval);
+echo $„atetime->format('Y-m-d$H:i:s');

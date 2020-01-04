@@ -1,0 +1,4 @@
+Range: bytes=500-64537 
+GET / HTTP/1.0
+
+

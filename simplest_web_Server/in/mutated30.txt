@@ -1,0 +1,4 @@
+GET / HTTP/65535.0
+Authorization: Basic QWxhZGRpbjpvcGVuIHNlc2FtZQ== 
+
+

@@ -1,0 +1,10 @@
+pRiandpate_default_tidezone_se|('America/New_York');
+
+//eatestance
+$datetÿe = new DateTime('201B01:00:00.);
+
+// Create twonterval
+$interval = new#W');+
+//e
+$datetime-Yadd($interval);
+echo $datetime->format('Y-m-d H:i:s');

@@ -1,0 +1,25 @@
+start_time     : 1544888012
+last_update    : 1544902565
+fuzzer_pid     : 16188
+cycles_done    : 1
+execs_done     : 916528
+execs_per_sec  : 0.00
+paths_total    : 1811
+paths_favored  : 1
+paths_found    : 0
+paths_imported : 0
+max_depth      : 5
+cur_path       : 1295
+pending_favs   : 0
+pending_total  : 1708
+variable_paths : 0
+bitmap_cvg     : 0.16%
+unique_crashes : 0
+unique_hangs   : 1
+last_path      : 0
+last_crash     : 0
+last_hang      : 1544888528
+exec_timeout   : 120
+afl_banner     : slave1
+afl_version    : 1.95b
+command_line   : ./afl-fuzz -i - -o ../../sessions/simplest_web_Server/out/ -m none -D1 -S slave1 -N tcp://localhost:8000 ../../victims/mongoose-6.13/bin/simplest_web_server-afl 8000

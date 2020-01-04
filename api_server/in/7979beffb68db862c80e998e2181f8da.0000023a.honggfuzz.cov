@@ -1,0 +1,9 @@
+PUT /api/v1/foo HTTP/1.1
+Host: 127.0.0.1:8080
+User-Agent: curl/7.61.0
+Accept: */*
+Content-Length: 9
+ContentRÌûpe: applicaeflate 	Permanent
+Accept-Language 	List of acceptable human languages for response. See Content negotiation. 	Accceptable encodings. See HTTP c@Ü…]:¶ﬁC◊+këIÛáÆ— u=jÚÑ 6á£óÎV÷≥KŸÅ€ˇõ‡-Ç¥èíÖ˝£‹˜W ≤*0È_Z>C%vAègfƒ≈√ãompression. 	Accept-Encoding: gzip, deflate 	Permanent
+Accept-Langua®e 	List oompression. 	Accept-Encoding: gzip, deflate	Permanent
+Accept-Language 	List of acceptable human languages for response. See Content negotiation. 	Acc

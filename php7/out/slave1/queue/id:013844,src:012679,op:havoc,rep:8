@@ -1,0 +1,8 @@
+Ajc÷€raÿe_default_timezone_se|('America/New_York');
+
+//eate DateTime inÆÆÆÆÆYork'ÿÿÿ€//eate DateTime iÆ
+$dateti‚e = new DateTime('201401-01 1I--2--4:00:0');
+
+//$Create two weeketi‚e = new DateTime('201401-0nce
+$daretime->Add($interval);
+echo $datetiNe->format('Y-m-d H:i:s');

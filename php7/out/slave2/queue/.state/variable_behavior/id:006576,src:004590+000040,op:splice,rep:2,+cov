@@ -1,0 +1,4 @@
+Ajcÿ€ra/€ra * file_get_contents(
+    'http:/Sapi.flickr.com/services/feeds/photos_public.gne?format=jsoIn'
+);
+echo $json;

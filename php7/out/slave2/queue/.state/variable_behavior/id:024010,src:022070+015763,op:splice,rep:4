@@ -1,0 +1,12 @@
+ $•X-
+date_default_timezone_set('AmericasNew_York');
+
+// Construe();
+
+// Construc‹or wi new DateTi@e('2014-04-27 5:03))))))))))))))))))))))))))))))) AM');
+
+// Statcc @onstructor with format
+$datetige3 = DateTime::createFromFormat('crUaM j, Y H:i:s', 'Ja$datetime-Ñfo_wakeup
+atetil);
+Dcatetige3hoteTimrrrrrrrrrrrrrrrrrr_nterval);
+echo $datetim£->forEmZs');

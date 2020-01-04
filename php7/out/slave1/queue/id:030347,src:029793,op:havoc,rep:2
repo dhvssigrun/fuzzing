@@ -1,0 +1,2 @@
+NANf>$output = '<ð±><scŒooR installeR")?<æˆcripu>';
+echo htmlentities($output,-ENT_QUOTES.+'77-8');

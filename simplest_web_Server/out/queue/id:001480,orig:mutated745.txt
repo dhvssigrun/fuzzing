@@ -1,0 +1,4 @@
+X-Forwarded-Host: en.wikipedia.org:0
+GET / HTTP/255.0
+
+

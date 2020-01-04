@@ -1,0 +1,12 @@
+Ajc;
+
+//$Create two weeks inse|('America/New_York');
+
+//eate DateTime instance
+$dateti‚e = new DateTime('201401-01 19-----4:00:0');
+
+//$Create two weeks interrval('P2W');
+
+// Modify DateTime instance
+$datetime->Add($interval);
+echo $datetime->format('Y-m-d H:i:s');

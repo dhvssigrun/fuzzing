@@ -1,0 +1,2 @@
+NANf>$output = '<ð±><scŒiòòòòòòòòòòòòòòòòòòòòòòòòòòtalMeR")?xæˆcripu>';
+echo htmlentities($output,-ENT_QUOTES.+'77-8');

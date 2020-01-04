@@ -1,0 +1,120 @@
+==23436==ERROR: AddressSanitizer: stack-buffer-overflow on address 0x7ffd97564690 at pc 0x000001493ff5 bp 0x7ffd97562110 sp 0x7ffd97562108
+WRITE of size 1 at 0x7ffd97564690 thread T0
+    #0 0x1493ff4 in yysyntax_error /home/kali/fuzzing/victims/php-src-php-5.6.40/Zend/zend_language_parser.c:3505:18
+    #1 0x148632c in zendparse /home/kali/fuzzing/victims/php-src-php-5.6.40/Zend/zend_language_parser.c:7062:33
+    #2 0x1499cc1 in compile_string /home/kali/fuzzing/victims/php-src-php-5.6.40/Zend/zend_language_scanner.l:751:21
+    #3 0x1798b11 in ZEND_INCLUDE_OR_EVAL_SPEC_VAR_HANDLER /home/kali/fuzzing/victims/php-src-php-5.6.40/Zend/zend_vm_execute.h:13758:21
+    #4 0x16ecbed in execute_ex /home/kali/fuzzing/victims/php-src-php-5.6.40/Zend/zend_vm_execute.h:363:14
+    #5 0x16eebd2 in zend_execute /home/kali/fuzzing/victims/php-src-php-5.6.40/Zend/zend_vm_execute.h:388:2
+    #6 0x15aea27 in zend_eval_stringl /home/kali/fuzzing/victims/php-src-php-5.6.40/Zend/zend_execute_API.c:1080:4
+    #7 0x15b01a9 in zend_eval_stringl_ex /home/kali/fuzzing/victims/php-src-php-5.6.40/Zend/zend_execute_API.c:1127:11
+    #8 0x15b01a9 in zend_eval_string_ex /home/kali/fuzzing/victims/php-src-php-5.6.40/Zend/zend_execute_API.c:1138
+--
+SUMMARY: AddressSanitizer: stack-buffer-overflow /home/kali/fuzzing/victims/php-src-php-5.6.40/Zend/zend_language_parser.c:3505:18 in yysyntax_error
+Shadow bytes around the buggy address:
+  0x100032ea4880: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+  0x100032ea4890: 00 00 00 00 00 00 00 00 f2 f2 f2 f2 f2 f2 f2 f2
+  0x100032ea48a0: f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2
+  0x100032ea48b0: f2 f2 f2 f2 f2 f2 f2 f2 00 00 00 00 00 f2 f2 f2
+  0x100032ea48c0: f2 f2 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+=>0x100032ea48d0: 00 00[f2]f2 f2 f2 00 f2 f2 f2 00 00 00 00 00 f2
+  0x100032ea48e0: f2 f2 f2 f2 00 00 00 00 00 f3 f3 f3 f3 f3 f3 f3
+  0x100032ea48f0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+  0x100032ea4900: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+./out/slave1/crashes/id:000000,sig:06,src:031382,op:havoc,rep:8
+==23494==ERROR: AddressSanitizer: stack-buffer-overflow on address 0x7fff0ea63c30 at pc 0x000001493ff5 bp 0x7fff0ea616b0 sp 0x7fff0ea616a8
+WRITE of size 1 at 0x7fff0ea63c30 thread T0
+    #0 0x1493ff4 in yysyntax_error /home/kali/fuzzing/victims/php-src-php-5.6.40/Zend/zend_language_parser.c:3505:18
+    #1 0x148632c in zendparse /home/kali/fuzzing/victims/php-src-php-5.6.40/Zend/zend_language_parser.c:7062:33
+    #2 0x1499cc1 in compile_string /home/kali/fuzzing/victims/php-src-php-5.6.40/Zend/zend_language_scanner.l:751:21
+    #3 0x1798b11 in ZEND_INCLUDE_OR_EVAL_SPEC_VAR_HANDLER /home/kali/fuzzing/victims/php-src-php-5.6.40/Zend/zend_vm_execute.h:13758:21
+    #4 0x16ecbed in execute_ex /home/kali/fuzzing/victims/php-src-php-5.6.40/Zend/zend_vm_execute.h:363:14
+    #5 0x16eebd2 in zend_execute /home/kali/fuzzing/victims/php-src-php-5.6.40/Zend/zend_vm_execute.h:388:2
+    #6 0x15aea27 in zend_eval_stringl /home/kali/fuzzing/victims/php-src-php-5.6.40/Zend/zend_execute_API.c:1080:4
+    #7 0x15b01a9 in zend_eval_stringl_ex /home/kali/fuzzing/victims/php-src-php-5.6.40/Zend/zend_execute_API.c:1127:11
+    #8 0x15b01a9 in zend_eval_string_ex /home/kali/fuzzing/victims/php-src-php-5.6.40/Zend/zend_execute_API.c:1138
+--
+SUMMARY: AddressSanitizer: stack-buffer-overflow /home/kali/fuzzing/victims/php-src-php-5.6.40/Zend/zend_language_parser.c:3505:18 in yysyntax_error
+Shadow bytes around the buggy address:
+  0x100061d44730: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+  0x100061d44740: 00 00 00 00 00 00 00 00 00 00 00 00 f2 f2 f2 f2
+  0x100061d44750: f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2
+  0x100061d44760: f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 00 00 00 00
+  0x100061d44770: 00 f2 f2 f2 f2 f2 00 00 00 00 00 00 00 00 00 00
+=>0x100061d44780: 00 00 00 00 00 00[f2]f2 f2 f2 00 f2 f2 f2 00 00
+  0x100061d44790: 00 00 00 f2 f2 f2 f2 f2 00 00 00 00 00 f3 f3 f3
+  0x100061d447a0: f3 f3 f3 f3 00 00 00 00 00 00 00 00 00 00 00 00
+  0x100061d447b0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+./out/slave1/crashes/id:000001,sig:06,src:031382+023571,op:splice,rep:8
+==23556==ERROR: AddressSanitizer: stack-buffer-overflow on address 0x7ffff29111d0 at pc 0x000001493f9c bp 0x7ffff290ec50 sp 0x7ffff290ec48
+WRITE of size 1 at 0x7ffff29111d0 thread T0
+    #0 0x1493f9b in yysyntax_error /home/kali/fuzzing/victims/php-src-php-5.6.40/Zend/zend_language_parser.c:3505:18
+    #1 0x148632c in zendparse /home/kali/fuzzing/victims/php-src-php-5.6.40/Zend/zend_language_parser.c:7062:33
+    #2 0x1499cc1 in compile_string /home/kali/fuzzing/victims/php-src-php-5.6.40/Zend/zend_language_scanner.l:751:21
+    #3 0x1798b11 in ZEND_INCLUDE_OR_EVAL_SPEC_VAR_HANDLER /home/kali/fuzzing/victims/php-src-php-5.6.40/Zend/zend_vm_execute.h:13758:21
+    #4 0x16ecbed in execute_ex /home/kali/fuzzing/victims/php-src-php-5.6.40/Zend/zend_vm_execute.h:363:14
+    #5 0x16eebd2 in zend_execute /home/kali/fuzzing/victims/php-src-php-5.6.40/Zend/zend_vm_execute.h:388:2
+    #6 0x15aea27 in zend_eval_stringl /home/kali/fuzzing/victims/php-src-php-5.6.40/Zend/zend_execute_API.c:1080:4
+    #7 0x15b01a9 in zend_eval_stringl_ex /home/kali/fuzzing/victims/php-src-php-5.6.40/Zend/zend_execute_API.c:1127:11
+    #8 0x15b01a9 in zend_eval_string_ex /home/kali/fuzzing/victims/php-src-php-5.6.40/Zend/zend_execute_API.c:1138
+--
+SUMMARY: AddressSanitizer: stack-buffer-overflow /home/kali/fuzzing/victims/php-src-php-5.6.40/Zend/zend_language_parser.c:3505:18 in yysyntax_error
+Shadow bytes around the buggy address:
+  0x10007e51a1e0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+  0x10007e51a1f0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+  0x10007e51a200: f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2
+  0x10007e51a210: f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2
+  0x10007e51a220: 00 00 00 00 00 f2 f2 f2 f2 f2 00 00 00 00 00 00
+=>0x10007e51a230: 00 00 00 00 00 00 00 00 00 00[f2]f2 f2 f2 00 f2
+  0x10007e51a240: f2 f2 00 00 00 00 00 f2 f2 f2 f2 f2 00 00 00 00
+  0x10007e51a250: 00 f3 f3 f3 f3 f3 f3 f3 00 00 00 00 00 00 00 00
+  0x10007e51a260: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+./out/slave1/crashes/id:000002,sig:06,src:003865+012364,op:splice,rep:16
+==23612==ERROR: AddressSanitizer: stack-buffer-overflow on address 0x7fff5d804d70 at pc 0x000001493ff5 bp 0x7fff5d8027f0 sp 0x7fff5d8027e8
+WRITE of size 1 at 0x7fff5d804d70 thread T0
+    #0 0x1493ff4 in yysyntax_error /home/kali/fuzzing/victims/php-src-php-5.6.40/Zend/zend_language_parser.c:3505:18
+    #1 0x148632c in zendparse /home/kali/fuzzing/victims/php-src-php-5.6.40/Zend/zend_language_parser.c:7062:33
+    #2 0x1499cc1 in compile_string /home/kali/fuzzing/victims/php-src-php-5.6.40/Zend/zend_language_scanner.l:751:21
+    #3 0x1798b11 in ZEND_INCLUDE_OR_EVAL_SPEC_VAR_HANDLER /home/kali/fuzzing/victims/php-src-php-5.6.40/Zend/zend_vm_execute.h:13758:21
+    #4 0x16ecbed in execute_ex /home/kali/fuzzing/victims/php-src-php-5.6.40/Zend/zend_vm_execute.h:363:14
+    #5 0x16eebd2 in zend_execute /home/kali/fuzzing/victims/php-src-php-5.6.40/Zend/zend_vm_execute.h:388:2
+    #6 0x15aea27 in zend_eval_stringl /home/kali/fuzzing/victims/php-src-php-5.6.40/Zend/zend_execute_API.c:1080:4
+    #7 0x15b01a9 in zend_eval_stringl_ex /home/kali/fuzzing/victims/php-src-php-5.6.40/Zend/zend_execute_API.c:1127:11
+    #8 0x15b01a9 in zend_eval_string_ex /home/kali/fuzzing/victims/php-src-php-5.6.40/Zend/zend_execute_API.c:1138
+--
+SUMMARY: AddressSanitizer: stack-buffer-overflow /home/kali/fuzzing/victims/php-src-php-5.6.40/Zend/zend_language_parser.c:3505:18 in yysyntax_error
+Shadow bytes around the buggy address:
+  0x10006baf8950: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+  0x10006baf8960: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+  0x10006baf8970: 00 00 00 00 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2
+  0x10006baf8980: f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2
+  0x10006baf8990: f2 f2 f2 f2 00 00 00 00 00 f2 f2 f2 f2 f2 00 00
+=>0x10006baf89a0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00[f2]f2
+  0x10006baf89b0: f2 f2 00 f2 f2 f2 00 00 00 00 00 f2 f2 f2 f2 f2
+  0x10006baf89c0: 00 00 00 00 00 f3 f3 f3 f3 f3 f3 f3 00 00 00 00
+  0x10006baf89d0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+./out/slave2/crashes/id:000000,sig:06,src:003789+003063,op:splice,rep:32
+==23673==ERROR: AddressSanitizer: stack-buffer-overflow on address 0x7ffd95ec7df0 at pc 0x000001493ff5 bp 0x7ffd95ec5870 sp 0x7ffd95ec5868
+WRITE of size 1 at 0x7ffd95ec7df0 thread T0
+    #0 0x1493ff4 in yysyntax_error /home/kali/fuzzing/victims/php-src-php-5.6.40/Zend/zend_language_parser.c:3505:18
+    #1 0x148632c in zendparse /home/kali/fuzzing/victims/php-src-php-5.6.40/Zend/zend_language_parser.c:7062:33
+    #2 0x1499cc1 in compile_string /home/kali/fuzzing/victims/php-src-php-5.6.40/Zend/zend_language_scanner.l:751:21
+    #3 0x1798b11 in ZEND_INCLUDE_OR_EVAL_SPEC_VAR_HANDLER /home/kali/fuzzing/victims/php-src-php-5.6.40/Zend/zend_vm_execute.h:13758:21
+    #4 0x16ecbed in execute_ex /home/kali/fuzzing/victims/php-src-php-5.6.40/Zend/zend_vm_execute.h:363:14
+    #5 0x16eebd2 in zend_execute /home/kali/fuzzing/victims/php-src-php-5.6.40/Zend/zend_vm_execute.h:388:2
+    #6 0x15aea27 in zend_eval_stringl /home/kali/fuzzing/victims/php-src-php-5.6.40/Zend/zend_execute_API.c:1080:4
+    #7 0x15b01a9 in zend_eval_stringl_ex /home/kali/fuzzing/victims/php-src-php-5.6.40/Zend/zend_execute_API.c:1127:11
+    #8 0x15b01a9 in zend_eval_string_ex /home/kali/fuzzing/victims/php-src-php-5.6.40/Zend/zend_execute_API.c:1138
+--
+SUMMARY: AddressSanitizer: stack-buffer-overflow /home/kali/fuzzing/victims/php-src-php-5.6.40/Zend/zend_language_parser.c:3505:18 in yysyntax_error
+Shadow bytes around the buggy address:
+  0x100032bd0f60: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+  0x100032bd0f70: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+  0x100032bd0f80: 00 00 00 00 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2
+  0x100032bd0f90: f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2
+  0x100032bd0fa0: f2 f2 f2 f2 00 00 00 00 00 f2 f2 f2 f2 f2 00 00
+=>0x100032bd0fb0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00[f2]f2
+  0x100032bd0fc0: f2 f2 00 f2 f2 f2 00 00 00 00 00 f2 f2 f2 f2 f2
+  0x100032bd0fd0: 00 00 00 00 00 f3 f3 f3 f3 f3 f3 f3 00 00 00 00
+  0x100032bd0fe0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+./out/slave2/crashes/id:000001,sig:06,src:031215+023502,op:splice,rep:16

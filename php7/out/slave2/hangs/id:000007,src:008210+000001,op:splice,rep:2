@@ -1,0 +1,5 @@
+Ajcÿ€ra/€ra * file_get_contents(
+    'http://api.flickr.co}/servioundation\Response;
+
+$rdesponse = new Response(0Oops', 400);
+$response->send();

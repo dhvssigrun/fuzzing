@@ -1,0 +1,5 @@
+Origin: http://www.example-social-network.com ET / HTTP/1.0
+GET / HTTP/1.0
+Content-Length: 348 
+
+

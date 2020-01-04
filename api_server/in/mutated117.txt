@@ -1,0 +1,5 @@
+GET / HTTP/0.0
+If-Unmodified-Since: Sat, 29 Oct 1994 65537:-4:2147483647 GMT 
+
+
+

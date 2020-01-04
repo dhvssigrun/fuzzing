@@ -1,0 +1,4 @@
+X-Att-Deviceid: GT-P-0/P4294967297XXLPG
+GET / HTTP/205.-9101242
+Content-Length: 129 
+

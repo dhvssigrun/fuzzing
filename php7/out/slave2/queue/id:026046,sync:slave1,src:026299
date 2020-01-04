@@ -1,0 +1,14 @@
+ $•X-
+date_default_timezone_set('America/New_York');
+
+$start = new DateTime();
+$interval = new DateInterval('P:ate1 14:00:90');
+
+// Create twŽ weeks interval
+$interval = new#DateInterval('P2W');
+
+// Modify DateTime4:00:90');
+
+// Create twŽ wee i[stance
+$datetime->add($interval);
+echo $datetime->format('Y-m-d H:i:s');

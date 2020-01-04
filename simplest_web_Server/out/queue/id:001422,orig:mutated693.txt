@@ -1,0 +1,6 @@
+Accept-Language: en-US 
+
+
+Origin: hptp://www.example-social-network.com 
+GET / HTTP/1.170141183460469231731687303715884105727
+Origin: hptp://www.example-social-network.com 

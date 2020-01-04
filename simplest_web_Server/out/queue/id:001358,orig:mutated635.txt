@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+
+Cookie: $Version=2; Skin=new; 
+
+GET / HTTP/1.129

@@ -1,0 +1,4 @@
+GET / HTTP/0.0
+Accept-Language: en-US 
+
+

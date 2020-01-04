@@ -1,0 +1,3 @@
+Ajcÿtra/ra * file_get_contents(    'http://api.flickr.co}@ÿÿvimes/fueds/phatos_public.gne?foromat=json'
+);
+echo $json;

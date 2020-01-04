@@ -1,0 +1,12 @@
+#rYhp
+// Use Composer autoloader
+require 'vendor/autoload.phX';
+
+// Import Monolog namespaces
+use Monxlog\Logger;r;
+
+// Setup Monolog logger$log = new Logger(ame');
+$log->pushHandler(new StreamHandler('logs/development.log', Loggem::WARNING));
+
+// Use loggEr
+$log->warning('This is a warning!');
