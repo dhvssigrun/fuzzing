@@ -1,0 +1,276 @@
+(dp0
+S'faultaddress'
+p1
+I1448948300
+sS'crashData'
+p2
+(dp3
+S'serverpid'
+p4
+I3915
+sS'asanOutput'
+p5
+S'=================================================================\n==3915==ERROR: AddressSanitizer: heap-buffer-overflow on address 0x603000001796 at pc 0x5576bb0700a4 bp 0x7fffa67a7a10 sp 0x7fffa67a7a08\nREAD of size 1 at 0x603000001796 thread T0\n    #0 0x5576bb0700a3 in getu16 ../../mongoose.c:10706\n    #1 0x5576bb0700c9 in scanto ../../mongoose.c:10710\n    #2 0x5576bb07081c in parse_mqtt ../../mongoose.c:10770\n    #3 0x5576bb0710a6 in mqtt_handler ../../mongoose.c:10843\n    #4 0x5576bb05f675 in mg_call ../../mongoose.c:2404\n    #5 0x5576bb063008 in mg_recv_tcp ../../mongoose.c:2931\n    #6 0x5576bb062bc8 in mg_do_recv ../../mongoose.c:2887\n    #7 0x5576bb062be8 in mg_if_can_recv_cb ../../mongoose.c:2893\n    #8 0x5576bb069601 in mg_mgr_handle_conn ../../mongoose.c:4009\n    #9 0x5576bb06ab30 in mg_socket_if_poll ../../mongoose.c:4200\n    #10 0x5576bb060df5 in mg_mgr_poll ../../mongoose.c:2593\n    #11 0x5576bb0528b2 in main /home/kali/fuzzing/victims/mongoose-6.13/examples/mqtt_broker/mqtt_broker.c:51\n    #12 0x7fc9c99b9a86 in __libc_start_main (/lib/x86_64-linux-gnu/libc.so.6+0x21a86)\n    #13 0x5576bb0525f9 in _start (/home/kali/fuzzing/victims/mongoose-6.13/bin/mqtt_broker-6.13-asan+0x65f9)\n\n0x603000001796 is located 0 bytes to the right of 22-byte region [0x603000001780,0x603000001796)\nallocated by thread T0 here:\n    #0 0x7fc9ca0592c0 in __interceptor_realloc (/usr/lib/x86_64-linux-gnu/libasan.so.5+0xe92c0)\n    #1 0x5576bb059a0c in mbuf_resize ../../mongoose.c:1549\n    #2 0x5576bb059ac8 in mbuf_trim ../../mongoose.c:1563\n    #3 0x5576bb062fb0 in mg_recv_tcp ../../mongoose.c:2930\n    #4 0x5576bb062bc8 in mg_do_recv ../../mongoose.c:2887\n    #5 0x5576bb062be8 in mg_if_can_recv_cb ../../mongoose.c:2893\n    #6 0x5576bb069601 in mg_mgr_handle_conn ../../mongoose.c:4009\n    #7 0x5576bb06ab30 in mg_socket_if_poll ../../mongoose.c:4200\n    #8 0x5576bb060df5 in mg_mgr_poll ../../mongoose.c:2593\n    #9 0x5576bb0528b2 in main /home/kali/fuzzing/victims/mongoose-6.13/examples/mqtt_broker/mqtt_broker.c:51\n    #10 0x7fc9c99b9a86 in __libc_start_main (/lib/x86_64-linux-gnu/libc.so.6+0x21a86)\n\nSUMMARY: AddressSanitizer: heap-buffer-overflow ../../mongoose.c:10706 in getu16\nShadow bytes around the buggy address:\n  0x0c067fff82a0: fa fa fd fd fd fa fa fa fd fd fd fd fa fa fd fd\n  0x0c067fff82b0: fd fa fa fa fd fd fd fa fa fa fd fd fd fa fa fa\n  0x0c067fff82c0: fd fd fd fa fa fa fd fd fd fd fa fa fd fd fd fd\n  0x0c067fff82d0: fa fa fd fd fd fa fa fa fd fd fd fa fa fa fd fd\n  0x0c067fff82e0: fd fa fa fa fd fd fd fa fa fa fd fd fd fa fa fa\n=>0x0c067fff82f0: 00 00[06]fa fa fa fa fa fa fa fa fa fa fa fa fa\n  0x0c067fff8300: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa\n  0x0c067fff8310: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa\n  0x0c067fff8320: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa\n  0x0c067fff8330: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa\n  0x0c067fff8340: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa\nShadow byte legend (one shadow byte represents 8 application bytes):\n  Addressable:           00\n  Partially addressable: 01 02 03 04 05 06 07 \n  Heap left redzone:       fa\n  Freed heap region:       fd\n  Stack left redzone:      f1\n  Stack mid redzone:       f2\n  Stack right redzone:     f3\n  Stack after return:      f5\n  Stack use after scope:   f8\n  Global redzone:          f9\n  Global init order:       f6\n  Poisoned by user:        f7\n  Container overflow:      fc\n  Array cookie:            ac\n  Intra object redzone:    bb\n  ASan internal:           fe\n  Left alloca redzone:     ca\n  Right alloca redzone:    cb\n==3915==ABORTING\n'
+p6
+sS'reallydead'
+p7
+I-6
+sS'signum'
+p8
+I0
+sS'exitcode'
+p9
+I0
+sS'fuzzerPos'
+p10
+S'B'
+p11
+sS'corpusData'
+p12
+(dp13
+S'parentFilename'
+p14
+S'intercept0.pickle'
+p15
+sS'time'
+p16
+NsS'filename'
+p17
+S'intercept0.1608_0.pickle'
+p18
+sS'seed'
+p19
+S'16085381851587372874'
+p20
+sS'fuzzer'
+p21
+S'Radamsa'
+p22
+sS'networkData'
+p23
+(lp24
+(dp25
+S'latency'
+p26
+NsS'from'
+p27
+S'cli'
+p28
+sS'index'
+p29
+I0
+sS'timeouts'
+p30
+I0
+sS'isFuzzed'
+p31
+I01
+sS'data'
+p32
+S'\x10\x14\x00\x04MQTT\x04K\x00<\x00\x07mqtt-soy'
+p33
+sa(dp34
+g30
+I0
+sg27
+S'srv'
+p35
+sg32
+S' \x02\x00\x00'
+p36
+sg29
+I1
+sg26
+Nsa(dp37
+g30
+I0
+sg27
+g28
+sg32
+S'\x82\x0c\x00\x01\x00\x07area-51\x00'
+p38
+sg29
+I2
+sg26
+Nsa(dp39
+g30
+I0
+sg27
+g35
+sg32
+S'\x92\x03\x00\x01\x00'
+p40
+sg29
+I3
+sg26
+Nsa(dp41
+g30
+I0
+sg27
+g28
+sg32
+S'0\x0e\x00\x07area-51hello'
+p42
+sg29
+I4
+sg26
+Nsa(dp43
+g30
+I0
+sg27
+g35
+sg32
+S'0\x0e\x00\x07area-51hello'
+p44
+sg29
+I5
+sg26
+Nsa(dp45
+g30
+I0
+sg27
+g28
+sg32
+S'\xa2\x0b\x00\x03\x00\x07area-51'
+p46
+sg29
+I6
+sg26
+Nsassg17
+S'intercept0.1608_0.1608_0.crash'
+p47
+ssS'processStdout'
+p48
+NsS'backtrace'
+p49
+(lp50
+S'in getu16'
+p51
+aS'in scanto'
+p52
+aS'in parse_mqtt'
+p53
+aS'in mqtt_handler'
+p54
+aS'in mg_call'
+p55
+aS'in mg_recv_tcp'
+p56
+aS'in mg_do_recv'
+p57
+aS'in mg_if_can_recv_cb'
+p58
+aS'in mg_mgr_handle_conn'
+p59
+aS'in mg_socket_if_poll'
+p60
+aS'in mg_mgr_poll'
+p61
+aS'in main'
+p62
+aS'in __libc_start_main'
+p63
+aS' (mqtt_broker-asan32+0x2b60)'
+p64
+aS'located 0'
+p65
+aS'thread T0'
+p66
+aS'in realloc'
+p67
+aS'in mbuf_resize'
+p68
+aS'in mbuf_trim'
+p69
+aS'in mg_recv_tcp'
+p70
+aS'in mg_do_recv'
+p71
+aS'in mg_if_can_recv_cb'
+p72
+aS'in mg_mgr_handle_conn'
+p73
+aS'in mg_socket_if_poll'
+p74
+aS'in mg_mgr_poll'
+p75
+aS'in main'
+p76
+aS'in __libc_start_main'
+p77
+aS'heap-buffer-overflow ..mongoose.c:10706'
+p78
+aS'around the'
+p79
+aS'fa fa'
+p80
+aS'fa fa'
+p81
+aS'fa fa'
+p82
+aS'fa fa'
+p83
+aS'fa fa'
+p84
+aS'00[06]fa fa'
+p85
+aS'fa fa'
+p86
+aS'fa fa'
+p87
+aS'fa fa'
+p88
+aS'fa fa'
+p89
+aS'fa fa'
+p90
+aS'legend (one'
+p91
+aS' '
+p92
+aS'01 02'
+p93
+aS'redzone: '
+p94
+aS'region: '
+p95
+aS'redzone: '
+p96
+aS'redzone: '
+p97
+aS'redzone: '
+p98
+aS'return: '
+p99
+aS'after scope:'
+p100
+ag92
+aS'order: '
+p101
+aS'user: '
+p102
+ag92
+ag92
+aS'redzone: '
+p103
+ag92
+aS'redzone: '
+p104
+aS'redzone: '
+p105
+asS'analyzerType'
+p106
+S'asan'
+p107
+sS'analyzerOutput'
+p108
+S'=================================================================\n==2128==ERROR: AddressSanitizer: heap-buffer-overflow on address 0xf4900b96 at pc 0x565d324d bp 0xffef4ac8 sp 0xffef4abc\nREAD of size 1 at 0xf4900b96 thread T0\n    #0 0x565d324c in getu16 ../../mongoose.c:10706\n    #1 0x565d327b in scanto ../../mongoose.c:10710\n    #2 0x565d39e8 in parse_mqtt ../../mongoose.c:10770\n    #3 0x565d434a in mqtt_handler ../../mongoose.c:10843\n    #4 0x565c0ffb in mg_call ../../mongoose.c:2404\n    #5 0x565c5113 in mg_recv_tcp ../../mongoose.c:2931\n    #6 0x565c4c3d in mg_do_recv ../../mongoose.c:2887\n    #7 0x565c4c69 in mg_if_can_recv_cb ../../mongoose.c:2893\n    #8 0x565cbf31 in mg_mgr_handle_conn ../../mongoose.c:4009\n    #9 0x565cd763 in mg_socket_if_poll ../../mongoose.c:4200\n    #10 0x565c2c0b in mg_mgr_poll ../../mongoose.c:2593\n    #11 0x565b3e98 in main /home/kali/fuzzing/victims/mongoose-6.13/examples/mqtt_broker/mqtt_broker.c:51\n    #12 0xf77599a0 in __libc_start_main (/lib/i386-linux-gnu/libc.so.6+0x199a0)\n    #13 0x565b3b60  (/home/kali/fuzzing/victims/mongoose-6.13/bin/mqtt_broker-asan32+0x2b60)\n\n0xf4900b96 is located 0 bytes to the right of 22-byte region [0xf4900b80,0xf4900b96)\nallocated by thread T0 here:\n    #0 0xf7a252cc in realloc (/usr/lib/i386-linux-gnu/libasan.so.5+0xeb2cc)\n    #1 0x565baf49 in mbuf_resize ../../mongoose.c:1549\n    #2 0x565bb03f in mbuf_trim ../../mongoose.c:1563\n    #3 0x565c50b8 in mg_recv_tcp ../../mongoose.c:2930\n    #4 0x565c4c3d in mg_do_recv ../../mongoose.c:2887\n    #5 0x565c4c69 in mg_if_can_recv_cb ../../mongoose.c:2893\n    #6 0x565cbf31 in mg_mgr_handle_conn ../../mongoose.c:4009\n    #7 0x565cd763 in mg_socket_if_poll ../../mongoose.c:4200\n    #8 0x565c2c0b in mg_mgr_poll ../../mongoose.c:2593\n    #9 0x565b3e98 in main /home/kali/fuzzing/victims/mongoose-6.13/examples/mqtt_broker/mqtt_broker.c:51\n    #10 0xf77599a0 in __libc_start_main (/lib/i386-linux-gnu/libc.so.6+0x199a0)\n\nSUMMARY: AddressSanitizer: heap-buffer-overflow ../../mongoose.c:10706 in getu16\nShadow bytes around the buggy address:\n  0x3e920120: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa\n  0x3e920130: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa\n  0x3e920140: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa\n  0x3e920150: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa\n  0x3e920160: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa\n=>0x3e920170: 00 00[06]fa fa fa fa fa fa fa fa fa fa fa fa fa\n  0x3e920180: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa\n  0x3e920190: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa\n  0x3e9201a0: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa\n  0x3e9201b0: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa\n  0x3e9201c0: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa\nShadow byte legend (one shadow byte represents 8 application bytes):\n  Addressable:           00\n  Partially addressable: 01 02 03 04 05 06 07 \n  Heap left redzone:       fa\n  Freed heap region:       fd\n  Stack left redzone:      f1\n  Stack mid redzone:       f2\n  Stack right redzone:     f3\n  Stack after return:      f5\n  Stack use after scope:   f8\n  Global redzone:          f9\n  Global init order:       f6\n  Poisoned by user:        f7\n  Container overflow:      fc\n  Array cookie:            ac\n  Intra object redzone:    bb\n  ASan internal:           fe\n  Left alloca redzone:     ca\n  Right alloca redzone:    cb\n==2128==ABORTING\n'
+p109
+sS'cause'
+p110
+S'Heap BoF'
+p111
+sg17
+S'intercept0.1608_0.1608_0.asan.verified'
+p112
+s.

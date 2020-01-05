@@ -1,0 +1,9 @@
+{
+    "name": "mongo server",
+    "target_bin" : "../../../../../../home/kali/fuzzing/victims/mongo-r4.1.5/bin/mongod",
+    "target_args": "",
+    "ipproto": "tcp",
+    "target_port": 27017,
+    "restart_server_every": 32,
+    "processes": 1,
+}

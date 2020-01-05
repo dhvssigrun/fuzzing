@@ -1,0 +1,8 @@
+{
+    "name": "mosquitto",
+    "target_bin" : "../../../../../../home/kali/fuzzing/victims/mosquitto-1.5.5/mosquitto-asan",
+    "target_args": "",
+    "ipproto": "tcp",
+    "target_port": 1883,
+    "restart_server_every": 32,
+}

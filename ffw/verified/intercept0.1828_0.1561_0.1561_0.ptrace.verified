@@ -1,0 +1,235 @@
+(dp0
+S'faultaddress'
+p1
+L4159787145L
+sS'crashData'
+p2
+(dp3
+S'serverpid'
+p4
+NsS'asanOutput'
+p5
+NsS'reallydead'
+p6
+NsS'signum'
+p7
+NsS'exitcode'
+p8
+NsS'fuzzerPos'
+p9
+S'honggcomm'
+p10
+sS'corpusData'
+p11
+(dp12
+S'parentFilename'
+p13
+S'intercept0.1828_0.pickle'
+p14
+sS'time'
+p15
+NsS'filename'
+p16
+S'intercept0.1828_0.1561_0.pickle'
+p17
+sS'seed'
+p18
+S'15613444027941890834'
+p19
+sS'fuzzer'
+p20
+S'Radamsa'
+p21
+sS'networkData'
+p22
+(lp23
+(dp24
+S'latency'
+p25
+NsS'from'
+p26
+S'cli'
+p27
+sS'index'
+p28
+I0
+sS'timeouts'
+p29
+I0
+sS'isFuzzed'
+p30
+I01
+sS'data'
+p31
+S'<\x00\x04'
+p32
+sa(dp33
+g29
+I0
+sg31
+S' \x02\x00\x00'
+p34
+sg26
+S'srv'
+p35
+sg25
+Nsg28
+I1
+sa(dp36
+g29
+I0
+sg31
+S'\x82\x0b\x00*\x00\x06/stuff\x00'
+p37
+sg26
+g27
+sg25
+Nsg28
+I2
+sa(dp38
+g29
+I0
+sg31
+S'\x92\x03\x00*\x00'
+p39
+sg26
+g35
+sg25
+Nsg28
+I3
+sassg16
+S'intercept0.1828_0.1561_0.1561_0.crash'
+p40
+ssS'processStdout'
+p41
+NsS'backtrace'
+p42
+(lp43
+S'in getu16'
+p44
+aS'in scanto'
+p45
+aS'in parse_mqtt'
+p46
+aS'in mqtt_handler'
+p47
+aS'in mg_call'
+p48
+aS'in mg_recv_tcp'
+p49
+aS'in mg_do_recv'
+p50
+aS'in mg_if_can_recv_cb'
+p51
+aS'in mg_mgr_handle_conn'
+p52
+aS'in mg_socket_if_poll'
+p53
+aS'in mg_mgr_poll'
+p54
+aS'in main'
+p55
+aS'in __libc_start_main'
+p56
+aS' (mqtt_broker-asan32+0x2b60)'
+p57
+aS'located 0'
+p58
+aS'thread T0'
+p59
+aS'in realloc'
+p60
+aS'in mbuf_resize'
+p61
+aS'in mbuf_trim'
+p62
+aS'in mg_recv_tcp'
+p63
+aS'in mg_do_recv'
+p64
+aS'in mg_if_can_recv_cb'
+p65
+aS'in mg_mgr_handle_conn'
+p66
+aS'in mg_socket_if_poll'
+p67
+aS'in mg_mgr_poll'
+p68
+aS'in main'
+p69
+aS'in __libc_start_main'
+p70
+aS'heap-buffer-overflow ..mongoose.c:10706'
+p71
+aS'around the'
+p72
+aS'fa fa'
+p73
+aS'fa fa'
+p74
+aS'fa fa'
+p75
+aS'fa fa'
+p76
+aS'fa fa'
+p77
+aS'fa[03]fa fa'
+p78
+aS'fa 00'
+p79
+aS'fa fa'
+p80
+aS'fa fa'
+p81
+aS'fa fa'
+p82
+aS'fa fa'
+p83
+aS'legend (one'
+p84
+aS' '
+p85
+aS'01 02'
+p86
+aS'redzone: '
+p87
+aS'region: '
+p88
+aS'redzone: '
+p89
+aS'redzone: '
+p90
+aS'redzone: '
+p91
+aS'return: '
+p92
+aS'after scope:'
+p93
+ag85
+aS'order: '
+p94
+aS'user: '
+p95
+ag85
+ag85
+aS'redzone: '
+p96
+ag85
+aS'redzone: '
+p97
+aS'redzone: '
+p98
+asS'analyzerType'
+p99
+S'ptrace'
+p100
+sS'analyzerOutput'
+p101
+NsS'cause'
+p102
+S'Heap BoF'
+p103
+sg16
+S'intercept0.1828_0.1561_0.1561_0.ptrace.verified'
+p104
+s.

@@ -1,0 +1,238 @@
+(dp0
+S'faultaddress'
+p1
+L4159570057L
+sS'crashData'
+p2
+(dp3
+S'serverpid'
+p4
+NsS'asanOutput'
+p5
+NsS'reallydead'
+p6
+NsS'signum'
+p7
+NsS'exitcode'
+p8
+NsS'fuzzerPos'
+p9
+S'honggcomm'
+p10
+sS'corpusData'
+p11
+(dp12
+S'parentFilename'
+p13
+S'intercept0.1828_0.1376_2.pickle'
+p14
+sS'time'
+p15
+NsS'filename'
+p16
+S'intercept0.1828_0.1376_2.7186_0.pickle'
+p17
+sS'seed'
+p18
+S'7186803823182987314'
+p19
+sS'fuzzer'
+p20
+S'Radamsa'
+p21
+sS'networkData'
+p22
+(lp23
+(dp24
+S'latency'
+p25
+NsS'from'
+p26
+S'cli'
+p27
+sS'index'
+p28
+I0
+sS'timeouts'
+p29
+I0
+sS'isFuzzed'
+p30
+I01
+sS'data'
+p31
+S'\x10\x11\x00\x04MQTT\x04\xff\x00<\x00\x04dvmmy'
+p32
+sa(dp33
+g29
+I0
+sg26
+S'srv'
+p34
+sg31
+S' \x02\x00\x00'
+p35
+sg28
+I1
+sg25
+Nsa(dp36
+g25
+Nsg26
+g27
+sg28
+I2
+sg29
+I0
+sS'isFuzzed'
+p37
+I01
+sg31
+S'\x82\x0b\x00*\x00\x06/\xf3}*\x00\x06/stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00\x06/ttufgff\x00*\x00\x06/\x01\x01\x02'
+p38
+sa(dp39
+g29
+I0
+sg26
+g34
+sg31
+S'\x92\x03\x00*\x00'
+p40
+sg28
+I3
+sg25
+Nsassg16
+S'intercept0.1828_0.1376_2.7186_0.7186_0.crash'
+p41
+ssS'processStdout'
+p42
+NsS'backtrace'
+p43
+(lp44
+S'in getu16'
+p45
+aS'in scanto'
+p46
+aS'in parse_mqtt'
+p47
+aS'in mqtt_handler'
+p48
+aS'in mg_call'
+p49
+aS'in mg_recv_tcp'
+p50
+aS'in mg_do_recv'
+p51
+aS'in mg_if_can_recv_cb'
+p52
+aS'in mg_mgr_handle_conn'
+p53
+aS'in mg_socket_if_poll'
+p54
+aS'in mg_mgr_poll'
+p55
+aS'in main'
+p56
+aS'in __libc_start_main'
+p57
+aS' (mqtt_broker-asan32+0x2b60)'
+p58
+aS'located 0'
+p59
+aS'thread T0'
+p60
+aS'in realloc'
+p61
+aS'in mbuf_resize'
+p62
+aS'in mbuf_trim'
+p63
+aS'in mg_recv_tcp'
+p64
+aS'in mg_do_recv'
+p65
+aS'in mg_if_can_recv_cb'
+p66
+aS'in mg_mgr_handle_conn'
+p67
+aS'in mg_socket_if_poll'
+p68
+aS'in mg_mgr_poll'
+p69
+aS'in main'
+p70
+aS'in __libc_start_main'
+p71
+aS'heap-buffer-overflow ..mongoose.c:10706'
+p72
+aS'around the'
+p73
+aS'fa fa'
+p74
+aS'fa fa'
+p75
+aS'fa fa'
+p76
+aS'fa fa'
+p77
+aS'fa fa'
+p78
+aS'00[03]fa fa'
+p79
+aS'fa fa'
+p80
+aS'fa fa'
+p81
+aS'fa fa'
+p82
+aS'fa fa'
+p83
+aS'fa fa'
+p84
+aS'legend (one'
+p85
+aS' '
+p86
+aS'01 02'
+p87
+aS'redzone: '
+p88
+aS'region: '
+p89
+aS'redzone: '
+p90
+aS'redzone: '
+p91
+aS'redzone: '
+p92
+aS'return: '
+p93
+aS'after scope:'
+p94
+ag86
+aS'order: '
+p95
+aS'user: '
+p96
+ag86
+ag86
+aS'redzone: '
+p97
+ag86
+aS'redzone: '
+p98
+aS'redzone: '
+p99
+asS'analyzerType'
+p100
+S'ptrace'
+p101
+sS'analyzerOutput'
+p102
+NsS'cause'
+p103
+S'Heap BoF'
+p104
+sg16
+S'intercept0.1828_0.1376_2.7186_0.7186_0.ptrace.verified'
+p105
+s.

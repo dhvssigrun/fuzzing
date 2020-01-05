@@ -1,0 +1,52 @@
+=================================================================
+==11777==ERROR: AddressSanitizer: heap-buffer-overflow on address 0x619000006fe7 at pc 0x55555557cbaa bp 0x7fffffffd310 sp 0x7fffffffd308
+READ of size 1 at 0x619000006fe7 thread T0
+    #0 0x55555557cba9 in mg_mqtt_next_subscribe_topic ../../mongoose.c:10131
+    #1 0x55555557dd7e in mg_mqtt_broker_handle_subscribe ../../mongoose.c:10298
+    #2 0x55555557e7ed in mg_mqtt_broker ../../mongoose.c:10360
+    #3 0x55555557b0e7 in mqtt_handler ../../mongoose.c:9941
+    #4 0x5555555668a1 in mg_call ../../mongoose.c:2037
+    #5 0x55555556a24f in mg_recv_common ../../mongoose.c:2512
+    #6 0x55555556a2cb in mg_if_recv_tcp_cb ../../mongoose.c:2516
+    #7 0x555555570427 in mg_handle_tcp_read ../../mongoose.c:3388
+    #8 0x5555555713a2 in mg_mgr_handle_conn ../../mongoose.c:3513
+    #9 0x555555572959 in mg_socket_if_poll ../../mongoose.c:3705
+    #10 0x555555567fa8 in mg_mgr_poll ../../mongoose.c:2231
+    #11 0x55555555ba3a in main /home/kali/fuzzing/victims/mongoose-6.8/examples/mqtt_broker/mqtt_broker.c:43
+    #12 0x7ffff63fea86 in __libc_start_main (/lib/x86_64-linux-gnu/libc.so.6+0x21a86)
+    #13 0x55555555b7c9 in _start (/home/kali/fuzzing/victims/mongoose-6.8/bin/mqtt_broker-asan+0x77c9)
+
+Address 0x619000006fe7 is a wild pointer.
+SUMMARY: AddressSanitizer: heap-buffer-overflow ../../mongoose.c:10131 in mg_mqtt_next_subscribe_topic
+Shadow bytes around the buggy address:
+  0x0c327fff8da0: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa
+  0x0c327fff8db0: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa
+  0x0c327fff8dc0: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa
+  0x0c327fff8dd0: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa
+  0x0c327fff8de0: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa
+=>0x0c327fff8df0: fa fa fa fa fa fa fa fa fa fa fa fa[fa]fa fa fa
+  0x0c327fff8e00: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa
+  0x0c327fff8e10: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa
+  0x0c327fff8e20: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa
+  0x0c327fff8e30: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa
+  0x0c327fff8e40: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa
+Shadow byte legend (one shadow byte represents 8 application bytes):
+  Addressable:           00
+  Partially addressable: 01 02 03 04 05 06 07 
+  Heap left redzone:       fa
+  Freed heap region:       fd
+  Stack left redzone:      f1
+  Stack mid redzone:       f2
+  Stack right redzone:     f3
+  Stack after return:      f5
+  Stack use after scope:   f8
+  Global redzone:          f9
+  Global init order:       f6
+  Poisoned by user:        f7
+  Container overflow:      fc
+  Array cookie:            ac
+  Intra object redzone:    bb
+  ASan internal:           fe
+  Left alloca redzone:     ca
+  Right alloca redzone:    cb
+==11777==ABORTING

@@ -1,0 +1,66 @@
+=================================================================
+==2349==ERROR: AddressSanitizer: heap-buffer-overflow on address 0x6020000000de at pc 0x55555557ae6f bp 0x7fffffffd2d0 sp 0x7fffffffd2c8
+READ of size 1 at 0x6020000000de thread T0
+    #0 0x55555557ae6e in mg_mqtt_next_subscribe_topic ../../mongoose.c:11082
+    #1 0x55555557c160 in mg_mqtt_broker_handle_subscribe ../../mongoose.c:11265
+    #2 0x55555557ce7f in mg_mqtt_broker ../../mongoose.c:11354
+    #3 0x55555555a6f8 in ev_handler /home/kali/fuzzing/victims/mongoose-6.13/examples/mqtt_broker/mqtt_broker.c:25
+    #4 0x5555555793ae in mqtt_handler ../../mongoose.c:10867
+    #5 0x555555567675 in mg_call ../../mongoose.c:2404
+    #6 0x55555556b008 in mg_recv_tcp ../../mongoose.c:2931
+    #7 0x55555556abc8 in mg_do_recv ../../mongoose.c:2887
+    #8 0x55555556abe8 in mg_if_can_recv_cb ../../mongoose.c:2893
+    #9 0x555555571601 in mg_mgr_handle_conn ../../mongoose.c:4009
+    #10 0x555555572b30 in mg_socket_if_poll ../../mongoose.c:4200
+    #11 0x555555568df5 in mg_mgr_poll ../../mongoose.c:2593
+    #12 0x55555555a8b2 in main /home/kali/fuzzing/victims/mongoose-6.13/examples/mqtt_broker/mqtt_broker.c:51
+    #13 0x7ffff6a5ca86 in __libc_start_main (/lib/x86_64-linux-gnu/libc.so.6+0x21a86)
+    #14 0x55555555a5f9 in _start (/home/kali/fuzzing/victims/mongoose-6.13/bin/mqtt_broker-6.13-asan+0x65f9)
+
+0x6020000000de is located 0 bytes to the right of 14-byte region [0x6020000000d0,0x6020000000de)
+allocated by thread T0 here:
+    #0 0x7ffff70fc2c0 in __interceptor_realloc (/usr/lib/x86_64-linux-gnu/libasan.so.5+0xe92c0)
+    #1 0x555555561a0c in mbuf_resize ../../mongoose.c:1549
+    #2 0x555555561ac8 in mbuf_trim ../../mongoose.c:1563
+    #3 0x55555556afb0 in mg_recv_tcp ../../mongoose.c:2930
+    #4 0x55555556abc8 in mg_do_recv ../../mongoose.c:2887
+    #5 0x55555556abe8 in mg_if_can_recv_cb ../../mongoose.c:2893
+    #6 0x555555571601 in mg_mgr_handle_conn ../../mongoose.c:4009
+    #7 0x555555572b30 in mg_socket_if_poll ../../mongoose.c:4200
+    #8 0x555555568df5 in mg_mgr_poll ../../mongoose.c:2593
+    #9 0x55555555a8b2 in main /home/kali/fuzzing/victims/mongoose-6.13/examples/mqtt_broker/mqtt_broker.c:51
+    #10 0x7ffff6a5ca86 in __libc_start_main (/lib/x86_64-linux-gnu/libc.so.6+0x21a86)
+
+SUMMARY: AddressSanitizer: heap-buffer-overflow ../../mongoose.c:11082 in mg_mqtt_next_subscribe_topic
+Shadow bytes around the buggy address:
+  0x0c047fff7fc0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+  0x0c047fff7fd0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+  0x0c047fff7fe0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+  0x0c047fff7ff0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+  0x0c047fff8000: fa fa 00 fa fa fa 00 00 fa fa fd fd fa fa 00 00
+=>0x0c047fff8010: fa fa fd fa fa fa fd fa fa fa 00[06]fa fa fa fa
+  0x0c047fff8020: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa
+  0x0c047fff8030: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa
+  0x0c047fff8040: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa
+  0x0c047fff8050: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa
+  0x0c047fff8060: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa
+Shadow byte legend (one shadow byte represents 8 application bytes):
+  Addressable:           00
+  Partially addressable: 01 02 03 04 05 06 07 
+  Heap left redzone:       fa
+  Freed heap region:       fd
+  Stack left redzone:      f1
+  Stack mid redzone:       f2
+  Stack right redzone:     f3
+  Stack after return:      f5
+  Stack use after scope:   f8
+  Global redzone:          f9
+  Global init order:       f6
+  Poisoned by user:        f7
+  Container overflow:      fc
+  Array cookie:            ac
+  Intra object redzone:    bb
+  ASan internal:           fe
+  Left alloca redzone:     ca
+  Right alloca redzone:    cb
+==2349==ABORTING

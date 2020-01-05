@@ -1,0 +1,240 @@
+(dp0
+S'faultaddress'
+p1
+I1448751692
+sS'crashData'
+p2
+(dp3
+S'serverpid'
+p4
+NsS'asanOutput'
+p5
+NsS'reallydead'
+p6
+NsS'signum'
+p7
+NsS'exitcode'
+p8
+NsS'fuzzerPos'
+p9
+S'honggcomm'
+p10
+sS'corpusData'
+p11
+(dp12
+S'parentFilename'
+p13
+S'intercept0.1828_0.1376_2.pickle'
+p14
+sS'time'
+p15
+NsS'filename'
+p16
+S'intercept0.1828_0.1376_2.7186_0.pickle'
+p17
+sS'seed'
+p18
+S'7186803823182987314'
+p19
+sS'fuzzer'
+p20
+S'Radamsa'
+p21
+sS'networkData'
+p22
+(lp23
+(dp24
+S'latency'
+p25
+NsS'from'
+p26
+S'cli'
+p27
+sS'index'
+p28
+I0
+sS'timeouts'
+p29
+I0
+sS'isFuzzed'
+p30
+I01
+sS'data'
+p31
+S'\x10\x11\x00\x04MQTT\x04\xff\x00<\x00\x04dvmmy'
+p32
+sa(dp33
+g29
+I0
+sg26
+S'srv'
+p34
+sg31
+S' \x02\x00\x00'
+p35
+sg28
+I1
+sg25
+Nsa(dp36
+g25
+Nsg26
+g27
+sg28
+I2
+sg29
+I0
+sS'isFuzzed'
+p37
+I01
+sg31
+S'\x82\x0b\x00*\x00\x06/\xf3}*\x00\x06/stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00stttpufgff\x00\x06/ttufgff\x00*\x00\x06/\x01\x01\x02'
+p38
+sa(dp39
+g29
+I0
+sg26
+g34
+sg31
+S'\x92\x03\x00*\x00'
+p40
+sg28
+I3
+sg25
+Nsassg16
+S'intercept0.1828_0.1376_2.7186_0.7186_0.crash'
+p41
+ssS'processStdout'
+p42
+NsS'backtrace'
+p43
+(lp44
+S'in getu16'
+p45
+aS'in scanto'
+p46
+aS'in parse_mqtt'
+p47
+aS'in mqtt_handler'
+p48
+aS'in mg_call'
+p49
+aS'in mg_recv_tcp'
+p50
+aS'in mg_do_recv'
+p51
+aS'in mg_if_can_recv_cb'
+p52
+aS'in mg_mgr_handle_conn'
+p53
+aS'in mg_socket_if_poll'
+p54
+aS'in mg_mgr_poll'
+p55
+aS'in main'
+p56
+aS'in __libc_start_main'
+p57
+aS' (mqtt_broker-asan32+0x2b60)'
+p58
+aS'located 0'
+p59
+aS'thread T0'
+p60
+aS'in realloc'
+p61
+aS'in mbuf_resize'
+p62
+aS'in mbuf_trim'
+p63
+aS'in mg_recv_tcp'
+p64
+aS'in mg_do_recv'
+p65
+aS'in mg_if_can_recv_cb'
+p66
+aS'in mg_mgr_handle_conn'
+p67
+aS'in mg_socket_if_poll'
+p68
+aS'in mg_mgr_poll'
+p69
+aS'in main'
+p70
+aS'in __libc_start_main'
+p71
+aS'heap-buffer-overflow ..mongoose.c:10706'
+p72
+aS'around the'
+p73
+aS'fa fa'
+p74
+aS'fa fa'
+p75
+aS'fa fa'
+p76
+aS'fa fa'
+p77
+aS'fa fa'
+p78
+aS'00[03]fa fa'
+p79
+aS'fa fa'
+p80
+aS'fa fa'
+p81
+aS'fa fa'
+p82
+aS'fa fa'
+p83
+aS'fa fa'
+p84
+aS'legend (one'
+p85
+aS' '
+p86
+aS'01 02'
+p87
+aS'redzone: '
+p88
+aS'region: '
+p89
+aS'redzone: '
+p90
+aS'redzone: '
+p91
+aS'redzone: '
+p92
+aS'return: '
+p93
+aS'after scope:'
+p94
+ag86
+aS'order: '
+p95
+aS'user: '
+p96
+ag86
+ag86
+aS'redzone: '
+p97
+ag86
+aS'redzone: '
+p98
+aS'redzone: '
+p99
+asS'analyzerType'
+p100
+S'asan'
+p101
+sS'analyzerOutput'
+p102
+S'=================================================================\n==20272==ERROR: AddressSanitizer: heap-buffer-overflow on address 0xf4900b93 at pc 0x565a324d bp 0xffcdd5f8 sp 0xffcdd5ec\nREAD of size 1 at 0xf4900b93 thread T0\n    #0 0x565a324c in getu16 ../../mongoose.c:10706\n    #1 0x565a327b in scanto ../../mongoose.c:10710\n    #2 0x565a38a1 in parse_mqtt ../../mongoose.c:10758\n    #3 0x565a434a in mqtt_handler ../../mongoose.c:10843\n    #4 0x56590ffb in mg_call ../../mongoose.c:2404\n    #5 0x56595113 in mg_recv_tcp ../../mongoose.c:2931\n    #6 0x56594c3d in mg_do_recv ../../mongoose.c:2887\n    #7 0x56594c69 in mg_if_can_recv_cb ../../mongoose.c:2893\n    #8 0x5659bf31 in mg_mgr_handle_conn ../../mongoose.c:4009\n    #9 0x5659d763 in mg_socket_if_poll ../../mongoose.c:4200\n    #10 0x56592c0b in mg_mgr_poll ../../mongoose.c:2593\n    #11 0x56583e98 in main /home/kali/fuzzing/victims/mongoose-6.13/examples/mqtt_broker/mqtt_broker.c:51\n    #12 0xf76ed9a0 in __libc_start_main (/lib/i386-linux-gnu/libc.so.6+0x199a0)\n    #13 0x56583b60  (/home/kali/fuzzing/victims/mongoose-6.13/bin/mqtt_broker-asan32+0x2b60)\n\n0xf4900b93 is located 0 bytes to the right of 19-byte region [0xf4900b80,0xf4900b93)\nallocated by thread T0 here:\n    #0 0xf79b92cc in realloc (/usr/lib/i386-linux-gnu/libasan.so.5+0xeb2cc)\n    #1 0x5658af49 in mbuf_resize ../../mongoose.c:1549\n    #2 0x5658b03f in mbuf_trim ../../mongoose.c:1563\n    #3 0x565950b8 in mg_recv_tcp ../../mongoose.c:2930\n    #4 0x56594c3d in mg_do_recv ../../mongoose.c:2887\n    #5 0x56594c69 in mg_if_can_recv_cb ../../mongoose.c:2893\n    #6 0x5659bf31 in mg_mgr_handle_conn ../../mongoose.c:4009\n    #7 0x5659d763 in mg_socket_if_poll ../../mongoose.c:4200\n    #8 0x56592c0b in mg_mgr_poll ../../mongoose.c:2593\n    #9 0x56583e98 in main /home/kali/fuzzing/victims/mongoose-6.13/examples/mqtt_broker/mqtt_broker.c:51\n    #10 0xf76ed9a0 in __libc_start_main (/lib/i386-linux-gnu/libc.so.6+0x199a0)\n\nSUMMARY: AddressSanitizer: heap-buffer-overflow ../../mongoose.c:10706 in getu16\nShadow bytes around the buggy address:\n  0x3e920120: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa\n  0x3e920130: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa\n  0x3e920140: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa\n  0x3e920150: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa\n  0x3e920160: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa\n=>0x3e920170: 00 00[03]fa fa fa fa fa fa fa fa fa fa fa fa fa\n  0x3e920180: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa\n  0x3e920190: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa\n  0x3e9201a0: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa\n  0x3e9201b0: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa\n  0x3e9201c0: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa\nShadow byte legend (one shadow byte represents 8 application bytes):\n  Addressable:           00\n  Partially addressable: 01 02 03 04 05 06 07 \n  Heap left redzone:       fa\n  Freed heap region:       fd\n  Stack left redzone:      f1\n  Stack mid redzone:       f2\n  Stack right redzone:     f3\n  Stack after return:      f5\n  Stack use after scope:   f8\n  Global redzone:          f9\n  Global init order:       f6\n  Poisoned by user:        f7\n  Container overflow:      fc\n  Array cookie:            ac\n  Intra object redzone:    bb\n  ASan internal:           fe\n  Left alloca redzone:     ca\n  Right alloca redzone:    cb\n==20272==ABORTING\n'
+p103
+sS'cause'
+p104
+S'Heap BoF'
+p105
+sg16
+S'intercept0.1828_0.1376_2.7186_0.7186_0.asan.verified'
+p106
+s.
